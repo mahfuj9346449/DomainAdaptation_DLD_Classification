@@ -1,0 +1,4515 @@
+epoch : 300
+restore epoch : 0
+model : bl_f16_t2s
+ksize : 3
+out channel 1 : 16
+out channel 2 : 32
+out channel 3 : 64
+learning rate : 0.0001
+batch size : 128
+image height : 32
+image width : 32
+num class : 6
+train phase : Train
+Epoch: [1], Training Accuracy: [0.82935], Validation Accuracy: [0.81067], Loss Training: [0.490279] Loss_validation: [0.479521], Time: [Tue Nov 20 17:50:49 2018]
+Test Accuracy : 0.814585
+[[1602    0    4    0    0    2]
+ [   0 1135    0    0    4    5]
+ [   0   96  945    0   36    0]
+ [   0    0  119  744  237    0]
+ [   0    0    0    0 1393    3]
+ [   3    0    2    0 1012  872]]
+category CON test accuracy : 0.996269
+category M-GGO test accuracy : 0.992133
+category HCM test accuracy : 0.877437
+category EMP test accuracy : 0.676364
+category NOD test accuracy : 0.997851
+category NOR test accuracy : 0.46162
+F_Value : 0.825464
+Epoch: [2], Training Accuracy: [0.910556], Validation Accuracy: [0.817845], Loss Training: [0.263483] Loss_validation: [0.428448], Time: [Tue Nov 20 17:51:15 2018]
+Test Accuracy : 0.929511
+[[1607    0    0    0    0    1]
+ [   0 1086    0    0    8   50]
+ [   0   27 1038    0   12    0]
+ [   0    1  221  800   77    1]
+ [   0    0    0    0 1315   81]
+ [   0    0    0   17   83 1789]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.949301
+category HCM test accuracy : 0.963788
+category EMP test accuracy : 0.727273
+category NOD test accuracy : 0.941977
+category NOR test accuracy : 0.947062
+F_Value : 0.922253
+Epoch: [3], Training Accuracy: [0.916633], Validation Accuracy: [0.828145], Loss Training: [0.235955] Loss_validation: [0.39565], Time: [Tue Nov 20 17:51:41 2018]
+Test Accuracy : 0.950572
+[[1606    0    1    0    0    1]
+ [   0 1098    0    0    9   37]
+ [   0    1 1071    0    5    0]
+ [   0    1  121  937   41    0]
+ [   0    0    0    0 1311   85]
+ [   0    0    0   18   86 1785]]
+category CON test accuracy : 0.998756
+category M-GGO test accuracy : 0.95979
+category HCM test accuracy : 0.994429
+category EMP test accuracy : 0.851818
+category NOD test accuracy : 0.939112
+category NOR test accuracy : 0.944944
+F_Value : 0.949064
+Epoch: [4], Training Accuracy: [0.925841], Validation Accuracy: [0.922578], Loss Training: [0.204962] Loss_validation: [0.205814], Time: [Tue Nov 20 17:52:06 2018]
+Test Accuracy : 0.947529
+[[1606    0    2    0    0    0]
+ [   0 1127    0    0    8    9]
+ [   0   17 1056    0    4    0]
+ [   0    1   96  995    8    0]
+ [   0    0    0   12 1374   10]
+ [   2    0    0   36  226 1625]]
+category CON test accuracy : 0.998756
+category M-GGO test accuracy : 0.98514
+category HCM test accuracy : 0.980501
+category EMP test accuracy : 0.904545
+category NOD test accuracy : 0.984241
+category NOR test accuracy : 0.860244
+F_Value : 0.948295
+Epoch: [5], Training Accuracy: [0.939594], Validation Accuracy: [0.917486], Loss Training: [0.169543] Loss_validation: [0.22691], Time: [Tue Nov 20 17:52:31 2018]
+Test Accuracy : 0.931337
+[[1603    0    5    0    0    0]
+ [   0 1134    0    0    3    7]
+ [   0   12 1065    0    0    0]
+ [   0    1  183  894   22    0]
+ [   0    0    0    9 1370   17]
+ [   1    0    0   12  292 1584]]
+category CON test accuracy : 0.996891
+category M-GGO test accuracy : 0.991259
+category HCM test accuracy : 0.988858
+category EMP test accuracy : 0.812727
+category NOD test accuracy : 0.981375
+category NOR test accuracy : 0.838539
+F_Value : 0.930711
+Epoch: [6], Training Accuracy: [0.945142], Validation Accuracy: [0.940516], Loss Training: [0.153062] Loss_validation: [0.175395], Time: [Tue Nov 20 17:52:56 2018]
+Test Accuracy : 0.936572
+[[1608    0    0    0    0    0]
+ [   0 1137    0    0    0    7]
+ [   0   14 1057    0    6    0]
+ [   0    1  255  841    3    0]
+ [   0    3    0   19 1325   49]
+ [   1    0    0   22  141 1725]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.993881
+category HCM test accuracy : 0.98143
+category EMP test accuracy : 0.764545
+category NOD test accuracy : 0.94914
+category NOR test accuracy : 0.913182
+F_Value : 0.930903
+Epoch: [7], Training Accuracy: [0.9479], Validation Accuracy: [0.911006], Loss Training: [0.143083] Loss_validation: [0.248908], Time: [Tue Nov 20 17:53:22 2018]
+Test Accuracy : 0.948137
+[[1608    0    0    0    0    0]
+ [   0 1083    0    0    4   57]
+ [   0   16 1059    0    2    0]
+ [   0    1  177  910   12    0]
+ [   0    0    0    1 1346   49]
+ [   2    0    0    6   99 1782]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.946678
+category HCM test accuracy : 0.983287
+category EMP test accuracy : 0.827273
+category NOD test accuracy : 0.964183
+category NOR test accuracy : 0.943356
+F_Value : 0.94464
+Epoch: [8], Training Accuracy: [0.949244], Validation Accuracy: [0.927902], Loss Training: [0.137347] Loss_validation: [0.203765], Time: [Tue Nov 20 17:53:47 2018]
+Test Accuracy : 0.936937
+[[1608    0    0    0    0    0]
+ [   0 1127    0    0    6   11]
+ [   0   14 1055    0    8    0]
+ [   0    1  209  857   33    0]
+ [   0    0    0    2 1384   10]
+ [   3    0    0   12  209 1665]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.98514
+category HCM test accuracy : 0.979573
+category EMP test accuracy : 0.779091
+category NOD test accuracy : 0.991404
+category NOR test accuracy : 0.881419
+F_Value : 0.9332
+Epoch: [9], Training Accuracy: [0.952717], Validation Accuracy: [0.894109], Loss Training: [0.127295] Loss_validation: [0.293071], Time: [Tue Nov 20 17:54:12 2018]
+Test Accuracy : 0.949355
+[[1608    0    0    0    0    0]
+ [   0 1081    0    0    6   57]
+ [   0   20 1056    0    1    0]
+ [   0    1  187  895   17    0]
+ [   0    3    0    0 1310   83]
+ [   0    0    0    2   39 1848]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.94493
+category HCM test accuracy : 0.980501
+category EMP test accuracy : 0.813636
+category NOD test accuracy : 0.938395
+category NOR test accuracy : 0.978295
+F_Value : 0.944585
+Epoch: [10], Training Accuracy: [0.957687], Validation Accuracy: [0.883347], Loss Training: [0.116149] Loss_validation: [0.30353], Time: [Tue Nov 20 17:54:38 2018]
+Test Accuracy : 0.95812
+[[1608    0    0    0    0    0]
+ [   0 1136    0    0    3    5]
+ [   0    4 1073    0    0    0]
+ [   0    1  162  924   13    0]
+ [   0    1    0    0 1265  130]
+ [   0    0    0    4   21 1864]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.993007
+category HCM test accuracy : 0.996286
+category EMP test accuracy : 0.84
+category NOD test accuracy : 0.90616
+category NOR test accuracy : 0.986765
+F_Value : 0.954983
+Epoch: [11], Training Accuracy: [0.957687], Validation Accuracy: [0.934151], Loss Training: [0.113027] Loss_validation: [0.175459], Time: [Tue Nov 20 17:55:04 2018]
+Test Accuracy : 0.940589
+[[1607    0    0    0    0    1]
+ [   0 1105    0    0    1   38]
+ [   0    9 1068    0    0    0]
+ [   0    1  191  908    0    0]
+ [   0    2    0   50 1260   84]
+ [   0    0    0   83   28 1778]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.965909
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.825455
+category NOD test accuracy : 0.902579
+category NOR test accuracy : 0.941239
+F_Value : 0.936087
+Epoch: [12], Training Accuracy: [0.958555], Validation Accuracy: [0.92848], Loss Training: [0.111293] Loss_validation: [0.204167], Time: [Tue Nov 20 17:55:29 2018]
+Test Accuracy : 0.921719
+[[1608    0    0    0    0    0]
+ [   0 1129    0    0    7    8]
+ [   0    6 1071    0    0    0]
+ [   0    1  256  836    7    0]
+ [   0    1    0    0 1394    1]
+ [   2    0    0   26  328 1533]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.986888
+category HCM test accuracy : 0.994429
+category EMP test accuracy : 0.76
+category NOD test accuracy : 0.998567
+category NOR test accuracy : 0.81154
+F_Value : 0.919381
+Epoch: [13], Training Accuracy: [0.961465], Validation Accuracy: [0.940516], Loss Training: [0.102935] Loss_validation: [0.172464], Time: [Tue Nov 20 17:55:54 2018]
+Test Accuracy : 0.939494
+[[1608    0    0    0    0    0]
+ [   0 1004    0    0    2  138]
+ [   0    4 1073    0    0    0]
+ [   0    1  188  903    8    0]
+ [   0    2    0    2 1346   46]
+ [   0    0    0   20   86 1783]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.877622
+category HCM test accuracy : 0.996286
+category EMP test accuracy : 0.820909
+category NOD test accuracy : 0.964183
+category NOR test accuracy : 0.943886
+F_Value : 0.935811
+Epoch: [14], Training Accuracy: [0.963542], Validation Accuracy: [0.910774], Loss Training: [0.0980312] Loss_validation: [0.260671], Time: [Tue Nov 20 17:56:19 2018]
+Test Accuracy : 0.938641
+[[1608    0    0    0    0    0]
+ [   0 1078    0    0    1   65]
+ [   0   22 1055    0    0    0]
+ [   0    1  240  850    9    0]
+ [   0    6    0    9 1283   98]
+ [   0    0    0   18   35 1836]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.942308
+category HCM test accuracy : 0.979573
+category EMP test accuracy : 0.772727
+category NOD test accuracy : 0.919054
+category NOR test accuracy : 0.971943
+F_Value : 0.932279
+Epoch: [15], Training Accuracy: [0.963848], Validation Accuracy: [0.933688], Loss Training: [0.0975563] Loss_validation: [0.198728], Time: [Tue Nov 20 17:56:45 2018]
+Test Accuracy : 0.941807
+[[1608    0    0    0    0    0]
+ [   0 1119    0    0    4   21]
+ [   0   12 1065    0    0    0]
+ [   0    0  241  853    6    0]
+ [   0    2    0    6 1365   23]
+ [   1    0    0   21  141 1726]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.978147
+category HCM test accuracy : 0.988858
+category EMP test accuracy : 0.775455
+category NOD test accuracy : 0.977794
+category NOR test accuracy : 0.913711
+F_Value : 0.936489
+Epoch: [16], Training Accuracy: [0.965703], Validation Accuracy: [0.914593], Loss Training: [0.0916819] Loss_validation: [0.217894], Time: [Tue Nov 20 17:57:11 2018]
+Test Accuracy : 0.927928
+[[1608    0    0    0    0    0]
+ [   0 1115    0    0    0   29]
+ [   0    6 1071    0    0    0]
+ [   0    1  258  841    0    0]
+ [   0    3    0   64 1173  156]
+ [   1    0    0   66    8 1814]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.97465
+category HCM test accuracy : 0.994429
+category EMP test accuracy : 0.764545
+category NOD test accuracy : 0.840258
+category NOR test accuracy : 0.960296
+F_Value : 0.921405
+Epoch: [17], Training Accuracy: [0.96635], Validation Accuracy: [0.911006], Loss Training: [0.0892703] Loss_validation: [0.256346], Time: [Tue Nov 20 17:57:36 2018]
+Test Accuracy : 0.936328
+[[1605    0    0    0    0    3]
+ [   0 1128    0    0    1   15]
+ [   0    7 1061    0    7    2]
+ [   0    0  295  770   35    0]
+ [   0    4    0    8 1284  100]
+ [   0    0    0    9   37 1843]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.986014
+category HCM test accuracy : 0.985144
+category EMP test accuracy : 0.7
+category NOD test accuracy : 0.919771
+category NOR test accuracy : 0.975648
+F_Value : 0.927144
+Epoch: [18], Training Accuracy: [0.968273], Validation Accuracy: [0.924661], Loss Training: [0.0845196] Loss_validation: [0.202209], Time: [Tue Nov 20 17:58:02 2018]
+Test Accuracy : 0.939981
+[[1607    0    1    0    0    0]
+ [   0 1113    0    0    2   29]
+ [   0    7 1070    0    0    0]
+ [   0    1  310  770   19    0]
+ [   0    5    0    8 1313   70]
+ [   3    0    0   11   27 1848]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.972902
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.7
+category NOD test accuracy : 0.940544
+category NOR test accuracy : 0.978295
+F_Value : 0.930206
+Epoch: [19], Training Accuracy: [0.96858], Validation Accuracy: [0.884157], Loss Training: [0.0829632] Loss_validation: [0.341516], Time: [Tue Nov 20 17:58:27 2018]
+Test Accuracy : 0.937911
+[[1608    0    0    0    0    0]
+ [   0 1113    0    0    1   30]
+ [   0    3 1074    0    0    0]
+ [   0    1  296  785   17    1]
+ [   0    1    0    2 1254  139]
+ [   1    0    0    3   15 1870]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.972902
+category HCM test accuracy : 0.997214
+category EMP test accuracy : 0.713636
+category NOD test accuracy : 0.898281
+category NOR test accuracy : 0.989942
+F_Value : 0.929824
+Epoch: [20], Training Accuracy: [0.969499], Validation Accuracy: [0.900474], Loss Training: [0.0821861] Loss_validation: [0.273919], Time: [Tue Nov 20 17:58:53 2018]
+Test Accuracy : 0.909058
+[[1608    0    0    0    0    0]
+ [   0 1137    0    0    7    0]
+ [   0    1 1076    0    0    0]
+ [   0    0  314  762   24    0]
+ [   0    1    0    0 1389    6]
+ [   2    1    1    5  385 1495]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.993881
+category HCM test accuracy : 0.999071
+category EMP test accuracy : 0.692727
+category NOD test accuracy : 0.994986
+category NOR test accuracy : 0.791424
+F_Value : 0.905517
+Epoch: [21], Training Accuracy: [0.968818], Validation Accuracy: [0.951279], Loss Training: [0.0818435] Loss_validation: [0.140192], Time: [Tue Nov 20 17:59:19 2018]
+Test Accuracy : 0.959581
+[[1608    0    0    0    0    0]
+ [   0 1134    0    0    0   10]
+ [   0    1 1075    0    1    0]
+ [   0    1  165  930    4    0]
+ [   0    5    0   27 1324   40]
+ [   2    0    0   44   32 1811]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.991259
+category HCM test accuracy : 0.998143
+category EMP test accuracy : 0.845455
+category NOD test accuracy : 0.948424
+category NOR test accuracy : 0.958708
+F_Value : 0.955248
+Epoch: [22], Training Accuracy: [0.97098], Validation Accuracy: [0.907997], Loss Training: [0.0768584] Loss_validation: [0.254812], Time: [Tue Nov 20 17:59:44 2018]
+Test Accuracy : 0.932067
+[[1605    0    0    0    0    3]
+ [   0 1135    0    0    2    7]
+ [   0    1 1076    0    0    0]
+ [   0    1  373  701   25    0]
+ [   0    3    0   10 1271  112]
+ [   0    0    0   11   10 1868]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.992133
+category HCM test accuracy : 0.999071
+category EMP test accuracy : 0.637273
+category NOD test accuracy : 0.910458
+category NOR test accuracy : 0.988883
+F_Value : 0.919597
+Epoch: [23], Training Accuracy: [0.971439], Validation Accuracy: [0.93878], Loss Training: [0.0748389] Loss_validation: [0.173509], Time: [Tue Nov 20 18:00:08 2018]
+Test Accuracy : 0.931337
+[[1607    0    1    0    0    0]
+ [   0 1142    0    0    2    0]
+ [   0    8 1069    0    0    0]
+ [   0    1  394  674   31    0]
+ [   0    3    0    6 1339   48]
+ [   2    0    0   11   57 1819]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.998252
+category HCM test accuracy : 0.992572
+category EMP test accuracy : 0.612727
+category NOD test accuracy : 0.959169
+category NOR test accuracy : 0.962943
+F_Value : 0.917263
+Epoch: [24], Training Accuracy: [0.972852], Validation Accuracy: [0.961694], Loss Training: [0.0732397] Loss_validation: [0.115111], Time: [Tue Nov 20 18:00:34 2018]
+Test Accuracy : 0.944729
+[[1590    0    4    0    0   14]
+ [   0 1144    0    0    0    0]
+ [   0    4 1073    0    0    0]
+ [   0    0  245  853    2    0]
+ [   0    5    0   10 1334   47]
+ [   1    1    0   28   93 1766]]
+category CON test accuracy : 0.988806
+category M-GGO test accuracy : 1
+category HCM test accuracy : 0.996286
+category EMP test accuracy : 0.775455
+category NOD test accuracy : 0.955587
+category NOR test accuracy : 0.934886
+F_Value : 0.939336
+Epoch: [25], Training Accuracy: [0.973295], Validation Accuracy: [0.939012], Loss Training: [0.0702347] Loss_validation: [0.197631], Time: [Tue Nov 20 18:00:59 2018]
+Test Accuracy : 0.938154
+[[1603    0    2    0    0    3]
+ [   0 1115    0    0    0   29]
+ [   0   18 1059    0    0    0]
+ [   0    1  212  870   17    0]
+ [   0    5    0    6 1328   57]
+ [   0    0    0   14  144 1731]]
+category CON test accuracy : 0.996891
+category M-GGO test accuracy : 0.97465
+category HCM test accuracy : 0.983287
+category EMP test accuracy : 0.790909
+category NOD test accuracy : 0.951289
+category NOR test accuracy : 0.916358
+F_Value : 0.934151
+Epoch: [26], Training Accuracy: [0.974503], Validation Accuracy: [0.909617], Loss Training: [0.0695866] Loss_validation: [0.317831], Time: [Tue Nov 20 18:01:25 2018]
+Test Accuracy : 0.945459
+[[1608    0    0    0    0    0]
+ [   0 1114    0    0    2   28]
+ [   0    5 1066    0    5    1]
+ [   0    0  232  820   48    0]
+ [   0    0    0    0 1337   59]
+ [   0    0    0    3   65 1821]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.973776
+category HCM test accuracy : 0.989786
+category EMP test accuracy : 0.745455
+category NOD test accuracy : 0.957736
+category NOR test accuracy : 0.964002
+F_Value : 0.938539
+Epoch: [27], Training Accuracy: [0.975916], Validation Accuracy: [0.928828], Loss Training: [0.0639128] Loss_validation: [0.232434], Time: [Tue Nov 20 18:01:51 2018]
+Test Accuracy : 0.925493
+[[1608    0    0    0    0    0]
+ [   0 1126    0    0    2   16]
+ [   0    7 1068    0    2    0]
+ [   0    0  352  713   35    0]
+ [   0    0    0    0 1367   29]
+ [   1    0    0    4  164 1720]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.984266
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.648182
+category NOD test accuracy : 0.979226
+category NOR test accuracy : 0.910535
+F_Value : 0.91536
+Epoch: [28], Training Accuracy: [0.975507], Validation Accuracy: [0.940285], Loss Training: [0.0647602] Loss_validation: [0.181169], Time: [Tue Nov 20 18:02:16 2018]
+Test Accuracy : 0.920136
+[[1605    0    1    0    0    2]
+ [   0 1109    0    0    2   33]
+ [   0    7 1069    0    0    1]
+ [   0    0  375  702   23    0]
+ [   0   12    0    2 1322   60]
+ [   0    1    0   13  124 1751]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.969406
+category HCM test accuracy : 0.992572
+category EMP test accuracy : 0.638182
+category NOD test accuracy : 0.946991
+category NOR test accuracy : 0.926945
+F_Value : 0.909149
+Epoch: [29], Training Accuracy: [0.976273], Validation Accuracy: [0.914015], Loss Training: [0.0633734] Loss_validation: [0.320181], Time: [Tue Nov 20 18:02:42 2018]
+Test Accuracy : 0.920258
+[[1597    0    3    0    0    8]
+ [   0 1097    0    0    9   38]
+ [   0    2 1075    0    0    0]
+ [   0    2  378  696   24    0]
+ [   0    1    0    1 1362   32]
+ [   0    0    0    4  153 1732]]
+category CON test accuracy : 0.993159
+category M-GGO test accuracy : 0.958916
+category HCM test accuracy : 0.998143
+category EMP test accuracy : 0.632727
+category NOD test accuracy : 0.975645
+category NOR test accuracy : 0.916887
+F_Value : 0.909476
+Epoch: [30], Training Accuracy: [0.977311], Validation Accuracy: [0.913089], Loss Training: [0.0618046] Loss_validation: [0.254435], Time: [Tue Nov 20 18:03:07 2018]
+Test Accuracy : 0.941198
+[[1587    2   16    0    0    3]
+ [   0 1132    0    0    0   12]
+ [   0    1 1071    0    5    0]
+ [   0    1  195  886   18    0]
+ [   0   16    0    3 1193  184]
+ [   0    0    0   10   17 1862]]
+category CON test accuracy : 0.98694
+category M-GGO test accuracy : 0.98951
+category HCM test accuracy : 0.994429
+category EMP test accuracy : 0.805455
+category NOD test accuracy : 0.854585
+category NOR test accuracy : 0.985707
+F_Value : 0.937383
+Epoch: [31], Training Accuracy: [0.975899], Validation Accuracy: [0.957644], Loss Training: [0.0622043] Loss_validation: [0.127358], Time: [Tue Nov 20 18:03:32 2018]
+Test Accuracy : 0.920258
+[[1607    0    1    0    0    0]
+ [   0 1134    0    0    0   10]
+ [   0   12 1065    0    0    0]
+ [   0    0  371  725    4    0]
+ [   0    0    0   51 1312   33]
+ [   1    0    4   60  108 1716]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.991259
+category HCM test accuracy : 0.988858
+category EMP test accuracy : 0.659091
+category NOD test accuracy : 0.939828
+category NOR test accuracy : 0.908417
+F_Value : 0.909322
+Epoch: [32], Training Accuracy: [0.977941], Validation Accuracy: [0.936813], Loss Training: [0.0585398] Loss_validation: [0.201821], Time: [Tue Nov 20 18:03:58 2018]
+Test Accuracy : 0.95179
+[[1605    0    3    0    0    0]
+ [   0 1121    0    0    0   23]
+ [   0    1 1074    0    2    0]
+ [   0    0  179  905   16    0]
+ [   0   11    0    4 1345   36]
+ [   0    1    0   14  106 1768]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.979895
+category HCM test accuracy : 0.997214
+category EMP test accuracy : 0.822727
+category NOD test accuracy : 0.963467
+category NOR test accuracy : 0.935945
+F_Value : 0.948193
+Epoch: [33], Training Accuracy: [0.97995], Validation Accuracy: [0.912973], Loss Training: [0.0552331] Loss_validation: [0.29416], Time: [Tue Nov 20 18:04:23 2018]
+Test Accuracy : 0.920015
+[[1603    0    3    0    0    2]
+ [   0 1128    0    0   11    5]
+ [   0    4 1069    0    1    3]
+ [   0    0  262  786   52    0]
+ [   0    0    0    0 1387    9]
+ [   1    0    0    5  299 1584]]
+category CON test accuracy : 0.996891
+category M-GGO test accuracy : 0.986014
+category HCM test accuracy : 0.992572
+category EMP test accuracy : 0.714545
+category NOD test accuracy : 0.993553
+category NOR test accuracy : 0.838539
+F_Value : 0.916065
+Epoch: [34], Training Accuracy: [0.979899], Validation Accuracy: [0.967018], Loss Training: [0.0540774] Loss_validation: [0.0993791], Time: [Tue Nov 20 18:04:48 2018]
+Test Accuracy : 0.92805
+[[1600    0    8    0    0    0]
+ [   0 1136    0    0    0    8]
+ [   0    5 1070    0    2    0]
+ [   0    0  184  916    0    0]
+ [   0    7    0   72 1281   36]
+ [   1    0    1  151  116 1620]]
+category CON test accuracy : 0.995025
+category M-GGO test accuracy : 0.993007
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.832727
+category NOD test accuracy : 0.917622
+category NOR test accuracy : 0.857597
+F_Value : 0.924961
+Epoch: [35], Training Accuracy: [0.980171], Validation Accuracy: [0.909501], Loss Training: [0.0536746] Loss_validation: [0.316242], Time: [Tue Nov 20 18:05:13 2018]
+Test Accuracy : 0.922328
+[[1604    0    4    0    0    0]
+ [   0 1120    0    0    0   24]
+ [   0    3 1073    0    1    0]
+ [   0    0  427  644   29    0]
+ [   0   10    0    1 1330   55]
+ [   0    0    0    3   81 1805]]
+category CON test accuracy : 0.997512
+category M-GGO test accuracy : 0.979021
+category HCM test accuracy : 0.996286
+category EMP test accuracy : 0.585455
+category NOD test accuracy : 0.952722
+category NOR test accuracy : 0.955532
+F_Value : 0.907536
+Epoch: [36], Training Accuracy: [0.978639], Validation Accuracy: [0.914825], Loss Training: [0.0566174] Loss_validation: [0.228611], Time: [Tue Nov 20 18:05:38 2018]
+Test Accuracy : 0.92525
+[[1608    0    0    0    0    0]
+ [   0 1138    0    0    0    6]
+ [   0   33 1044    0    0    0]
+ [   0    1  175  924    0    0]
+ [   0   44    0   44 1031  277]
+ [   5    0    0   23    6 1855]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.994755
+category HCM test accuracy : 0.969359
+category EMP test accuracy : 0.84
+category NOD test accuracy : 0.738539
+category NOR test accuracy : 0.982001
+F_Value : 0.920807
+Epoch: [37], Training Accuracy: [0.979796], Validation Accuracy: [0.93554], Loss Training: [0.0528623] Loss_validation: [0.186521], Time: [Tue Nov 20 18:06:04 2018]
+Test Accuracy : 0.948381
+[[1605    0    3    0    0    0]
+ [   0 1141    0    0    0    3]
+ [   0   16 1060    0    1    0]
+ [   0    0  247  841   12    0]
+ [   0    9    0    5 1324   58]
+ [   2    1    0    7   60 1819]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.997378
+category HCM test accuracy : 0.984215
+category EMP test accuracy : 0.764545
+category NOD test accuracy : 0.948424
+category NOR test accuracy : 0.962943
+F_Value : 0.941434
+Epoch: [38], Training Accuracy: [0.981311], Validation Accuracy: [0.918875], Loss Training: [0.0507706] Loss_validation: [0.290633], Time: [Tue Nov 20 18:06:30 2018]
+Test Accuracy : 0.910884
+[[1591    0   17    0    0    0]
+ [   0 1112    0    0    2   30]
+ [   0    9 1067    0    1    0]
+ [   0    3  465  589   43    0]
+ [   0    0    0    3 1306   87]
+ [   0    0    0    6   66 1817]]
+category CON test accuracy : 0.989428
+category M-GGO test accuracy : 0.972028
+category HCM test accuracy : 0.990715
+category EMP test accuracy : 0.535455
+category NOD test accuracy : 0.93553
+category NOR test accuracy : 0.961885
+F_Value : 0.893411
+Epoch: [39], Training Accuracy: [0.980273], Validation Accuracy: [0.959727], Loss Training: [0.051807] Loss_validation: [0.126851], Time: [Tue Nov 20 18:06:55 2018]
+Test Accuracy : 0.950085
+[[1604    0    4    0    0    0]
+ [   0 1116    0    0    0   28]
+ [   0   11 1066    0    0    0]
+ [   0    1  194  903    2    0]
+ [   0    6    0    6 1353   31]
+ [   1    1    1   33   91 1762]]
+category CON test accuracy : 0.997512
+category M-GGO test accuracy : 0.975524
+category HCM test accuracy : 0.989786
+category EMP test accuracy : 0.820909
+category NOD test accuracy : 0.969198
+category NOR test accuracy : 0.932769
+F_Value : 0.945765
+Epoch: [40], Training Accuracy: [0.982333], Validation Accuracy: [0.907418], Loss Training: [0.0473987] Loss_validation: [0.398416], Time: [Tue Nov 20 18:07:21 2018]
+Test Accuracy : 0.96019
+[[1607    0    1    0    0    0]
+ [   0 1119    0    0    0   25]
+ [   0    1 1070    0    2    4]
+ [   0    3  135  934   27    1]
+ [   0   13    0    0 1326   57]
+ [   0    0    0    5   53 1831]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.978147
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.849091
+category NOD test accuracy : 0.949857
+category NOR test accuracy : 0.969296
+F_Value : 0.957078
+Epoch: [41], Training Accuracy: [0.981703], Validation Accuracy: [0.885546], Loss Training: [0.0485747] Loss_validation: [0.453554], Time: [Tue Nov 20 18:07:46 2018]
+Test Accuracy : 0.928415
+[[1608    0    0    0    0    0]
+ [   0 1119    0    0    2   23]
+ [   0    2 1075    0    0    0]
+ [   0    3  401  678   18    0]
+ [   0   27    0    0 1272   97]
+ [   0    0    0    2   13 1874]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.978147
+category HCM test accuracy : 0.998143
+category EMP test accuracy : 0.616364
+category NOD test accuracy : 0.911175
+category NOR test accuracy : 0.992059
+F_Value : 0.914369
+Epoch: [42], Training Accuracy: [0.982843], Validation Accuracy: [0.944567], Loss Training: [0.0452786] Loss_validation: [0.170579], Time: [Tue Nov 20 18:08:12 2018]
+Test Accuracy : 0.930363
+[[1608    0    0    0    0    0]
+ [   0 1140    0    0    0    4]
+ [   0   15 1062    0    0    0]
+ [   0    2  347  746    5    0]
+ [   0   15    0    9 1256  116]
+ [   1    0    0   13   45 1830]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.996503
+category HCM test accuracy : 0.986072
+category EMP test accuracy : 0.678182
+category NOD test accuracy : 0.899713
+category NOR test accuracy : 0.968767
+F_Value : 0.92005
+Epoch: [43], Training Accuracy: [0.984222], Validation Accuracy: [0.910427], Loss Training: [0.0432071] Loss_validation: [0.342187], Time: [Tue Nov 20 18:08:37 2018]
+Test Accuracy : 0.93365
+[[1570    0   28    0    0   10]
+ [   0 1120    0    0    1   23]
+ [   0    4 1072    0    1    0]
+ [   0    2  272  796   30    0]
+ [   0   13    0    1 1265  117]
+ [   0    0    0    2   41 1846]]
+category CON test accuracy : 0.976368
+category M-GGO test accuracy : 0.979021
+category HCM test accuracy : 0.995357
+category EMP test accuracy : 0.723636
+category NOD test accuracy : 0.90616
+category NOR test accuracy : 0.977237
+F_Value : 0.926452
+Epoch: [44], Training Accuracy: [0.982588], Validation Accuracy: [0.910774], Loss Training: [0.0467007] Loss_validation: [0.312859], Time: [Tue Nov 20 18:09:03 2018]
+Test Accuracy : 0.920745
+[[1605    0    3    0    0    0]
+ [   0 1097    0    0    0   47]
+ [   0    7 1069    0    0    1]
+ [   0    2  357  723   18    0]
+ [   0   15    0    2 1223  156]
+ [   2    0    0    2   39 1846]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.958916
+category HCM test accuracy : 0.992572
+category EMP test accuracy : 0.657273
+category NOD test accuracy : 0.876074
+category NOR test accuracy : 0.977237
+F_Value : 0.910509
+Epoch: [45], Training Accuracy: [0.984239], Validation Accuracy: [0.927555], Loss Training: [0.0429591] Loss_validation: [0.252178], Time: [Tue Nov 20 18:09:29 2018]
+Test Accuracy : 0.939615
+[[1605    0    3    0    0    0]
+ [   0 1134    0    0    2    8]
+ [   0   16 1049    0    9    3]
+ [   0    0  249  808   43    0]
+ [   0    3    0    1 1358   34]
+ [   4    0    0    6  115 1764]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.991259
+category HCM test accuracy : 0.974002
+category EMP test accuracy : 0.734545
+category NOD test accuracy : 0.972779
+category NOR test accuracy : 0.933827
+F_Value : 0.932421
+Epoch: [46], Training Accuracy: [0.984511], Validation Accuracy: [0.88219], Loss Training: [0.0428204] Loss_validation: [0.348855], Time: [Tue Nov 20 18:09:54 2018]
+Test Accuracy : 0.897979
+[[1598    0    8    0    0    2]
+ [   0 1108    0    0    0   36]
+ [   0    1 1076    0    0    0]
+ [   0    0  256  844    0    0]
+ [   0    6    0   43  868  479]
+ [   0    0    0    5    2 1882]]
+category CON test accuracy : 0.993781
+category M-GGO test accuracy : 0.968531
+category HCM test accuracy : 0.999071
+category EMP test accuracy : 0.767273
+category NOD test accuracy : 0.621777
+category NOR test accuracy : 0.996294
+F_Value : 0.89325
+Epoch: [47], Training Accuracy: [0.985277], Validation Accuracy: [0.885893], Loss Training: [0.0403124] Loss_validation: [0.504662], Time: [Tue Nov 20 18:10:19 2018]
+Test Accuracy : 0.910032
+[[1596    0   10    0    0    2]
+ [   0 1102    0    0    2   40]
+ [   0    3 1065    0    6    3]
+ [   0    0  452  582   65    1]
+ [   0    1    0    0 1299   96]
+ [   0    0    0    0   58 1831]]
+category CON test accuracy : 0.992537
+category M-GGO test accuracy : 0.963287
+category HCM test accuracy : 0.988858
+category EMP test accuracy : 0.529091
+category NOD test accuracy : 0.930516
+category NOR test accuracy : 0.969296
+F_Value : 0.892225
+Epoch: [48], Training Accuracy: [0.985124], Validation Accuracy: [0.880569], Loss Training: [0.03997] Loss_validation: [0.623633], Time: [Tue Nov 20 18:10:44 2018]
+Test Accuracy : 0.908206
+[[1608    0    0    0    0    0]
+ [   0 1111    0    0    0   33]
+ [   0   20 1045    0    9    3]
+ [   0    1  376  658   62    3]
+ [   0    2    0    0 1338   56]
+ [   0    0    0    0  189 1700]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.971154
+category HCM test accuracy : 0.970288
+category EMP test accuracy : 0.598182
+category NOD test accuracy : 0.958453
+category NOR test accuracy : 0.899947
+F_Value : 0.896227
+Epoch: [49], Training Accuracy: [0.984835], Validation Accuracy: [0.920148], Loss Training: [0.0412397] Loss_validation: [0.299498], Time: [Tue Nov 20 18:11:10 2018]
+Test Accuracy : 0.919041
+[[1601    0    6    0    0    1]
+ [   0 1003    0    0    0  141]
+ [   0    9 1055    0   12    1]
+ [   0    0  299  767   34    0]
+ [   0    2    0    3 1258  133]
+ [   0    0    0    4   20 1865]]
+category CON test accuracy : 0.995647
+category M-GGO test accuracy : 0.876748
+category HCM test accuracy : 0.979573
+category EMP test accuracy : 0.697273
+category NOD test accuracy : 0.901146
+category NOR test accuracy : 0.987295
+F_Value : 0.910388
+Epoch: [50], Training Accuracy: [0.986111], Validation Accuracy: [0.927323], Loss Training: [0.0396843] Loss_validation: [0.265332], Time: [Tue Nov 20 18:11:35 2018]
+Test Accuracy : 0.938154
+[[1590    0   13    0    0    5]
+ [   0 1130    0    0    1   13]
+ [   0   15 1061    0    0    1]
+ [   0    5  284  799   12    0]
+ [   0    9    0    3 1299   85]
+ [   0    0    0    4   58 1827]]
+category CON test accuracy : 0.988806
+category M-GGO test accuracy : 0.987762
+category HCM test accuracy : 0.985144
+category EMP test accuracy : 0.726364
+category NOD test accuracy : 0.930516
+category NOR test accuracy : 0.967178
+F_Value : 0.930228
+Epoch: [51], Training Accuracy: [0.985669], Validation Accuracy: [0.920842], Loss Training: [0.0378954] Loss_validation: [0.280393], Time: [Tue Nov 20 18:12:00 2018]
+Test Accuracy : 0.906379
+[[1584    0   21    0    0    3]
+ [   0 1132    0    0    2   10]
+ [   0   52 1024    0    0    1]
+ [   0    6  217  836   40    1]
+ [   0   17    0    1 1369    9]
+ [   1    1    0    5  382 1500]]
+category CON test accuracy : 0.985075
+category M-GGO test accuracy : 0.98951
+category HCM test accuracy : 0.950789
+category EMP test accuracy : 0.76
+category NOD test accuracy : 0.980659
+category NOR test accuracy : 0.794071
+F_Value : 0.904813
+Epoch: [52], Training Accuracy: [0.985856], Validation Accuracy: [0.938896], Loss Training: [0.0384333] Loss_validation: [0.222741], Time: [Tue Nov 20 18:12:25 2018]
+Test Accuracy : 0.929145
+[[1604    0    3    0    0    1]
+ [   0 1103    0    0    0   41]
+ [   0   14 1057    0    6    0]
+ [   0    0  241  857    2    0]
+ [   0    4    0   47 1168  177]
+ [   0    0    0   29   17 1843]]
+category CON test accuracy : 0.997512
+category M-GGO test accuracy : 0.964161
+category HCM test accuracy : 0.98143
+category EMP test accuracy : 0.779091
+category NOD test accuracy : 0.836676
+category NOR test accuracy : 0.975648
+F_Value : 0.923331
+Epoch: [53], Training Accuracy: [0.985703], Validation Accuracy: [0.931142], Loss Training: [0.0371001] Loss_validation: [0.250428], Time: [Tue Nov 20 18:12:50 2018]
+Test Accuracy : 0.955198
+[[1607    0    1    0    0    0]
+ [   0 1094    0    0    2   48]
+ [   0    5 1070    0    2    0]
+ [   0    2  156  928   14    0]
+ [   0    2    0    6 1316   72]
+ [   3    0    0   19   36 1831]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.956294
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.843636
+category NOD test accuracy : 0.942693
+category NOR test accuracy : 0.969296
+F_Value : 0.95176
+Epoch: [54], Training Accuracy: [0.987081], Validation Accuracy: [0.896655], Loss Training: [0.0344214] Loss_validation: [0.417021], Time: [Tue Nov 20 18:13:15 2018]
+Test Accuracy : 0.915267
+[[1605    0    3    0    0    0]
+ [   0 1127    0    0    3   14]
+ [   0    3 1059    0   15    0]
+ [   0    3  266  764   67    0]
+ [   0    6    0    0 1346   44]
+ [   0    0    0    3  269 1617]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.98514
+category HCM test accuracy : 0.983287
+category EMP test accuracy : 0.694545
+category NOD test accuracy : 0.964183
+category NOR test accuracy : 0.856008
+F_Value : 0.910395
+Epoch: [55], Training Accuracy: [0.986758], Validation Accuracy: [0.904756], Loss Training: [0.0364397] Loss_validation: [0.410316], Time: [Tue Nov 20 18:13:40 2018]
+Test Accuracy : 0.930363
+[[1603    0    5    0    0    0]
+ [   0 1130    0    0    0   14]
+ [   0    9 1067    0    0    1]
+ [   0    7  256  787   48    2]
+ [   0   68    0    3 1207  118]
+ [   1    0    0    0   40 1848]]
+category CON test accuracy : 0.996891
+category M-GGO test accuracy : 0.987762
+category HCM test accuracy : 0.990715
+category EMP test accuracy : 0.715455
+category NOD test accuracy : 0.864613
+category NOR test accuracy : 0.978295
+F_Value : 0.921384
+Epoch: [56], Training Accuracy: [0.986656], Validation Accuracy: [0.951163], Loss Training: [0.036382] Loss_validation: [0.152995], Time: [Tue Nov 20 18:14:06 2018]
+Test Accuracy : 0.920989
+[[1600    0    8    0    0    0]
+ [   0 1138    0    0    0    6]
+ [   0    4 1063    0    8    2]
+ [   0    2  367  719   12    0]
+ [   0   33    0    7 1225  131]
+ [   0    0    0   23   46 1820]]
+category CON test accuracy : 0.995025
+category M-GGO test accuracy : 0.994755
+category HCM test accuracy : 0.987001
+category EMP test accuracy : 0.653636
+category NOD test accuracy : 0.877507
+category NOR test accuracy : 0.963473
+F_Value : 0.909818
+Epoch: [57], Training Accuracy: [0.987796], Validation Accuracy: [0.920727], Loss Training: [0.0335888] Loss_validation: [0.28475], Time: [Tue Nov 20 18:14:31 2018]
+Test Accuracy : 0.917945
+[[1602    0    6    0    0    0]
+ [   0 1132    0    0    2   10]
+ [   0    8 1069    0    0    0]
+ [   0    0  384  696   18    2]
+ [   0    9    0    8 1199  180]
+ [   1    0    0    5   41 1842]]
+category CON test accuracy : 0.996269
+category M-GGO test accuracy : 0.98951
+category HCM test accuracy : 0.992572
+category EMP test accuracy : 0.632727
+category NOD test accuracy : 0.858883
+category NOR test accuracy : 0.975119
+F_Value : 0.90661
+Epoch: [58], Training Accuracy: [0.987456], Validation Accuracy: [0.924314], Loss Training: [0.0348984] Loss_validation: [0.246663], Time: [Tue Nov 20 18:14:57 2018]
+Test Accuracy : 0.927441
+[[1558    0   48    0    0    2]
+ [   0 1086    0    0    0   58]
+ [   0    1 1076    0    0    0]
+ [   0    3  216  874    7    0]
+ [   0   28    0    4 1183  181]
+ [   0    0    0    4   44 1841]]
+category CON test accuracy : 0.968905
+category M-GGO test accuracy : 0.949301
+category HCM test accuracy : 0.999071
+category EMP test accuracy : 0.794545
+category NOD test accuracy : 0.847421
+category NOR test accuracy : 0.97459
+F_Value : 0.923926
+Epoch: [59], Training Accuracy: [0.987932], Validation Accuracy: [0.923851], Loss Training: [0.0333376] Loss_validation: [0.269845], Time: [Tue Nov 20 18:15:22 2018]
+Test Accuracy : 0.938398
+[[1606    0    2    0    0    0]
+ [   0 1070    0    0    2   72]
+ [   0   24 1049    0    3    1]
+ [   0    1  242  842   15    0]
+ [   0   13    0    4 1293   86]
+ [   0    0    0    9   32 1848]]
+category CON test accuracy : 0.998756
+category M-GGO test accuracy : 0.935315
+category HCM test accuracy : 0.974002
+category EMP test accuracy : 0.765455
+category NOD test accuracy : 0.926218
+category NOR test accuracy : 0.978295
+F_Value : 0.931396
+Epoch: [60], Training Accuracy: [0.988205], Validation Accuracy: [0.935424], Loss Training: [0.0325117] Loss_validation: [0.218587], Time: [Tue Nov 20 18:15:47 2018]
+Test Accuracy : 0.920623
+[[1608    0    0    0    0    0]
+ [   0 1115    0    0    0   29]
+ [   0   13 1060    0    4    0]
+ [   0    4  255  837    4    0]
+ [   0   53    0   18 1136  189]
+ [   2    0    0   70   11 1806]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.97465
+category HCM test accuracy : 0.984215
+category EMP test accuracy : 0.760909
+category NOD test accuracy : 0.813754
+category NOR test accuracy : 0.956061
+F_Value : 0.913922
+Epoch: [61], Training Accuracy: [0.988971], Validation Accuracy: [0.937044], Loss Training: [0.0309224] Loss_validation: [0.209206], Time: [Tue Nov 20 18:16:12 2018]
+Test Accuracy : 0.934746
+[[1607    0    1    0    0    0]
+ [   0 1142    0    0    0    2]
+ [   0    9 1068    0    0    0]
+ [   0    1  293  795   11    0]
+ [   0    5    0   10 1278  103]
+ [   3    0    0    7   91 1788]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.998252
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.722727
+category NOD test accuracy : 0.915473
+category NOR test accuracy : 0.946533
+F_Value : 0.927501
+Epoch: [62], Training Accuracy: [0.989056], Validation Accuracy: [0.927092], Loss Training: [0.0309427] Loss_validation: [0.260219], Time: [Tue Nov 20 18:16:39 2018]
+Test Accuracy : 0.936572
+[[1608    0    0    0    0    0]
+ [   0 1135    0    0    2    7]
+ [   0    9 1067    0    0    1]
+ [   0    2  252  804   42    0]
+ [   0   12    0    2 1325   57]
+ [   2    0    0    6  127 1754]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.992133
+category HCM test accuracy : 0.990715
+category EMP test accuracy : 0.730909
+category NOD test accuracy : 0.94914
+category NOR test accuracy : 0.928534
+F_Value : 0.929919
+Epoch: [63], Training Accuracy: [0.989124], Validation Accuracy: [0.917602], Loss Training: [0.0296516] Loss_validation: [0.318046], Time: [Tue Nov 20 18:17:04 2018]
+Test Accuracy : 0.92525
+[[1608    0    0    0    0    0]
+ [   0 1108    0    0    2   34]
+ [   0   13 1064    0    0    0]
+ [   0    2  319  747   32    0]
+ [   0   19    0    5 1224  148]
+ [   2    0    0    7   31 1849]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.968531
+category HCM test accuracy : 0.987929
+category EMP test accuracy : 0.679091
+category NOD test accuracy : 0.876791
+category NOR test accuracy : 0.978825
+F_Value : 0.915426
+Epoch: [64], Training Accuracy: [0.98943], Validation Accuracy: [0.917718], Loss Training: [0.0289376] Loss_validation: [0.311368], Time: [Tue Nov 20 18:17:29 2018]
+Test Accuracy : 0.939981
+[[1585    0   18    0    0    5]
+ [   0 1121    0    0    0   23]
+ [   0    4 1072    0    1    0]
+ [   0    3  182  886   29    0]
+ [   0   32    0    3 1211  150]
+ [   0    1    0   10   32 1846]]
+category CON test accuracy : 0.985697
+category M-GGO test accuracy : 0.979895
+category HCM test accuracy : 0.995357
+category EMP test accuracy : 0.805455
+category NOD test accuracy : 0.867479
+category NOR test accuracy : 0.977237
+F_Value : 0.935936
+Epoch: [65], Training Accuracy: [0.989141], Validation Accuracy: [0.890985], Loss Training: [0.0309587] Loss_validation: [0.369578], Time: [Tue Nov 20 18:17:55 2018]
+Test Accuracy : 0.905284
+[[1590    0   13    0    0    5]
+ [   0 1123    0    0    0   21]
+ [   0    1 1075    0    0    1]
+ [   0    2  241  856    1    0]
+ [   0   64    0   14  914  404]
+ [   0    0    0    5    6 1878]]
+category CON test accuracy : 0.988806
+category M-GGO test accuracy : 0.981643
+category HCM test accuracy : 0.998143
+category EMP test accuracy : 0.778182
+category NOD test accuracy : 0.654728
+category NOR test accuracy : 0.994177
+F_Value : 0.900128
+Epoch: [66], Training Accuracy: [0.989447], Validation Accuracy: [0.910774], Loss Training: [0.0291878] Loss_validation: [0.293418], Time: [Tue Nov 20 18:18:20 2018]
+Test Accuracy : 0.926102
+[[1590    0   18    0    0    0]
+ [   0 1088    0    0    1   55]
+ [   0   14 1063    0    0    0]
+ [   0    3  192  901    4    0]
+ [   0    3    0    4 1102  287]
+ [   0    0    1    3   22 1863]]
+category CON test accuracy : 0.988806
+category M-GGO test accuracy : 0.951049
+category HCM test accuracy : 0.987001
+category EMP test accuracy : 0.819091
+category NOD test accuracy : 0.789398
+category NOR test accuracy : 0.986236
+F_Value : 0.924219
+Epoch: [67], Training Accuracy: [0.990094], Validation Accuracy: [0.91494], Loss Training: [0.0277948] Loss_validation: [0.327376], Time: [Tue Nov 20 18:18:45 2018]
+Test Accuracy : 0.92391
+[[1595    0   13    0    0    0]
+ [   0 1120    0    0    0   24]
+ [   0    9 1065    0    3    0]
+ [   0    1  257  779   63    0]
+ [   0   11    0    1 1292   92]
+ [   1    0    0    4  146 1738]]
+category CON test accuracy : 0.991915
+category M-GGO test accuracy : 0.979021
+category HCM test accuracy : 0.988858
+category EMP test accuracy : 0.708182
+category NOD test accuracy : 0.925501
+category NOR test accuracy : 0.920064
+F_Value : 0.917614
+Epoch: [68], Training Accuracy: [0.989822], Validation Accuracy: [0.931837], Loss Training: [0.0268116] Loss_validation: [0.210454], Time: [Tue Nov 20 18:19:11 2018]
+Test Accuracy : 0.914049
+[[1595    0   11    0    0    2]
+ [   0 1138    0    0    0    6]
+ [   0    9 1068    0    0    0]
+ [   0    1  294  788   17    0]
+ [   0   21    0   15 1126  234]
+ [   2    0    1    7   86 1793]]
+category CON test accuracy : 0.991915
+category M-GGO test accuracy : 0.994755
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.716364
+category NOD test accuracy : 0.80659
+category NOR test accuracy : 0.949179
+F_Value : 0.907951
+Epoch: [69], Training Accuracy: [0.989941], Validation Accuracy: [0.911121], Loss Training: [0.0277514] Loss_validation: [0.375746], Time: [Tue Nov 20 18:19:36 2018]
+Test Accuracy : 0.92038
+[[1576    0   21    0    0   11]
+ [   0 1135    0    0    2    7]
+ [   0   11 1065    0    0    1]
+ [   0    2  370  680   46    2]
+ [   0   10    0    3 1282  101]
+ [   0    0    0    4   63 1822]]
+category CON test accuracy : 0.9801
+category M-GGO test accuracy : 0.992133
+category HCM test accuracy : 0.988858
+category EMP test accuracy : 0.618182
+category NOD test accuracy : 0.918338
+category NOR test accuracy : 0.964531
+F_Value : 0.908003
+Epoch: [70], Training Accuracy: [0.989924], Validation Accuracy: [0.902558], Loss Training: [0.0277247] Loss_validation: [0.420503], Time: [Tue Nov 20 18:20:01 2018]
+Test Accuracy : 0.933772
+[[1598    0    6    0    0    4]
+ [   0 1141    0    0    0    3]
+ [   0   24 1047    0    5    1]
+ [   0    0  288  770   42    0]
+ [   0    1    0    1 1318   76]
+ [   0    0    0    0   93 1796]]
+category CON test accuracy : 0.993781
+category M-GGO test accuracy : 0.997378
+category HCM test accuracy : 0.972145
+category EMP test accuracy : 0.7
+category NOD test accuracy : 0.944126
+category NOR test accuracy : 0.950768
+F_Value : 0.925085
+Epoch: [71], Training Accuracy: [0.990911], Validation Accuracy: [0.894109], Loss Training: [0.0255122] Loss_validation: [0.456662], Time: [Tue Nov 20 18:20:27 2018]
+Test Accuracy : 0.896883
+[[1608    0    0    0    0    0]
+ [   0 1014    0    0    0  130]
+ [   0    9 1066    0    2    0]
+ [   0    0  190  910    0    0]
+ [   0   27    0   78  916  375]
+ [   0    0    0   35    1 1853]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.886364
+category HCM test accuracy : 0.989786
+category EMP test accuracy : 0.827273
+category NOD test accuracy : 0.65616
+category NOR test accuracy : 0.980942
+F_Value : 0.89324
+Epoch: [72], Training Accuracy: [0.990213], Validation Accuracy: [0.957991], Loss Training: [0.0264418] Loss_validation: [0.152432], Time: [Tue Nov 20 18:20:53 2018]
+Test Accuracy : 0.918919
+[[1589    0   17    0    0    2]
+ [   0 1135    0    0    0    9]
+ [   0    7 1070    0    0    0]
+ [   0    0  319  770   11    0]
+ [   0   12    0   11 1274   99]
+ [   0    0    0   28  151 1710]]
+category CON test accuracy : 0.988184
+category M-GGO test accuracy : 0.992133
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.7
+category NOD test accuracy : 0.912607
+category NOR test accuracy : 0.905241
+F_Value : 0.91204
+Epoch: [73], Training Accuracy: [0.990911], Validation Accuracy: [0.948501], Loss Training: [0.0256151] Loss_validation: [0.188617], Time: [Tue Nov 20 18:21:18 2018]
+Test Accuracy : 0.931945
+[[1605    0    3    0    0    0]
+ [   0 1129    0    0    0   15]
+ [   0   10 1067    0    0    0]
+ [   0    1  249  846    4    0]
+ [   0    5    0    3 1351   37]
+ [   3    0    0   12  217 1657]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.986888
+category HCM test accuracy : 0.990715
+category EMP test accuracy : 0.769091
+category NOD test accuracy : 0.967765
+category NOR test accuracy : 0.877184
+F_Value : 0.928252
+Epoch: [74], Training Accuracy: [0.990656], Validation Accuracy: [0.938665], Loss Training: [0.0258689] Loss_validation: [0.212958], Time: [Tue Nov 20 18:21:43 2018]
+Test Accuracy : 0.936328
+[[1608    0    0    0    0    0]
+ [   0 1131    0    0    2   11]
+ [   0   27 1038    0   11    1]
+ [   0    1  257  824   18    0]
+ [   0   11    0    4 1300   81]
+ [   1    0    0   12   86 1790]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.988636
+category HCM test accuracy : 0.963788
+category EMP test accuracy : 0.749091
+category NOD test accuracy : 0.931232
+category NOR test accuracy : 0.947591
+F_Value : 0.929215
+Epoch: [75], Training Accuracy: [0.991149], Validation Accuracy: [0.918991], Loss Training: [0.0241759] Loss_validation: [0.297141], Time: [Tue Nov 20 18:22:08 2018]
+Test Accuracy : 0.916119
+[[1608    0    0    0    0    0]
+ [   0 1101    0    0    0   43]
+ [   0    8 1067    0    2    0]
+ [   0    1  310  747   42    0]
+ [   0    8    0    0 1367   21]
+ [   2    0    0    2  250 1635]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.962413
+category HCM test accuracy : 0.990715
+category EMP test accuracy : 0.679091
+category NOD test accuracy : 0.979226
+category NOR test accuracy : 0.865537
+F_Value : 0.909362
+Epoch: [76], Training Accuracy: [0.990809], Validation Accuracy: [0.931258], Loss Training: [0.0257258] Loss_validation: [0.238392], Time: [Tue Nov 20 18:22:34 2018]
+Test Accuracy : 0.915388
+[[1607    0    1    0    0    0]
+ [   0 1113    0    0    0   31]
+ [   0    9 1068    0    0    0]
+ [   0    2  371  721    6    0]
+ [   0   28    0   12 1168  188]
+ [   1    0    0   16   30 1842]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.972902
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.655455
+category NOD test accuracy : 0.836676
+category NOR test accuracy : 0.975119
+F_Value : 0.904753
+Epoch: [77], Training Accuracy: [0.991064], Validation Accuracy: [0.901979], Loss Training: [0.0245488] Loss_validation: [0.382247], Time: [Tue Nov 20 18:22:59 2018]
+Test Accuracy : 0.929511
+[[1603    0    5    0    0    0]
+ [   0 1088    0    0    2   54]
+ [   0    6 1071    0    0    0]
+ [   0    0  226  868    6    0]
+ [   0    1    0    9 1138  248]
+ [   0    0    2    6   14 1867]]
+category CON test accuracy : 0.996891
+category M-GGO test accuracy : 0.951049
+category HCM test accuracy : 0.994429
+category EMP test accuracy : 0.789091
+category NOD test accuracy : 0.815186
+category NOR test accuracy : 0.988354
+F_Value : 0.925997
+Epoch: [78], Training Accuracy: [0.991643], Validation Accuracy: [0.928712], Loss Training: [0.0230725] Loss_validation: [0.256761], Time: [Tue Nov 20 18:23:25 2018]
+Test Accuracy : 0.919649
+[[1592    0   16    0    0    0]
+ [   0 1082    0    0    1   61]
+ [   0    8 1069    0    0    0]
+ [   0    2  256  842    0    0]
+ [   0   16    0   10 1118  252]
+ [   0    0    0   17   21 1851]]
+category CON test accuracy : 0.99005
+category M-GGO test accuracy : 0.945804
+category HCM test accuracy : 0.992572
+category EMP test accuracy : 0.765455
+category NOD test accuracy : 0.80086
+category NOR test accuracy : 0.979884
+F_Value : 0.91508
+Epoch: [79], Training Accuracy: [0.990979], Validation Accuracy: [0.861474], Loss Training: [0.024615] Loss_validation: [0.629576], Time: [Tue Nov 20 18:23:50 2018]
+Test Accuracy : 0.909788
+[[1606    0    2    0    0    0]
+ [   0 1126    0    0    1   17]
+ [   0    6 1066    0    0    5]
+ [   0    0  219  868   10    3]
+ [   0    9    0    6  920  461]
+ [   0    0    0    1    1 1887]]
+category CON test accuracy : 0.998756
+category M-GGO test accuracy : 0.984266
+category HCM test accuracy : 0.989786
+category EMP test accuracy : 0.789091
+category NOD test accuracy : 0.659026
+category NOR test accuracy : 0.998941
+F_Value : 0.906944
+Epoch: [80], Training Accuracy: [0.992256], Validation Accuracy: [0.911469], Loss Training: [0.0214897] Loss_validation: [0.331933], Time: [Tue Nov 20 18:24:15 2018]
+Test Accuracy : 0.924397
+[[1580    0   28    0    0    0]
+ [   0 1136    0    0    0    8]
+ [   0   10 1062    0    5    0]
+ [   0    0  312  778   10    0]
+ [   0   16    0    6 1178  196]
+ [   0    0    0    1   29 1859]]
+category CON test accuracy : 0.982587
+category M-GGO test accuracy : 0.993007
+category HCM test accuracy : 0.986072
+category EMP test accuracy : 0.707273
+category NOD test accuracy : 0.84384
+category NOR test accuracy : 0.984119
+F_Value : 0.916575
+Epoch: [81], Training Accuracy: [0.992273], Validation Accuracy: [0.891332], Loss Training: [0.0214616] Loss_validation: [0.518292], Time: [Tue Nov 20 18:24:40 2018]
+Test Accuracy : 0.925371
+[[1583    0   25    0    0    0]
+ [   0 1103    0    0    3   38]
+ [   0    7 1070    0    0    0]
+ [   0    0  270  779   49    2]
+ [   0    0    0    1 1245  150]
+ [   1    0    0    1   66 1821]]
+category CON test accuracy : 0.984453
+category M-GGO test accuracy : 0.964161
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.708182
+category NOD test accuracy : 0.891834
+category NOR test accuracy : 0.964002
+F_Value : 0.918587
+Epoch: [82], Training Accuracy: [0.99229], Validation Accuracy: [0.903946], Loss Training: [0.0216036] Loss_validation: [0.357804], Time: [Tue Nov 20 18:25:07 2018]
+Test Accuracy : 0.914171
+[[1604    0    4    0    0    0]
+ [   0 1120    0    0    0   24]
+ [   0    4 1073    0    0    0]
+ [   0    3  192  905    0    0]
+ [   0   41    0   17  935  403]
+ [   0    0    0   11    6 1872]]
+category CON test accuracy : 0.997512
+category M-GGO test accuracy : 0.979021
+category HCM test accuracy : 0.996286
+category EMP test accuracy : 0.822727
+category NOD test accuracy : 0.669771
+category NOR test accuracy : 0.991001
+F_Value : 0.911138
+Epoch: [83], Training Accuracy: [0.992494], Validation Accuracy: [0.9014], Loss Training: [0.0212006] Loss_validation: [0.408651], Time: [Tue Nov 20 18:25:32 2018]
+Test Accuracy : 0.935111
+[[1591    0   17    0    0    0]
+ [   0 1131    0    0    1   12]
+ [   0   20 1057    0    0    0]
+ [   0    1  194  900    5    0]
+ [   0   12    0    7 1128  249]
+ [   1    0    0    1   13 1874]]
+category CON test accuracy : 0.989428
+category M-GGO test accuracy : 0.988636
+category HCM test accuracy : 0.98143
+category EMP test accuracy : 0.818182
+category NOD test accuracy : 0.808023
+category NOR test accuracy : 0.992059
+F_Value : 0.931817
+Epoch: [84], Training Accuracy: [0.99229], Validation Accuracy: [0.904409], Loss Training: [0.0214157] Loss_validation: [0.402924], Time: [Tue Nov 20 18:25:57 2018]
+Test Accuracy : 0.912223
+[[1608    0    0    0    0    0]
+ [   0 1138    0    0    0    6]
+ [   0    8 1069    0    0    0]
+ [   0    2  433  614   51    0]
+ [   0    9    0    3 1236  148]
+ [   0    0    0    0   61 1828]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.994755
+category HCM test accuracy : 0.992572
+category EMP test accuracy : 0.558182
+category NOD test accuracy : 0.885387
+category NOR test accuracy : 0.967708
+F_Value : 0.896446
+Epoch: [85], Training Accuracy: [0.992919], Validation Accuracy: [0.948733], Loss Training: [0.020459] Loss_validation: [0.231642], Time: [Tue Nov 20 18:26:23 2018]
+Test Accuracy : 0.900779
+[[1598    0    8    0    0    2]
+ [   0 1013    0    0    0  131]
+ [   0    1 1052    0   23    1]
+ [   0    0  276  816    8    0]
+ [   0    9    0   15 1218  154]
+ [   0    0    0   71  116 1702]]
+category CON test accuracy : 0.993781
+category M-GGO test accuracy : 0.88549
+category HCM test accuracy : 0.976787
+category EMP test accuracy : 0.741818
+category NOD test accuracy : 0.872493
+category NOR test accuracy : 0.901006
+F_Value : 0.896463
+Epoch: [86], Training Accuracy: [0.993753], Validation Accuracy: [0.908575], Loss Training: [0.018454] Loss_validation: [0.366101], Time: [Tue Nov 20 18:26:49 2018]
+Test Accuracy : 0.921232
+[[1605    0    0    0    0    3]
+ [   0 1128    0    0    2   14]
+ [   0   17 1058    0    0    2]
+ [   0    3  268  824    5    0]
+ [   0   18    0   12 1077  289]
+ [   0    0    0   10    4 1875]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.986014
+category HCM test accuracy : 0.982358
+category EMP test accuracy : 0.749091
+category NOD test accuracy : 0.77149
+category NOR test accuracy : 0.992589
+F_Value : 0.915199
+Epoch: [87], Training Accuracy: [0.992613], Validation Accuracy: [0.90927], Loss Training: [0.0197061] Loss_validation: [0.437092], Time: [Tue Nov 20 18:27:14 2018]
+Test Accuracy : 0.908206
+[[1608    0    0    0    0    0]
+ [   0  981    0    0    6  157]
+ [   0    2 1075    0    0    0]
+ [   0    0  271  827    2    0]
+ [   0    1    0    6 1119  270]
+ [   0    0    0    3   36 1850]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.857517
+category HCM test accuracy : 0.998143
+category EMP test accuracy : 0.751818
+category NOD test accuracy : 0.801576
+category NOR test accuracy : 0.979354
+F_Value : 0.904394
+Epoch: [88], Training Accuracy: [0.99343], Validation Accuracy: [0.907418], Loss Training: [0.0184994] Loss_validation: [0.375643], Time: [Tue Nov 20 18:27:40 2018]
+Test Accuracy : 0.908206
+[[1603    0    5    0    0    0]
+ [   0 1076    0    0    0   68]
+ [   0    7 1070    0    0    0]
+ [   0    3  282  812    3    0]
+ [   0   12    0   10 1042  332]
+ [   0    0    0    3   29 1857]]
+category CON test accuracy : 0.996891
+category M-GGO test accuracy : 0.940559
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.738182
+category NOD test accuracy : 0.746418
+category NOR test accuracy : 0.98306
+F_Value : 0.903446
+Epoch: [89], Training Accuracy: [0.992749], Validation Accuracy: [0.88219], Loss Training: [0.021476] Loss_validation: [0.542246], Time: [Tue Nov 20 18:28:06 2018]
+Test Accuracy : 0.927076
+[[1605    0    3    0    0    0]
+ [   0 1106    0    0    4   34]
+ [   0    7 1070    0    0    0]
+ [   0    6  234  850   10    0]
+ [   0    1    0    4 1107  284]
+ [   1    0    0    0   11 1877]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.966783
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.772727
+category NOD test accuracy : 0.79298
+category NOR test accuracy : 0.993647
+F_Value : 0.923073
+Epoch: [90], Training Accuracy: [0.993073], Validation Accuracy: [0.927786], Loss Training: [0.0195794] Loss_validation: [0.30562], Time: [Tue Nov 20 18:28:31 2018]
+Test Accuracy : 0.948259
+[[1593    0   15    0    0    0]
+ [   0 1089    0    0    1   54]
+ [   0    9 1066    0    1    1]
+ [   0    3  154  936    7    0]
+ [   0    2    0   11 1243  140]
+ [   0    0    0    9   18 1862]]
+category CON test accuracy : 0.990672
+category M-GGO test accuracy : 0.951923
+category HCM test accuracy : 0.989786
+category EMP test accuracy : 0.850909
+category NOD test accuracy : 0.890401
+category NOR test accuracy : 0.985707
+F_Value : 0.94558
+Epoch: [91], Training Accuracy: [0.993821], Validation Accuracy: [0.87189], Loss Training: [0.0176172] Loss_validation: [0.539083], Time: [Tue Nov 20 18:28:56 2018]
+Test Accuracy : 0.898953
+[[1608    0    0    0    0    0]
+ [   0 1133    0    0    0   11]
+ [   0    7 1070    0    0    0]
+ [   0    3  310  786    1    0]
+ [   0   15    0    8  902  471]
+ [   0    0    0    0    4 1885]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.990385
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.714545
+category NOD test accuracy : 0.646132
+category NOR test accuracy : 0.997882
+F_Value : 0.892411
+Epoch: [92], Training Accuracy: [0.99326], Validation Accuracy: [0.896193], Loss Training: [0.0184602] Loss_validation: [0.441035], Time: [Tue Nov 20 18:29:21 2018]
+Test Accuracy : 0.908692
+[[1605    0    3    0    0    0]
+ [   0 1100    0    0    2   42]
+ [   0    5 1072    0    0    0]
+ [   0    6  397  669   28    0]
+ [   0    9    0   10 1142  235]
+ [   0    0    1    5    7 1876]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.961538
+category HCM test accuracy : 0.995357
+category EMP test accuracy : 0.608182
+category NOD test accuracy : 0.818052
+category NOR test accuracy : 0.993118
+F_Value : 0.896138
+Epoch: [93], Training Accuracy: [0.99377], Validation Accuracy: [0.87351], Loss Training: [0.0177243] Loss_validation: [0.561115], Time: [Tue Nov 20 18:29:48 2018]
+Test Accuracy : 0.895301
+[[1603    0    5    0    0    0]
+ [   0 1077    0    0    0   67]
+ [   0    7 1070    0    0    0]
+ [   0    0  136  964    0    0]
+ [   0   54    0   25  757  560]
+ [   0    0    0    3    3 1883]]
+category CON test accuracy : 0.996891
+category M-GGO test accuracy : 0.941434
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.876364
+category NOD test accuracy : 0.542264
+category NOR test accuracy : 0.996824
+F_Value : 0.892934
+Epoch: [94], Training Accuracy: [0.993549], Validation Accuracy: [0.904525], Loss Training: [0.0184526] Loss_validation: [0.386497], Time: [Tue Nov 20 18:30:13 2018]
+Test Accuracy : 0.952885
+[[1585    0   17    0    0    6]
+ [   0 1121    0    0    0   23]
+ [   0   10 1063    0    4    0]
+ [   0    4  152  932   12    0]
+ [   0    9    0    5 1255  127]
+ [   0    0    0    2   16 1871]]
+category CON test accuracy : 0.985697
+category M-GGO test accuracy : 0.979895
+category HCM test accuracy : 0.987001
+category EMP test accuracy : 0.847273
+category NOD test accuracy : 0.898997
+category NOR test accuracy : 0.990471
+F_Value : 0.949783
+Epoch: [95], Training Accuracy: [0.994043], Validation Accuracy: [0.89492], Loss Training: [0.0167323] Loss_validation: [0.542849], Time: [Tue Nov 20 18:30:39 2018]
+Test Accuracy : 0.915145
+[[1576    0   31    0    0    1]
+ [   0 1136    0    0    5    3]
+ [   0   24 1050    0    3    0]
+ [   0    1  332  706   61    0]
+ [   0    0    0    0 1357   39]
+ [   0    0    0    1  196 1692]]
+category CON test accuracy : 0.9801
+category M-GGO test accuracy : 0.993007
+category HCM test accuracy : 0.97493
+category EMP test accuracy : 0.641818
+category NOD test accuracy : 0.972063
+category NOR test accuracy : 0.895712
+F_Value : 0.905576
+Epoch: [96], Training Accuracy: [0.99377], Validation Accuracy: [0.893068], Loss Training: [0.0176059] Loss_validation: [0.487335], Time: [Tue Nov 20 18:31:04 2018]
+Test Accuracy : 0.904675
+[[1593    0   15    0    0    0]
+ [   0 1126    0    0    0   18]
+ [   0   15 1062    0    0    0]
+ [   0    5  293  792   10    0]
+ [   0   11    0    7  978  400]
+ [   0    0    0    1    8 1880]]
+category CON test accuracy : 0.990672
+category M-GGO test accuracy : 0.984266
+category HCM test accuracy : 0.986072
+category EMP test accuracy : 0.72
+category NOD test accuracy : 0.700573
+category NOR test accuracy : 0.995236
+F_Value : 0.898575
+Epoch: [97], Training Accuracy: [0.993583], Validation Accuracy: [0.929985], Loss Training: [0.0176835] Loss_validation: [0.290985], Time: [Tue Nov 20 18:31:30 2018]
+Test Accuracy : 0.93852
+[[1605    0    3    0    0    0]
+ [   0 1102    0    0    0   42]
+ [   0    4 1072    0    1    0]
+ [   0    0  207  890    3    0]
+ [   0    7    0    6 1184  199]
+ [   0    0    0    6   27 1856]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.963287
+category HCM test accuracy : 0.995357
+category EMP test accuracy : 0.809091
+category NOD test accuracy : 0.848138
+category NOR test accuracy : 0.98253
+F_Value : 0.935291
+Epoch: [98], Training Accuracy: [0.994179], Validation Accuracy: [0.935771], Loss Training: [0.0165503] Loss_validation: [0.273584], Time: [Tue Nov 20 18:31:55 2018]
+Test Accuracy : 0.947894
+[[1605    0    3    0    0    0]
+ [   0 1133    0    1    3    7]
+ [   0    4 1070    0    3    0]
+ [   0    0  184  913    3    0]
+ [   0    0    0    4 1315   77]
+ [   1    0    0   13  125 1750]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.990385
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.83
+category NOD test accuracy : 0.941977
+category NOR test accuracy : 0.926416
+F_Value : 0.945443
+Epoch: [99], Training Accuracy: [0.993787], Validation Accuracy: [0.881148], Loss Training: [0.0179837] Loss_validation: [0.630652], Time: [Tue Nov 20 18:32:20 2018]
+Test Accuracy : 0.898831
+[[1589    0   19    0    0    0]
+ [   0 1124    0    0    8   12]
+ [   0   12 1064    0    1    0]
+ [   0    1  297  711   91    0]
+ [   0    0    0    0 1378   18]
+ [   1    0    2    0  369 1517]]
+category CON test accuracy : 0.988184
+category M-GGO test accuracy : 0.982517
+category HCM test accuracy : 0.987929
+category EMP test accuracy : 0.646364
+category NOD test accuracy : 0.987106
+category NOR test accuracy : 0.80307
+F_Value : 0.893784
+Epoch: [100], Training Accuracy: [0.994298], Validation Accuracy: [0.922578], Loss Training: [0.0162022] Loss_validation: [0.336049], Time: [Tue Nov 20 18:32:45 2018]
+Test Accuracy : 0.927076
+[[1603    0    5    0    0    0]
+ [   0 1131    0    0    2   11]
+ [   0    7 1054    0   15    1]
+ [   0    3  326  723   48    0]
+ [   0    7    0    2 1315   72]
+ [   0    0    0    4   96 1789]]
+category CON test accuracy : 0.996891
+category M-GGO test accuracy : 0.988636
+category HCM test accuracy : 0.978644
+category EMP test accuracy : 0.657273
+category NOD test accuracy : 0.941977
+category NOR test accuracy : 0.947062
+F_Value : 0.916499
+Epoch: [101], Training Accuracy: [0.994621], Validation Accuracy: [0.921884], Loss Training: [0.015516] Loss_validation: [0.328819], Time: [Tue Nov 20 18:33:10 2018]
+Test Accuracy : 0.947529
+[[1606    0    2    0    0    0]
+ [   0 1137    0    0    1    6]
+ [   0   23 1054    0    0    0]
+ [   0    2  145  942   11    0]
+ [   0   12    0    8 1179  197]
+ [   0    0    0    6   18 1865]]
+category CON test accuracy : 0.998756
+category M-GGO test accuracy : 0.993881
+category HCM test accuracy : 0.978644
+category EMP test accuracy : 0.856364
+category NOD test accuracy : 0.844556
+category NOR test accuracy : 0.987295
+F_Value : 0.944988
+Epoch: [102], Training Accuracy: [0.993975], Validation Accuracy: [0.933225], Loss Training: [0.0170105] Loss_validation: [0.266725], Time: [Tue Nov 20 18:33:36 2018]
+Test Accuracy : 0.939007
+[[1583    0   21    0    0    4]
+ [   0 1133    0    0    2    9]
+ [   0    9 1068    0    0    0]
+ [   0    2  207  864   27    0]
+ [   0    3    0    3 1275  115]
+ [   0    0    1   10   88 1790]]
+category CON test accuracy : 0.984453
+category M-GGO test accuracy : 0.990385
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.785455
+category NOD test accuracy : 0.913324
+category NOR test accuracy : 0.947591
+F_Value : 0.93501
+Epoch: [103], Training Accuracy: [0.99423], Validation Accuracy: [0.904756], Loss Training: [0.016067] Loss_validation: [0.498995], Time: [Tue Nov 20 18:34:01 2018]
+Test Accuracy : 0.924397
+[[1597    0   11    0    0    0]
+ [   0 1122    0    0    2   20]
+ [   0    4 1071    0    0    2]
+ [   0    1  346  696   57    0]
+ [   0    4    0    0 1297   95]
+ [   0    0    0    0   79 1810]]
+category CON test accuracy : 0.993159
+category M-GGO test accuracy : 0.980769
+category HCM test accuracy : 0.994429
+category EMP test accuracy : 0.632727
+category NOD test accuracy : 0.929083
+category NOR test accuracy : 0.958179
+F_Value : 0.913001
+Epoch: [104], Training Accuracy: [0.994758], Validation Accuracy: [0.939127], Loss Training: [0.0148815] Loss_validation: [0.28133], Time: [Tue Nov 20 18:34:26 2018]
+Test Accuracy : 0.943268
+[[1605    0    3    0    0    0]
+ [   0 1093    0    0    1   50]
+ [   0   12 1055    0   10    0]
+ [   0    0  185  911    4    0]
+ [   0    5    0    7 1284  100]
+ [   0    0    0   15   74 1800]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.95542
+category HCM test accuracy : 0.979573
+category EMP test accuracy : 0.828182
+category NOD test accuracy : 0.919771
+category NOR test accuracy : 0.952885
+F_Value : 0.939958
+Epoch: [105], Training Accuracy: [0.993498], Validation Accuracy: [0.941789], Loss Training: [0.0178898] Loss_validation: [0.232435], Time: [Tue Nov 20 18:34:51 2018]
+Test Accuracy : 0.917093
+[[1587    0   21    0    0    0]
+ [   0 1122    0    0    0   22]
+ [   0   11 1066    0    0    0]
+ [   0    4  160  936    0    0]
+ [   0   71    0   41 1078  206]
+ [   1    0    1   40  103 1744]]
+category CON test accuracy : 0.98694
+category M-GGO test accuracy : 0.980769
+category HCM test accuracy : 0.989786
+category EMP test accuracy : 0.850909
+category NOD test accuracy : 0.772206
+category NOR test accuracy : 0.92324
+F_Value : 0.914747
+Epoch: [106], Training Accuracy: [0.99469], Validation Accuracy: [0.906145], Loss Training: [0.0146838] Loss_validation: [0.425271], Time: [Tue Nov 20 18:35:16 2018]
+Test Accuracy : 0.891405
+[[1602    0    6    0    0    0]
+ [   0 1135    0    0    0    9]
+ [   0    7 1070    0    0    0]
+ [   0    1  182  916    1    0]
+ [   0   56    0   39  733  568]
+ [   2    0    2   13    6 1866]]
+category CON test accuracy : 0.996269
+category M-GGO test accuracy : 0.992133
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.832727
+category NOD test accuracy : 0.525072
+category NOR test accuracy : 0.987824
+F_Value : 0.88596
+Epoch: [107], Training Accuracy: [0.995047], Validation Accuracy: [0.901169], Loss Training: [0.0135198] Loss_validation: [0.537796], Time: [Tue Nov 20 18:35:42 2018]
+Test Accuracy : 0.924397
+[[1607    0    1    0    0    0]
+ [   0 1128    0    0   10    6]
+ [   0    7 1057    0   11    2]
+ [   0    2  293  745   60    0]
+ [   0    2    0    1 1365   28]
+ [   1    0    0    5  192 1691]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.986014
+category HCM test accuracy : 0.98143
+category EMP test accuracy : 0.677273
+category NOD test accuracy : 0.977794
+category NOR test accuracy : 0.895183
+F_Value : 0.916381
+Epoch: [108], Training Accuracy: [0.99469], Validation Accuracy: [0.924893], Loss Training: [0.0148607] Loss_validation: [0.322822], Time: [Tue Nov 20 18:36:07 2018]
+Test Accuracy : 0.932676
+[[1586    0   22    0    0    0]
+ [   0 1133    0    0    1   10]
+ [   0    3 1074    0    0    0]
+ [   0    3  231  854   12    0]
+ [   0    3    0    4 1336   53]
+ [   1    0    1    4  205 1678]]
+category CON test accuracy : 0.986318
+category M-GGO test accuracy : 0.990385
+category HCM test accuracy : 0.997214
+category EMP test accuracy : 0.776364
+category NOD test accuracy : 0.95702
+category NOR test accuracy : 0.888301
+F_Value : 0.929669
+Epoch: [109], Training Accuracy: [0.995217], Validation Accuracy: [0.941095], Loss Training: [0.0141521] Loss_validation: [0.206672], Time: [Tue Nov 20 18:36:32 2018]
+Test Accuracy : 0.908449
+[[1581    0   23    0    0    4]
+ [   0 1141    0    0    0    3]
+ [   0   19 1058    0    0    0]
+ [   0    6  283  811    0    0]
+ [   0  169    0   25 1016  186]
+ [   0    1    2   11   20 1855]]
+category CON test accuracy : 0.983209
+category M-GGO test accuracy : 0.997378
+category HCM test accuracy : 0.982358
+category EMP test accuracy : 0.737273
+category NOD test accuracy : 0.727794
+category NOR test accuracy : 0.982001
+F_Value : 0.898131
+Epoch: [110], Training Accuracy: [0.994094], Validation Accuracy: [0.941326], Loss Training: [0.0165825] Loss_validation: [0.22439], Time: [Tue Nov 20 18:36:57 2018]
+Test Accuracy : 0.922206
+[[1604    0    4    0    0    0]
+ [   0 1133    0    0    2    9]
+ [   0    8 1069    0    0    0]
+ [   0    2  282  793   23    0]
+ [   0    3    0    7 1364   22]
+ [   3    0    1   10  263 1612]]
+category CON test accuracy : 0.997512
+category M-GGO test accuracy : 0.990385
+category HCM test accuracy : 0.992572
+category EMP test accuracy : 0.720909
+category NOD test accuracy : 0.977077
+category NOR test accuracy : 0.853362
+F_Value : 0.917378
+Epoch: [111], Training Accuracy: [0.995609], Validation Accuracy: [0.880454], Loss Training: [0.0131933] Loss_validation: [0.56373], Time: [Tue Nov 20 18:37:23 2018]
+Test Accuracy : 0.914171
+[[1579    0   29    0    0    0]
+ [   0 1122    0    0    0   22]
+ [   0    3 1074    0    0    0]
+ [   0    2  253  843    2    0]
+ [   0   26    0   10 1014  346]
+ [   2    0    0    3    7 1877]]
+category CON test accuracy : 0.981965
+category M-GGO test accuracy : 0.980769
+category HCM test accuracy : 0.997214
+category EMP test accuracy : 0.766364
+category NOD test accuracy : 0.726361
+category NOR test accuracy : 0.993647
+F_Value : 0.909745
+Epoch: [112], Training Accuracy: [0.995319], Validation Accuracy: [0.907997], Loss Training: [0.0136042] Loss_validation: [0.540398], Time: [Tue Nov 20 18:37:49 2018]
+Test Accuracy : 0.919284
+[[1601    0    7    0    0    0]
+ [   0 1083    0    0    2   59]
+ [   0    9 1068    0    0    0]
+ [   0    3  316  741   39    1]
+ [   0    2    0    3 1274  117]
+ [   0    0    0    2  103 1784]]
+category CON test accuracy : 0.995647
+category M-GGO test accuracy : 0.946678
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.673636
+category NOD test accuracy : 0.912607
+category NOR test accuracy : 0.944415
+F_Value : 0.910812
+Epoch: [113], Training Accuracy: [0.995064], Validation Accuracy: [0.931258], Loss Training: [0.0142788] Loss_validation: [0.29535], Time: [Tue Nov 20 18:38:15 2018]
+Test Accuracy : 0.917945
+[[1605    0    3    0    0    0]
+ [   0 1132    0    0    0   12]
+ [   0   18 1054    0    5    0]
+ [   0    6  382  707    5    0]
+ [   0   38    0    7 1234  117]
+ [   1    0    1    0   79 1808]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.98951
+category HCM test accuracy : 0.978644
+category EMP test accuracy : 0.642727
+category NOD test accuracy : 0.883954
+category NOR test accuracy : 0.95712
+F_Value : 0.90615
+Epoch: [114], Training Accuracy: [0.995149], Validation Accuracy: [0.928712], Loss Training: [0.0132752] Loss_validation: [0.292997], Time: [Tue Nov 20 18:38:41 2018]
+Test Accuracy : 0.936328
+[[1597    0   11    0    0    0]
+ [   0 1139    0    0    0    5]
+ [   1    6 1070    0    0    0]
+ [   0    3  229  855   13    0]
+ [   0   35    0    8 1209  144]
+ [   2    0    0    6   60 1821]]
+category CON test accuracy : 0.993159
+category M-GGO test accuracy : 0.995629
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.777273
+category NOD test accuracy : 0.866046
+category NOR test accuracy : 0.964002
+F_Value : 0.931041
+Epoch: [115], Training Accuracy: [0.995524], Validation Accuracy: [0.91008], Loss Training: [0.0130169] Loss_validation: [0.414475], Time: [Tue Nov 20 18:39:07 2018]
+Test Accuracy : 0.914171
+[[1602    0    6    0    0    0]
+ [   0 1103    0    0    0   41]
+ [   0    4 1073    0    0    0]
+ [   0    2  291  793   14    0]
+ [   0   37    0   24 1064  271]
+ [   0    0    0    5   10 1874]]
+category CON test accuracy : 0.996269
+category M-GGO test accuracy : 0.964161
+category HCM test accuracy : 0.996286
+category EMP test accuracy : 0.720909
+category NOD test accuracy : 0.762178
+category NOR test accuracy : 0.992059
+F_Value : 0.906677
+Epoch: [116], Training Accuracy: [0.995302], Validation Accuracy: [0.925587], Loss Training: [0.0128949] Loss_validation: [0.33107], Time: [Tue Nov 20 18:39:33 2018]
+Test Accuracy : 0.924154
+[[1608    0    0    0    0    0]
+ [   0 1093    0    0    0   51]
+ [   0    6 1071    0    0    0]
+ [   0    2  308  783    7    0]
+ [   0   18    0    8 1207  163]
+ [   0    0    0    3   57 1829]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.95542
+category HCM test accuracy : 0.994429
+category EMP test accuracy : 0.711818
+category NOD test accuracy : 0.864613
+category NOR test accuracy : 0.968237
+F_Value : 0.916733
+Epoch: [117], Training Accuracy: [0.995421], Validation Accuracy: [0.916908], Loss Training: [0.0138893] Loss_validation: [0.349165], Time: [Tue Nov 20 18:39:59 2018]
+Test Accuracy : 0.922449
+[[1598    0   10    0    0    0]
+ [   0 1135    0    0    0    9]
+ [   0    3 1074    0    0    0]
+ [   0    1  309  773   17    0]
+ [   0    9    0    8 1147  232]
+ [   0    0    2    5   32 1850]]
+category CON test accuracy : 0.993781
+category M-GGO test accuracy : 0.992133
+category HCM test accuracy : 0.997214
+category EMP test accuracy : 0.702727
+category NOD test accuracy : 0.821633
+category NOR test accuracy : 0.979354
+F_Value : 0.915103
+Epoch: [118], Training Accuracy: [0.995643], Validation Accuracy: [0.906492], Loss Training: [0.0122771] Loss_validation: [0.466945], Time: [Tue Nov 20 18:40:24 2018]
+Test Accuracy : 0.882883
+[[1596    0    9    0    0    3]
+ [   0 1034    0    1    0  109]
+ [   0   31 1045    1    0    0]
+ [   0    0  215  885    0    0]
+ [   0   37    0   64  867  428]
+ [   0    0    0   56    8 1825]]
+category CON test accuracy : 0.992537
+category M-GGO test accuracy : 0.903846
+category HCM test accuracy : 0.970288
+category EMP test accuracy : 0.804545
+category NOD test accuracy : 0.62106
+category NOR test accuracy : 0.96612
+F_Value : 0.878249
+Epoch: [119], Training Accuracy: [0.995932], Validation Accuracy: [0.919685], Loss Training: [0.0123351] Loss_validation: [0.333659], Time: [Tue Nov 20 18:40:50 2018]
+Test Accuracy : 0.920623
+[[1605    0    3    0    0    0]
+ [   0 1137    0    0    0    7]
+ [   0   20 1055    0    2    0]
+ [   0   11  294  772   23    0]
+ [   0    6    0    4 1159  227]
+ [   0    0    0    1   54 1834]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.993881
+category HCM test accuracy : 0.979573
+category EMP test accuracy : 0.701818
+category NOD test accuracy : 0.830229
+category NOR test accuracy : 0.970884
+F_Value : 0.913057
+Epoch: [120], Training Accuracy: [0.996119], Validation Accuracy: [0.907765], Loss Training: [0.011456] Loss_validation: [0.422751], Time: [Tue Nov 20 18:41:15 2018]
+Test Accuracy : 0.905284
+[[1587    0   21    0    0    0]
+ [   0 1128    0    0    0   16]
+ [   0   27 1050    0    0    0]
+ [   0    2  272  826    0    0]
+ [   0   90    0   27  983  296]
+ [   0    0    1    8   18 1862]]
+category CON test accuracy : 0.98694
+category M-GGO test accuracy : 0.986014
+category HCM test accuracy : 0.97493
+category EMP test accuracy : 0.750909
+category NOD test accuracy : 0.704155
+category NOR test accuracy : 0.985707
+F_Value : 0.89726
+Epoch: [121], Training Accuracy: [0.99503], Validation Accuracy: [0.937739], Loss Training: [0.0132582] Loss_validation: [0.2838], Time: [Tue Nov 20 18:41:40 2018]
+Test Accuracy : 0.924276
+[[1602    0    6    0    0    0]
+ [   0 1037    0    0    0  107]
+ [   0   10 1064    0    3    0]
+ [   0    2  206  861   31    0]
+ [   0   25    0   10 1291   70]
+ [   1    0    0   10  141 1737]]
+category CON test accuracy : 0.996269
+category M-GGO test accuracy : 0.906469
+category HCM test accuracy : 0.987929
+category EMP test accuracy : 0.782727
+category NOD test accuracy : 0.924785
+category NOR test accuracy : 0.919534
+F_Value : 0.920365
+Epoch: [122], Training Accuracy: [0.996221], Validation Accuracy: [0.904525], Loss Training: [0.0107862] Loss_validation: [0.503778], Time: [Tue Nov 20 18:42:05 2018]
+Test Accuracy : 0.924397
+[[1599    0    9    0    0    0]
+ [   0 1127    0    0    2   15]
+ [   0    8 1063    0    6    0]
+ [   0    5  262  786   45    2]
+ [   0   21    0    2 1262  111]
+ [   1    1    0    2  129 1756]]
+category CON test accuracy : 0.994403
+category M-GGO test accuracy : 0.98514
+category HCM test accuracy : 0.987001
+category EMP test accuracy : 0.714545
+category NOD test accuracy : 0.904011
+category NOR test accuracy : 0.929592
+F_Value : 0.917905
+Epoch: [123], Training Accuracy: [0.995847], Validation Accuracy: [0.932531], Loss Training: [0.0115218] Loss_validation: [0.278045], Time: [Tue Nov 20 18:42:30 2018]
+Test Accuracy : 0.947285
+[[1608    0    0    0    0    0]
+ [   0 1121    0    0    0   23]
+ [   0    3 1074    0    0    0]
+ [   0    3  197  894    6    0]
+ [   0   25    0    6 1288   77]
+ [   1    4    0    7   81 1796]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.979895
+category HCM test accuracy : 0.997214
+category EMP test accuracy : 0.812727
+category NOD test accuracy : 0.922636
+category NOR test accuracy : 0.950768
+F_Value : 0.943135
+Epoch: [124], Training Accuracy: [0.995268], Validation Accuracy: [0.875593], Loss Training: [0.0138468] Loss_validation: [0.643369], Time: [Tue Nov 20 18:42:56 2018]
+Test Accuracy : 0.910762
+[[1586    0   22    0    0    0]
+ [   0 1118    0    1    0   25]
+ [   0   35 1042    0    0    0]
+ [   0    1  137  962    0    0]
+ [   0   39    0   36  893  428]
+ [   0    0    0    6    3 1880]]
+category CON test accuracy : 0.986318
+category M-GGO test accuracy : 0.977273
+category HCM test accuracy : 0.967502
+category EMP test accuracy : 0.874545
+category NOD test accuracy : 0.639685
+category NOR test accuracy : 0.995236
+F_Value : 0.908092
+Epoch: [125], Training Accuracy: [0.995983], Validation Accuracy: [0.913552], Loss Training: [0.0119641] Loss_validation: [0.378087], Time: [Tue Nov 20 18:43:21 2018]
+Test Accuracy : 0.92111
+[[1580    0   22    0    0    6]
+ [   0 1122    0    0    0   22]
+ [   0    7 1070    0    0    0]
+ [   0    2  205  893    0    0]
+ [   0  109    0   34 1061  192]
+ [   0    1    0    7   41 1840]]
+category CON test accuracy : 0.982587
+category M-GGO test accuracy : 0.980769
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.811818
+category NOD test accuracy : 0.760029
+category NOR test accuracy : 0.97406
+F_Value : 0.915494
+Epoch: [126], Training Accuracy: [0.996392], Validation Accuracy: [0.896655], Loss Training: [0.0108194] Loss_validation: [0.456147], Time: [Tue Nov 20 18:43:46 2018]
+Test Accuracy : 0.905649
+[[1606    0    2    0    0    0]
+ [   0 1106    0    0    0   38]
+ [   0   13 1064    0    0    0]
+ [   0    1  133  966    0    0]
+ [   0   75    0   11  829  481]
+ [   0    0    0    8   13 1868]]
+category CON test accuracy : 0.998756
+category M-GGO test accuracy : 0.966783
+category HCM test accuracy : 0.987929
+category EMP test accuracy : 0.878182
+category NOD test accuracy : 0.59384
+category NOR test accuracy : 0.988883
+F_Value : 0.903538
+Epoch: [127], Training Accuracy: [0.995779], Validation Accuracy: [0.933225], Loss Training: [0.0120986] Loss_validation: [0.32158], Time: [Tue Nov 20 18:44:12 2018]
+Test Accuracy : 0.929511
+[[1569    0   39    0    0    0]
+ [   0 1092    0    0    1   51]
+ [   0   17 1060    0    0    0]
+ [   0    0  155  910   35    0]
+ [   0   14    0    6 1290   86]
+ [   0    0    0   19  156 1714]]
+category CON test accuracy : 0.975746
+category M-GGO test accuracy : 0.954545
+category HCM test accuracy : 0.984215
+category EMP test accuracy : 0.827273
+category NOD test accuracy : 0.924069
+category NOR test accuracy : 0.907358
+F_Value : 0.927996
+Epoch: [128], Training Accuracy: [0.995541], Validation Accuracy: [0.929059], Loss Training: [0.0129065] Loss_validation: [0.313087], Time: [Tue Nov 20 18:44:37 2018]
+Test Accuracy : 0.930728
+[[1606    0    2    0    0    0]
+ [   0 1113    0    0    0   31]
+ [   0    8 1061    0    8    0]
+ [   0    2  233  848   17    0]
+ [   0   17    0    3 1307   69]
+ [   1    0    0    4  174 1710]]
+category CON test accuracy : 0.998756
+category M-GGO test accuracy : 0.972902
+category HCM test accuracy : 0.985144
+category EMP test accuracy : 0.770909
+category NOD test accuracy : 0.936246
+category NOR test accuracy : 0.905241
+F_Value : 0.926792
+Epoch: [129], Training Accuracy: [0.996426], Validation Accuracy: [0.936003], Loss Training: [0.0100002] Loss_validation: [0.264273], Time: [Tue Nov 20 18:45:03 2018]
+Test Accuracy : 0.932311
+[[1608    0    0    0    0    0]
+ [   0 1126    0    0    0   18]
+ [   0    8 1065    0    3    1]
+ [   0    0  246  827   27    0]
+ [   0    9    0    8 1271  108]
+ [   0    0    0   10  118 1761]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.984266
+category HCM test accuracy : 0.988858
+category EMP test accuracy : 0.751818
+category NOD test accuracy : 0.910458
+category NOR test accuracy : 0.932239
+F_Value : 0.927091
+Epoch: [130], Training Accuracy: [0.995813], Validation Accuracy: [0.928365], Loss Training: [0.0108779] Loss_validation: [0.309632], Time: [Tue Nov 20 18:45:28 2018]
+Test Accuracy : 0.946798
+[[1606    0    2    0    0    0]
+ [   0 1122    0    0    0   22]
+ [   0   14 1058    0    3    2]
+ [   0    1  105  991    3    0]
+ [   0   29    0    9 1218  140]
+ [   2    1    0   17   87 1782]]
+category CON test accuracy : 0.998756
+category M-GGO test accuracy : 0.980769
+category HCM test accuracy : 0.982358
+category EMP test accuracy : 0.900909
+category NOD test accuracy : 0.872493
+category NOR test accuracy : 0.943356
+F_Value : 0.946503
+Epoch: [131], Training Accuracy: [0.995813], Validation Accuracy: [0.925819], Loss Training: [0.0116247] Loss_validation: [0.325629], Time: [Tue Nov 20 18:45:53 2018]
+Test Accuracy : 0.935111
+[[1600    0    8    0    0    0]
+ [   0 1132    0    0    1   11]
+ [   0    8 1069    0    0    0]
+ [   0    0  269  830    1    0]
+ [   0   18    0   18 1202  158]
+ [   1    0    1   20   19 1848]]
+category CON test accuracy : 0.995025
+category M-GGO test accuracy : 0.98951
+category HCM test accuracy : 0.992572
+category EMP test accuracy : 0.754545
+category NOD test accuracy : 0.861032
+category NOR test accuracy : 0.978295
+F_Value : 0.92839
+Epoch: [132], Training Accuracy: [0.996307], Validation Accuracy: [0.894109], Loss Training: [0.0106001] Loss_validation: [0.525261], Time: [Tue Nov 20 18:46:19 2018]
+Test Accuracy : 0.903944
+[[1607    0    1    0    0    0]
+ [   0 1118    0    1    0   25]
+ [   0   14 1062    0    1    0]
+ [   0    1  136  963    0    0]
+ [   0   59    0   48  826  463]
+ [   0    0    0   29   11 1849]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.977273
+category HCM test accuracy : 0.986072
+category EMP test accuracy : 0.875455
+category NOD test accuracy : 0.591691
+category NOR test accuracy : 0.978825
+F_Value : 0.900703
+Epoch: [133], Training Accuracy: [0.996477], Validation Accuracy: [0.897697], Loss Training: [0.0105576] Loss_validation: [0.472109], Time: [Tue Nov 20 18:46:44 2018]
+Test Accuracy : 0.911858
+[[1589    0   19    0    0    0]
+ [   0 1102    0    0    0   42]
+ [   0    6 1069    0    1    1]
+ [   0    3  313  774    9    1]
+ [   0   39    0    9 1082  266]
+ [   0    0    0    1   14 1874]]
+category CON test accuracy : 0.988184
+category M-GGO test accuracy : 0.963287
+category HCM test accuracy : 0.992572
+category EMP test accuracy : 0.703636
+category NOD test accuracy : 0.775072
+category NOR test accuracy : 0.992059
+F_Value : 0.904065
+Epoch: [134], Training Accuracy: [0.995558], Validation Accuracy: [0.940979], Loss Training: [0.0114083] Loss_validation: [0.265924], Time: [Tue Nov 20 18:47:10 2018]
+Test Accuracy : 0.941076
+[[1602    0    6    0    0    0]
+ [   0 1124    0    0    0   20]
+ [   0    9 1065    0    3    0]
+ [   0    2  203  893    2    0]
+ [   0   13    0   16 1227  140]
+ [   0    0    0    2   68 1819]]
+category CON test accuracy : 0.996269
+category M-GGO test accuracy : 0.982517
+category HCM test accuracy : 0.988858
+category EMP test accuracy : 0.811818
+category NOD test accuracy : 0.87894
+category NOR test accuracy : 0.962943
+F_Value : 0.937304
+Epoch: [135], Training Accuracy: [0.995898], Validation Accuracy: [0.941673], Loss Training: [0.0119195] Loss_validation: [0.256407], Time: [Tue Nov 20 18:47:36 2018]
+Test Accuracy : 0.935598
+[[1606    0    2    0    0    0]
+ [   0 1135    0    0    2    7]
+ [   0    3 1061    0   13    0]
+ [   0    3  278  815    4    0]
+ [   0   31    0   11 1231  123]
+ [   2    0    1    9   40 1837]]
+category CON test accuracy : 0.998756
+category M-GGO test accuracy : 0.992133
+category HCM test accuracy : 0.985144
+category EMP test accuracy : 0.740909
+category NOD test accuracy : 0.881805
+category NOR test accuracy : 0.972472
+F_Value : 0.927983
+Epoch: [136], Training Accuracy: [0.996834], Validation Accuracy: [0.875014], Loss Training: [0.00921212] Loss_validation: [0.667216], Time: [Tue Nov 20 18:48:01 2018]
+Test Accuracy : 0.879352
+[[1608    0    0    0    0    0]
+ [   0 1062    0    0    0   82]
+ [   0    2 1054    0   17    4]
+ [   0    0  302  790    8    0]
+ [   0    1    0    5  826  564]
+ [   0    0    0    0    6 1883]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.928322
+category HCM test accuracy : 0.978644
+category EMP test accuracy : 0.718182
+category NOD test accuracy : 0.591691
+category NOR test accuracy : 0.996824
+F_Value : 0.874435
+Epoch: [137], Training Accuracy: [0.996324], Validation Accuracy: [0.911006], Loss Training: [0.0107978] Loss_validation: [0.45985], Time: [Tue Nov 20 18:48:27 2018]
+Test Accuracy : 0.923423
+[[1606    0    2    0    0    0]
+ [   0 1120    0    0    0   24]
+ [   0    4 1072    0    1    0]
+ [   0    0  226  873    1    0]
+ [   0   15    0    6 1062  313]
+ [   0    0    0    2   35 1852]]
+category CON test accuracy : 0.998756
+category M-GGO test accuracy : 0.979021
+category HCM test accuracy : 0.995357
+category EMP test accuracy : 0.793636
+category NOD test accuracy : 0.760745
+category NOR test accuracy : 0.980413
+F_Value : 0.920581
+Epoch: [138], Training Accuracy: [0.996221], Validation Accuracy: [0.911353], Loss Training: [0.0112642] Loss_validation: [0.434775], Time: [Tue Nov 20 18:48:53 2018]
+Test Accuracy : 0.917701
+[[1594    0   14    0    0    0]
+ [   0 1131    0    1    3    9]
+ [   0    9 1068    0    0    0]
+ [   0    1  232  851   16    0]
+ [   0    1    0    3 1360   32]
+ [   0    0    0    5  350 1534]]
+category CON test accuracy : 0.991294
+category M-GGO test accuracy : 0.988636
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.773636
+category NOD test accuracy : 0.974212
+category NOR test accuracy : 0.81207
+F_Value : 0.917155
+Epoch: [139], Training Accuracy: [0.9968], Validation Accuracy: [0.890638], Loss Training: [0.00945153] Loss_validation: [0.557743], Time: [Tue Nov 20 18:49:20 2018]
+Test Accuracy : 0.929145
+[[1606    0    2    0    0    0]
+ [   0 1128    0    0    0   16]
+ [   0   21 1053    0    2    1]
+ [   0    5  149  946    0    0]
+ [   0   48    0   23 1024  301]
+ [   0    0    0    7    7 1875]]
+category CON test accuracy : 0.998756
+category M-GGO test accuracy : 0.986014
+category HCM test accuracy : 0.977716
+category EMP test accuracy : 0.86
+category NOD test accuracy : 0.733524
+category NOR test accuracy : 0.992589
+F_Value : 0.926246
+Epoch: [140], Training Accuracy: [0.996596], Validation Accuracy: [0.86946], Loss Training: [0.00998635] Loss_validation: [0.737383], Time: [Tue Nov 20 18:49:46 2018]
+Test Accuracy : 0.924763
+[[1604    0    4    0    0    0]
+ [   0 1123    0    0    0   21]
+ [   0    9 1068    0    0    0]
+ [   0    1  225  873    1    0]
+ [   0    3    0    5 1045  343]
+ [   0    0    0    0    6 1883]]
+category CON test accuracy : 0.997512
+category M-GGO test accuracy : 0.981643
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.793636
+category NOD test accuracy : 0.748567
+category NOR test accuracy : 0.996824
+F_Value : 0.921767
+Epoch: [141], Training Accuracy: [0.996119], Validation Accuracy: [0.934035], Loss Training: [0.0108949] Loss_validation: [0.363791], Time: [Tue Nov 20 18:50:11 2018]
+Test Accuracy : 0.917093
+[[1607    0    1    0    0    0]
+ [   0 1071    0    0    0   73]
+ [   0    5 1066    0    6    0]
+ [   0    2  264  801   33    0]
+ [   0    4    0    9 1325   58]
+ [   0    0    0   11  215 1663]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.936189
+category HCM test accuracy : 0.989786
+category EMP test accuracy : 0.728182
+category NOD test accuracy : 0.94914
+category NOR test accuracy : 0.88036
+F_Value : 0.912517
+Epoch: [142], Training Accuracy: [0.996255], Validation Accuracy: [0.855457], Loss Training: [0.0107685] Loss_validation: [0.887678], Time: [Tue Nov 20 18:50:36 2018]
+Test Accuracy : 0.848673
+[[1588    0   20    0    0    0]
+ [   0  998    0    0    0  146]
+ [   0    4 1071    0    1    1]
+ [   0    0  470  627    3    0]
+ [   0   42    0   16  805  533]
+ [   0    0    0    3    4 1882]]
+category CON test accuracy : 0.987562
+category M-GGO test accuracy : 0.872378
+category HCM test accuracy : 0.994429
+category EMP test accuracy : 0.57
+category NOD test accuracy : 0.576648
+category NOR test accuracy : 0.996294
+F_Value : 0.835112
+Epoch: [143], Training Accuracy: [0.996749], Validation Accuracy: [0.919222], Loss Training: [0.00938718] Loss_validation: [0.315459], Time: [Tue Nov 20 18:51:02 2018]
+Test Accuracy : 0.942902
+[[1607    0    1    0    0    0]
+ [   0 1139    0    0    1    4]
+ [   0   15 1061    0    1    0]
+ [   0    3  200  884   13    0]
+ [   0   15    0   10 1211  160]
+ [   0    0    0    1   45 1843]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.995629
+category HCM test accuracy : 0.985144
+category EMP test accuracy : 0.803636
+category NOD test accuracy : 0.867479
+category NOR test accuracy : 0.975648
+F_Value : 0.938493
+Epoch: [144], Training Accuracy: [0.997072], Validation Accuracy: [0.88948], Loss Training: [0.0090193] Loss_validation: [0.686414], Time: [Tue Nov 20 18:51:28 2018]
+Test Accuracy : 0.904675
+[[1595    0   13    0    0    0]
+ [   0 1101    0    0    4   39]
+ [   0    5 1069    0    2    1]
+ [   0    2  354  679   63    2]
+ [   0    0    0    1 1180  215]
+ [   0    0    0    0   82 1807]]
+category CON test accuracy : 0.991915
+category M-GGO test accuracy : 0.962413
+category HCM test accuracy : 0.992572
+category EMP test accuracy : 0.617273
+category NOD test accuracy : 0.845272
+category NOR test accuracy : 0.956591
+F_Value : 0.894516
+Epoch: [145], Training Accuracy: [0.996715], Validation Accuracy: [0.923388], Loss Training: [0.00986346] Loss_validation: [0.412147], Time: [Tue Nov 20 18:51:53 2018]
+Test Accuracy : 0.922084
+[[1608    0    0    0    0    0]
+ [   0 1131    0    0    0   13]
+ [   2    8 1064    0    1    2]
+ [   0    4  309  741   46    0]
+ [   0    9    0    3 1325   59]
+ [   0    0    0    0  184 1705]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.988636
+category HCM test accuracy : 0.987929
+category EMP test accuracy : 0.673636
+category NOD test accuracy : 0.94914
+category NOR test accuracy : 0.902594
+F_Value : 0.914031
+Epoch: [146], Training Accuracy: [0.997004], Validation Accuracy: [0.882305], Loss Training: [0.00881172] Loss_validation: [0.682265], Time: [Tue Nov 20 18:52:18 2018]
+Test Accuracy : 0.882274
+[[1600    0    8    0    0    0]
+ [   0  876    0    1    0  267]
+ [   0    5 1065    1    1    5]
+ [   0    0  229  866    4    1]
+ [   0    7    0   20  971  398]
+ [   0    0    0    4   16 1869]]
+category CON test accuracy : 0.995025
+category M-GGO test accuracy : 0.765734
+category HCM test accuracy : 0.988858
+category EMP test accuracy : 0.787273
+category NOD test accuracy : 0.695559
+category NOR test accuracy : 0.989412
+F_Value : 0.88029
+Epoch: [147], Training Accuracy: [0.997532], Validation Accuracy: [0.942252], Loss Training: [0.00770422] Loss_validation: [0.291475], Time: [Tue Nov 20 18:52:43 2018]
+Test Accuracy : 0.923423
+[[1601    0    7    0    0    0]
+ [   0 1111    0    0    0   33]
+ [   0   17 1059    0    1    0]
+ [   0    1  180  905   14    0]
+ [   0   26    0   15 1113  242]
+ [   1    0    1   31   60 1796]]
+category CON test accuracy : 0.995647
+category M-GGO test accuracy : 0.971154
+category HCM test accuracy : 0.983287
+category EMP test accuracy : 0.822727
+category NOD test accuracy : 0.797278
+category NOR test accuracy : 0.950768
+F_Value : 0.921066
+Epoch: [148], Training Accuracy: [0.99697], Validation Accuracy: [0.920495], Loss Training: [0.00900298] Loss_validation: [0.427334], Time: [Tue Nov 20 18:53:08 2018]
+Test Accuracy : 0.913197
+[[1608    0    0    0    0    0]
+ [   0 1116    0    0    0   28]
+ [   0   31 1046    0    0    0]
+ [   0    1  304  733   62    0]
+ [   0    2    0    3 1347   44]
+ [   0    0    0    3  235 1651]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.975524
+category HCM test accuracy : 0.971216
+category EMP test accuracy : 0.666364
+category NOD test accuracy : 0.9649
+category NOR test accuracy : 0.874007
+F_Value : 0.905412
+Epoch: [149], Training Accuracy: [0.996307], Validation Accuracy: [0.903599], Loss Training: [0.0100646] Loss_validation: [0.503347], Time: [Tue Nov 20 18:53:35 2018]
+Test Accuracy : 0.923058
+[[1606    0    2    0    0    0]
+ [   0 1115    0    0    0   29]
+ [   0    9 1064    0    4    0]
+ [   0    1  222  855   22    0]
+ [   0   35    0   10 1078  273]
+ [   0    0    0    0   25 1864]]
+category CON test accuracy : 0.998756
+category M-GGO test accuracy : 0.97465
+category HCM test accuracy : 0.987929
+category EMP test accuracy : 0.777273
+category NOD test accuracy : 0.772206
+category NOR test accuracy : 0.986765
+F_Value : 0.918416
+Epoch: [150], Training Accuracy: [0.996749], Validation Accuracy: [0.878833], Loss Training: [0.00850872] Loss_validation: [0.754347], Time: [Tue Nov 20 18:54:01 2018]
+Test Accuracy : 0.869248
+[[1563    0   45    0    0    0]
+ [   0 1111    0    0    5   28]
+ [   0   15 1048    0   12    2]
+ [   0    3  217  765  114    1]
+ [   0    6    0    1 1375   14]
+ [   0    1    0    2  608 1278]]
+category CON test accuracy : 0.972015
+category M-GGO test accuracy : 0.971154
+category HCM test accuracy : 0.973073
+category EMP test accuracy : 0.695455
+category NOD test accuracy : 0.984957
+category NOR test accuracy : 0.676548
+F_Value : 0.872793
+Epoch: [151], Training Accuracy: [0.996647], Validation Accuracy: [0.878255], Loss Training: [0.00876114] Loss_validation: [0.645911], Time: [Tue Nov 20 18:54:27 2018]
+Test Accuracy : 0.919406
+[[1595    0   13    0    0    0]
+ [   0 1130    0    0    0   14]
+ [   0    6 1071    0    0    0]
+ [   0    0  199  895    6    0]
+ [   0   41    0    2  981  372]
+ [   0    0    0    1    8 1880]]
+category CON test accuracy : 0.991915
+category M-GGO test accuracy : 0.987762
+category HCM test accuracy : 0.994429
+category EMP test accuracy : 0.813636
+category NOD test accuracy : 0.702722
+category NOR test accuracy : 0.995236
+F_Value : 0.916449
+Epoch: [152], Training Accuracy: [0.996204], Validation Accuracy: [0.89735], Loss Training: [0.0110895] Loss_validation: [0.564579], Time: [Tue Nov 20 18:54:53 2018]
+Test Accuracy : 0.924763
+[[1604    0    4    0    0    0]
+ [   0 1139    0    0    0    5]
+ [   0   13 1064    0    0    0]
+ [   0    4  314  761   21    0]
+ [   0   12    0    4 1172  208]
+ [   0    0    0    0   33 1856]]
+category CON test accuracy : 0.997512
+category M-GGO test accuracy : 0.995629
+category HCM test accuracy : 0.987929
+category EMP test accuracy : 0.691818
+category NOD test accuracy : 0.839542
+category NOR test accuracy : 0.98253
+F_Value : 0.916225
+Epoch: [153], Training Accuracy: [0.997124], Validation Accuracy: [0.885083], Loss Training: [0.00852991] Loss_validation: [0.649797], Time: [Tue Nov 20 18:55:18 2018]
+Test Accuracy : 0.929145
+[[1602    0    6    0    0    0]
+ [   0 1124    0    0    9   11]
+ [   0    3 1072    0    0    2]
+ [   0    0  262  788   49    1]
+ [   0    1    0    3 1184  208]
+ [   1    0    0    1   25 1862]]
+category CON test accuracy : 0.996269
+category M-GGO test accuracy : 0.982517
+category HCM test accuracy : 0.995357
+category EMP test accuracy : 0.716364
+category NOD test accuracy : 0.848138
+category NOR test accuracy : 0.985707
+F_Value : 0.922306
+Epoch: [154], Training Accuracy: [0.996596], Validation Accuracy: [0.942368], Loss Training: [0.00949399] Loss_validation: [0.281702], Time: [Tue Nov 20 18:55:44 2018]
+Test Accuracy : 0.934624
+[[1597    0   11    0    0    0]
+ [   0 1128    0    0    2   14]
+ [   0    3 1074    0    0    0]
+ [   0    0  265  821   14    0]
+ [   0    2    0   15 1305   74]
+ [   2    0    1   15  119 1752]]
+category CON test accuracy : 0.993159
+category M-GGO test accuracy : 0.986014
+category HCM test accuracy : 0.997214
+category EMP test accuracy : 0.746364
+category NOD test accuracy : 0.934814
+category NOR test accuracy : 0.927475
+F_Value : 0.928832
+Epoch: [155], Training Accuracy: [0.997498], Validation Accuracy: [0.928133], Loss Training: [0.00754958] Loss_validation: [0.313867], Time: [Tue Nov 20 18:56:10 2018]
+Test Accuracy : 0.924154
+[[1600    0    8    0    0    0]
+ [   0 1134    0    0    0   10]
+ [   0    8 1067    0    0    2]
+ [   0    1  223  876    0    0]
+ [   0   21    0   22 1129  224]
+ [   2    0    0    2  100 1785]]
+category CON test accuracy : 0.995025
+category M-GGO test accuracy : 0.991259
+category HCM test accuracy : 0.990715
+category EMP test accuracy : 0.796364
+category NOD test accuracy : 0.808739
+category NOR test accuracy : 0.944944
+F_Value : 0.921219
+Epoch: [156], Training Accuracy: [0.996817], Validation Accuracy: [0.903368], Loss Training: [0.00846213] Loss_validation: [0.546136], Time: [Tue Nov 20 18:56:35 2018]
+Test Accuracy : 0.91758
+[[1603    0    5    0    0    0]
+ [   0 1133    0    0    0   11]
+ [   0   10 1067    0    0    0]
+ [   0    0  231  869    0    0]
+ [   0   22    0   23  990  361]
+ [   0    0    0    7    7 1875]]
+category CON test accuracy : 0.996891
+category M-GGO test accuracy : 0.990385
+category HCM test accuracy : 0.990715
+category EMP test accuracy : 0.79
+category NOD test accuracy : 0.709169
+category NOR test accuracy : 0.992589
+F_Value : 0.91333
+Epoch: [157], Training Accuracy: [0.996749], Validation Accuracy: [0.882652], Loss Training: [0.00945253] Loss_validation: [0.564332], Time: [Tue Nov 20 18:57:00 2018]
+Test Accuracy : 0.908936
+[[1604    0    4    0    0    0]
+ [   0 1131    0    1    0   12]
+ [   0    9 1068    0    0    0]
+ [   0    1  146  953    0    0]
+ [   0   29    0   43  840  484]
+ [   0    0    1   13    5 1870]]
+category CON test accuracy : 0.997512
+category M-GGO test accuracy : 0.988636
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.866364
+category NOD test accuracy : 0.601719
+category NOR test accuracy : 0.989942
+F_Value : 0.906424
+Epoch: [158], Training Accuracy: [0.99726], Validation Accuracy: [0.87513], Loss Training: [0.00840891] Loss_validation: [0.67981], Time: [Tue Nov 20 18:57:26 2018]
+Test Accuracy : 0.90431
+[[1607    0    1    0    0    0]
+ [   0 1133    0    0    0   11]
+ [   0   23 1051    0    1    2]
+ [   0    5  310  784    1    0]
+ [   0   17    0   13  972  394]
+ [   0    0    0    0    8 1881]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.990385
+category HCM test accuracy : 0.975859
+category EMP test accuracy : 0.712727
+category NOD test accuracy : 0.696275
+category NOR test accuracy : 0.995765
+F_Value : 0.897018
+Epoch: [159], Training Accuracy: [0.997055], Validation Accuracy: [0.942252], Loss Training: [0.00871817] Loss_validation: [0.278446], Time: [Tue Nov 20 18:57:51 2018]
+Test Accuracy : 0.918797
+[[1608    0    0    0    0    0]
+ [   0 1134    0    0    0   10]
+ [   0   13 1064    0    0    0]
+ [   0    0  278  800   22    0]
+ [   0   46    0   13 1122  215]
+ [   1    0    0   21   48 1819]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.991259
+category HCM test accuracy : 0.987929
+category EMP test accuracy : 0.727273
+category NOD test accuracy : 0.803725
+category NOR test accuracy : 0.962943
+F_Value : 0.91154
+Epoch: [160], Training Accuracy: [0.997106], Validation Accuracy: [0.916561], Loss Training: [0.00822635] Loss_validation: [0.415397], Time: [Tue Nov 20 18:58:17 2018]
+Test Accuracy : 0.922693
+[[1592    0   15    0    0    1]
+ [   0 1137    0    0    0    7]
+ [   0   49 1027    0    0    1]
+ [   0    1  216  875    8    0]
+ [   0   76    0   28 1094  198]
+ [   1    0    0   20   14 1854]]
+category CON test accuracy : 0.99005
+category M-GGO test accuracy : 0.993881
+category HCM test accuracy : 0.953575
+category EMP test accuracy : 0.795455
+category NOD test accuracy : 0.783668
+category NOR test accuracy : 0.981472
+F_Value : 0.915649
+Epoch: [161], Training Accuracy: [0.997021], Validation Accuracy: [0.900706], Loss Training: [0.00819469] Loss_validation: [0.518738], Time: [Tue Nov 20 18:58:42 2018]
+Test Accuracy : 0.904675
+[[1589    0   19    0    0    0]
+ [   0 1059    0    0    0   85]
+ [   0    4 1073    0    0    0]
+ [   0    0  245  855    0    0]
+ [   0   11    0   22  992  371]
+ [   0    0    1    6   19 1863]]
+category CON test accuracy : 0.988184
+category M-GGO test accuracy : 0.925699
+category HCM test accuracy : 0.996286
+category EMP test accuracy : 0.777273
+category NOD test accuracy : 0.710602
+category NOR test accuracy : 0.986236
+F_Value : 0.901605
+Epoch: [162], Training Accuracy: [0.997226], Validation Accuracy: [0.91089], Loss Training: [0.00833659] Loss_validation: [0.470566], Time: [Tue Nov 20 18:59:07 2018]
+Test Accuracy : 0.919528
+[[1588    0   15    0    0    5]
+ [   0 1127    0    0    0   17]
+ [   0   14 1062    0    1    0]
+ [   0    4  320  775    1    0]
+ [   0    2    0    9 1134  251]
+ [   0    0    1    3   18 1867]]
+category CON test accuracy : 0.987562
+category M-GGO test accuracy : 0.98514
+category HCM test accuracy : 0.986072
+category EMP test accuracy : 0.704545
+category NOD test accuracy : 0.812321
+category NOR test accuracy : 0.988354
+F_Value : 0.912229
+Epoch: [163], Training Accuracy: [0.997838], Validation Accuracy: [0.891795], Loss Training: [0.00667856] Loss_validation: [0.563072], Time: [Tue Nov 20 18:59:32 2018]
+Test Accuracy : 0.894814
+[[1582    0   22    0    0    4]
+ [   0 1114    0    0    0   30]
+ [   0    4 1073    0    0    0]
+ [   0    1  314  779    6    0]
+ [   0    8    0   11  931  446]
+ [   0    0    0    1   17 1871]]
+category CON test accuracy : 0.983831
+category M-GGO test accuracy : 0.973776
+category HCM test accuracy : 0.996286
+category EMP test accuracy : 0.708182
+category NOD test accuracy : 0.666905
+category NOR test accuracy : 0.990471
+F_Value : 0.889157
+Epoch: [164], Training Accuracy: [0.996613], Validation Accuracy: [0.912742], Loss Training: [0.00953675] Loss_validation: [0.515088], Time: [Tue Nov 20 18:59:57 2018]
+Test Accuracy : 0.923545
+[[1602    0    6    0    0    0]
+ [   0 1077    0    0    0   67]
+ [   0    1 1068    0    6    2]
+ [   0    0  224  838   37    1]
+ [   0   37    0   16 1169  174]
+ [   0    1    0    5   51 1832]]
+category CON test accuracy : 0.996269
+category M-GGO test accuracy : 0.941434
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.761818
+category NOD test accuracy : 0.837393
+category NOR test accuracy : 0.969825
+F_Value : 0.91825
+Epoch: [165], Training Accuracy: [0.996987], Validation Accuracy: [0.90302], Loss Training: [0.00841477] Loss_validation: [0.505954], Time: [Tue Nov 20 19:00:22 2018]
+Test Accuracy : 0.916119
+[[1603    0    3    0    0    2]
+ [   0 1117    0    0    0   27]
+ [   0    7 1067    0    1    2]
+ [   0    2  297  801    0    0]
+ [   0   30    0   18 1062  286]
+ [   0    0    0    4   10 1875]]
+category CON test accuracy : 0.996891
+category M-GGO test accuracy : 0.976399
+category HCM test accuracy : 0.990715
+category EMP test accuracy : 0.728182
+category NOD test accuracy : 0.760745
+category NOR test accuracy : 0.992589
+F_Value : 0.90919
+Epoch: [166], Training Accuracy: [0.9976], Validation Accuracy: [0.912394], Loss Training: [0.00742241] Loss_validation: [0.422876], Time: [Tue Nov 20 19:00:48 2018]
+Test Accuracy : 0.923545
+[[1598    0   10    0    0    0]
+ [   0 1131    0    0    0   13]
+ [   1    4 1061    0   11    0]
+ [   0    1  257  831   11    0]
+ [   0   26    0    8 1126  236]
+ [   1    0    0    4   45 1839]]
+category CON test accuracy : 0.993781
+category M-GGO test accuracy : 0.988636
+category HCM test accuracy : 0.985144
+category EMP test accuracy : 0.755455
+category NOD test accuracy : 0.80659
+category NOR test accuracy : 0.973531
+F_Value : 0.918256
+Epoch: [167], Training Accuracy: [0.997158], Validation Accuracy: [0.909154], Loss Training: [0.00807171] Loss_validation: [0.467261], Time: [Tue Nov 20 19:01:13 2018]
+Test Accuracy : 0.916606
+[[1605    0    3    0    0    0]
+ [   0 1132    0    0    0   12]
+ [   0    8 1068    0    0    1]
+ [   0    1  282  796   21    0]
+ [   0   22    0    7 1088  279]
+ [   1    0    0    3   45 1840]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.98951
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.723636
+category NOD test accuracy : 0.77937
+category NOR test accuracy : 0.97406
+F_Value : 0.910486
+Epoch: [168], Training Accuracy: [0.9976], Validation Accuracy: [0.915172], Loss Training: [0.00729338] Loss_validation: [0.433018], Time: [Tue Nov 20 19:01:38 2018]
+Test Accuracy : 0.932919
+[[1606    0    2    0    0    0]
+ [   0 1125    0    0    1   18]
+ [   1    4 1071    0    0    1]
+ [   0    1  251  823   25    0]
+ [   0    8    0    5 1227  156]
+ [   2    0    0    3   73 1811]]
+category CON test accuracy : 0.998756
+category M-GGO test accuracy : 0.983392
+category HCM test accuracy : 0.994429
+category EMP test accuracy : 0.748182
+category NOD test accuracy : 0.87894
+category NOR test accuracy : 0.958708
+F_Value : 0.927535
+Epoch: [169], Training Accuracy: [0.99743], Validation Accuracy: [0.867492], Loss Training: [0.00764375] Loss_validation: [0.731307], Time: [Tue Nov 20 19:02:04 2018]
+Test Accuracy : 0.89871
+[[1608    0    0    0    0    0]
+ [   0 1066    0    0    0   78]
+ [   1    5 1069    0    0    2]
+ [   0    0  288  802   10    0]
+ [   0    3    0    6  957  430]
+ [   0    0    0    1    8 1880]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.931818
+category HCM test accuracy : 0.992572
+category EMP test accuracy : 0.729091
+category NOD test accuracy : 0.68553
+category NOR test accuracy : 0.995236
+F_Value : 0.89425
+Epoch: [170], Training Accuracy: [0.9976], Validation Accuracy: [0.913089], Loss Training: [0.00702624] Loss_validation: [0.4205], Time: [Tue Nov 20 19:02:29 2018]
+Test Accuracy : 0.934015
+[[1598    0   10    0    0    0]
+ [   0 1135    0    0    0    9]
+ [   0    4 1072    0    1    0]
+ [   0    1  217  860   22    0]
+ [   0   24    0   16 1158  198]
+ [   0    0    1   12   27 1849]]
+category CON test accuracy : 0.993781
+category M-GGO test accuracy : 0.992133
+category HCM test accuracy : 0.995357
+category EMP test accuracy : 0.781818
+category NOD test accuracy : 0.829513
+category NOR test accuracy : 0.978825
+F_Value : 0.929062
+Epoch: [171], Training Accuracy: [0.996868], Validation Accuracy: [0.91251], Loss Training: [0.00830391] Loss_validation: [0.405986], Time: [Tue Nov 20 19:02:56 2018]
+Test Accuracy : 0.916606
+[[1594    0   14    0    0    0]
+ [   0 1135    0    0    0    9]
+ [   0    8 1067    0    2    0]
+ [   0    1  297  783   19    0]
+ [   0    5    0    9 1095  287]
+ [   0    0    0    1   33 1855]]
+category CON test accuracy : 0.991294
+category M-GGO test accuracy : 0.992133
+category HCM test accuracy : 0.990715
+category EMP test accuracy : 0.711818
+category NOD test accuracy : 0.784384
+category NOR test accuracy : 0.982001
+F_Value : 0.910155
+Epoch: [172], Training Accuracy: [0.997617], Validation Accuracy: [0.915056], Loss Training: [0.00716881] Loss_validation: [0.450589], Time: [Tue Nov 20 19:03:22 2018]
+Test Accuracy : 0.918188
+[[1597    0    9    0    0    2]
+ [   0 1132    0    0    0   12]
+ [   0    5 1070    0    0    2]
+ [   0    2  275  814    9    0]
+ [   0   13    0   11 1062  310]
+ [   0    0    0    6   16 1867]]
+category CON test accuracy : 0.993159
+category M-GGO test accuracy : 0.98951
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.74
+category NOD test accuracy : 0.760745
+category NOR test accuracy : 0.988354
+F_Value : 0.912696
+Epoch: [173], Training Accuracy: [0.997311], Validation Accuracy: [0.90765], Loss Training: [0.00793447] Loss_validation: [0.607888], Time: [Tue Nov 20 19:03:47 2018]
+Test Accuracy : 0.931215
+[[1608    0    0    0    0    0]
+ [   0 1127    0    0    3   14]
+ [   1    7 1069    0    0    0]
+ [   0    0  254  783   63    0]
+ [   0    2    0    1 1349   44]
+ [   4    0    0    3  169 1713]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.98514
+category HCM test accuracy : 0.992572
+category EMP test accuracy : 0.711818
+category NOD test accuracy : 0.966332
+category NOR test accuracy : 0.906829
+F_Value : 0.924867
+Epoch: [174], Training Accuracy: [0.997175], Validation Accuracy: [0.918644], Loss Training: [0.00800345] Loss_validation: [0.442079], Time: [Tue Nov 20 19:04:12 2018]
+Test Accuracy : 0.939737
+[[1599    0    9    0    0    0]
+ [   0 1133    0    0    0   11]
+ [   0    4 1073    0    0    0]
+ [   0    0  203  887   10    0]
+ [   0    2    0   11 1216  167]
+ [   0    0    0    5   73 1811]]
+category CON test accuracy : 0.994403
+category M-GGO test accuracy : 0.990385
+category HCM test accuracy : 0.996286
+category EMP test accuracy : 0.806364
+category NOD test accuracy : 0.87106
+category NOR test accuracy : 0.958708
+F_Value : 0.936728
+Epoch: [175], Training Accuracy: [0.997328], Validation Accuracy: [0.941673], Loss Training: [0.00768502] Loss_validation: [0.277268], Time: [Tue Nov 20 19:04:37 2018]
+Test Accuracy : 0.913197
+[[1593    0   15    0    0    0]
+ [   0 1130    0    0    0   14]
+ [   0   13 1064    0    0    0]
+ [   0    1  264  835    0    0]
+ [   0   17    0   22 1126  231]
+ [   1    0    1   59   75 1753]]
+category CON test accuracy : 0.990672
+category M-GGO test accuracy : 0.987762
+category HCM test accuracy : 0.987929
+category EMP test accuracy : 0.759091
+category NOD test accuracy : 0.80659
+category NOR test accuracy : 0.928004
+F_Value : 0.908661
+Epoch: [176], Training Accuracy: [0.997209], Validation Accuracy: [0.897581], Loss Training: [0.00805012] Loss_validation: [0.605423], Time: [Tue Nov 20 19:05:02 2018]
+Test Accuracy : 0.905892
+[[1599    0    9    0    0    0]
+ [   0 1087    0    0    3   54]
+ [   0    7 1068    0    1    1]
+ [   0    0  257  731  112    0]
+ [   0    1    0    1 1329   65]
+ [   1    0    0    1  260 1627]]
+category CON test accuracy : 0.994403
+category M-GGO test accuracy : 0.950175
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.664545
+category NOD test accuracy : 0.952006
+category NOR test accuracy : 0.861302
+F_Value : 0.900579
+Epoch: [177], Training Accuracy: [0.997753], Validation Accuracy: [0.874436], Loss Training: [0.00642834] Loss_validation: [0.752235], Time: [Tue Nov 20 19:05:27 2018]
+Test Accuracy : 0.883735
+[[1594    0    6    0    0    8]
+ [   0 1117    0    0    0   27]
+ [   0   11 1065    0    0    1]
+ [   0    1  250  849    0    0]
+ [   0   32    0   39  758  567]
+ [   0    0    0    9    4 1876]]
+category CON test accuracy : 0.991294
+category M-GGO test accuracy : 0.976399
+category HCM test accuracy : 0.988858
+category EMP test accuracy : 0.771818
+category NOD test accuracy : 0.54298
+category NOR test accuracy : 0.993118
+F_Value : 0.87747
+Epoch: [178], Training Accuracy: [0.997328], Validation Accuracy: [0.906492], Loss Training: [0.00731014] Loss_validation: [0.51959], Time: [Tue Nov 20 19:05:53 2018]
+Test Accuracy : 0.92598
+[[1593    0   15    0    0    0]
+ [   0 1109    0    1    1   33]
+ [   0    8 1069    0    0    0]
+ [   0    0  223  876    1    0]
+ [   0    8    0   37 1116  235]
+ [   0    0    1   25   20 1843]]
+category CON test accuracy : 0.990672
+category M-GGO test accuracy : 0.969406
+category HCM test accuracy : 0.992572
+category EMP test accuracy : 0.796364
+category NOD test accuracy : 0.799427
+category NOR test accuracy : 0.975648
+F_Value : 0.921806
+Epoch: [179], Training Accuracy: [0.997787], Validation Accuracy: [0.890059], Loss Training: [0.00653535] Loss_validation: [0.651279], Time: [Tue Nov 20 19:06:19 2018]
+Test Accuracy : 0.903458
+[[1606    0    2    0    0    0]
+ [   0 1083    0    0    0   61]
+ [   0    5 1072    0    0    0]
+ [   0    2  230  868    0    0]
+ [   0   21    0   26  917  432]
+ [   0    0    0    5    9 1875]]
+category CON test accuracy : 0.998756
+category M-GGO test accuracy : 0.946678
+category HCM test accuracy : 0.995357
+category EMP test accuracy : 0.789091
+category NOD test accuracy : 0.656877
+category NOR test accuracy : 0.992589
+F_Value : 0.899924
+Epoch: [180], Training Accuracy: [0.997532], Validation Accuracy: [0.920032], Loss Training: [0.00682529] Loss_validation: [0.428121], Time: [Tue Nov 20 19:06:44 2018]
+Test Accuracy : 0.942781
+[[1607    0    1    0    0    0]
+ [   0 1132    0    0    1   11]
+ [   0    4 1064    1    3    5]
+ [   0    0  166  913   20    1]
+ [   0    7    0   13 1232  144]
+ [   1    0    0    5   87 1796]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.98951
+category HCM test accuracy : 0.987929
+category EMP test accuracy : 0.83
+category NOD test accuracy : 0.882521
+category NOR test accuracy : 0.950768
+F_Value : 0.940585
+Epoch: [181], Training Accuracy: [0.99726], Validation Accuracy: [0.912279], Loss Training: [0.00802483] Loss_validation: [0.531184], Time: [Tue Nov 20 19:07:10 2018]
+Test Accuracy : 0.90711
+[[1607    0    0    0    0    1]
+ [   0 1016    0    0    0  128]
+ [   0    3 1072    0    1    1]
+ [   0    0  321  769   10    0]
+ [   0    1    0    6 1182  207]
+ [   0    0    1    4   79 1805]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.888112
+category HCM test accuracy : 0.995357
+category EMP test accuracy : 0.699091
+category NOD test accuracy : 0.846705
+category NOR test accuracy : 0.955532
+F_Value : 0.901082
+Epoch: [182], Training Accuracy: [0.997872], Validation Accuracy: [0.89654], Loss Training: [0.00642979] Loss_validation: [0.586358], Time: [Tue Nov 20 19:07:35 2018]
+Test Accuracy : 0.913684
+[[1604    0    4    0    0    0]
+ [   0 1113    0    1    0   30]
+ [   0   13 1064    0    0    0]
+ [   0    0  300  798    2    0]
+ [   0    2    0   16 1060  318]
+ [   0    0    0    7   16 1866]]
+category CON test accuracy : 0.997512
+category M-GGO test accuracy : 0.972902
+category HCM test accuracy : 0.987929
+category EMP test accuracy : 0.725455
+category NOD test accuracy : 0.759312
+category NOR test accuracy : 0.987824
+F_Value : 0.907622
+Epoch: [183], Training Accuracy: [0.997753], Validation Accuracy: [0.870501], Loss Training: [0.00667616] Loss_validation: [0.824468], Time: [Tue Nov 20 19:08:01 2018]
+Test Accuracy : 0.908936
+[[1605    0    3    0    0    0]
+ [   0 1078    0    0    0   66]
+ [   0    5 1064    0    6    2]
+ [   0    1  237  855    5    2]
+ [   0    1    0   12  991  392]
+ [   0    0    0    1   15 1873]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.942308
+category HCM test accuracy : 0.987929
+category EMP test accuracy : 0.777273
+category NOD test accuracy : 0.709885
+category NOR test accuracy : 0.99153
+F_Value : 0.906197
+Epoch: [184], Training Accuracy: [0.998094], Validation Accuracy: [0.904062], Loss Training: [0.00574175] Loss_validation: [0.574652], Time: [Tue Nov 20 19:08:26 2018]
+Test Accuracy : 0.91551
+[[1598    0   10    0    0    0]
+ [   0 1110    0    0    0   34]
+ [   0    7 1070    0    0    0]
+ [   0    4  261  835    0    0]
+ [   0   21    0   19 1046  310]
+ [   1    0    0    6   21 1861]]
+category CON test accuracy : 0.993781
+category M-GGO test accuracy : 0.97028
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.759091
+category NOD test accuracy : 0.749284
+category NOR test accuracy : 0.985177
+F_Value : 0.910546
+Epoch: [185], Training Accuracy: [0.997651], Validation Accuracy: [0.906492], Loss Training: [0.00648577] Loss_validation: [0.557311], Time: [Tue Nov 20 19:08:51 2018]
+Test Accuracy : 0.946068
+[[1604    0    4    0    0    0]
+ [   0 1135    0    0    2    7]
+ [   0   13 1062    1    0    1]
+ [   0    1  171  923    5    0]
+ [   0    2    0   10 1190  194]
+ [   1    0    0    5   26 1857]]
+category CON test accuracy : 0.997512
+category M-GGO test accuracy : 0.992133
+category HCM test accuracy : 0.986072
+category EMP test accuracy : 0.839091
+category NOD test accuracy : 0.852436
+category NOR test accuracy : 0.98306
+F_Value : 0.943377
+Epoch: [186], Training Accuracy: [0.997481], Validation Accuracy: [0.908344], Loss Training: [0.00724017] Loss_validation: [0.513766], Time: [Tue Nov 20 19:09:16 2018]
+Test Accuracy : 0.90431
+[[1608    0    0    0    0    0]
+ [   0 1118    0    0    0   26]
+ [   0   11 1063    0    1    2]
+ [   0    4  300  795    1    0]
+ [   0    4    0   19  984  389]
+ [   0    0    0    8   21 1860]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.977273
+category HCM test accuracy : 0.987001
+category EMP test accuracy : 0.722727
+category NOD test accuracy : 0.704871
+category NOR test accuracy : 0.984648
+F_Value : 0.898461
+Epoch: [187], Training Accuracy: [0.998196], Validation Accuracy: [0.911006], Loss Training: [0.00576653] Loss_validation: [0.585821], Time: [Tue Nov 20 19:09:41 2018]
+Test Accuracy : 0.932798
+[[1558    0   49    0    0    1]
+ [   0 1126    0    0    0   18]
+ [   0    7 1070    0    0    0]
+ [   0    5  266  809   20    0]
+ [   0    8    0    6 1280  102]
+ [   1    1    0    3   65 1819]]
+category CON test accuracy : 0.968905
+category M-GGO test accuracy : 0.984266
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.735455
+category NOD test accuracy : 0.916905
+category NOR test accuracy : 0.962943
+F_Value : 0.926165
+Epoch: [188], Training Accuracy: [0.997311], Validation Accuracy: [0.896655], Loss Training: [0.00770339] Loss_validation: [0.579792], Time: [Tue Nov 20 19:10:06 2018]
+Test Accuracy : 0.924154
+[[1599    0    5    0    0    4]
+ [   0 1049    0    0    0   95]
+ [   0    7 1068    0    0    2]
+ [   0    1  214  879    6    0]
+ [   0    8    0   14 1134  240]
+ [   0    0    0    4   23 1862]]
+category CON test accuracy : 0.994403
+category M-GGO test accuracy : 0.916958
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.799091
+category NOD test accuracy : 0.812321
+category NOR test accuracy : 0.985707
+F_Value : 0.921195
+Epoch: [189], Training Accuracy: [0.997821], Validation Accuracy: [0.922231], Loss Training: [0.00627248] Loss_validation: [0.423305], Time: [Tue Nov 20 19:10:32 2018]
+Test Accuracy : 0.928658
+[[1596    0   10    0    0    2]
+ [   0 1077    0    0    0   67]
+ [   0    6 1070    0    0    1]
+ [   0    1  207  884    8    0]
+ [   0   30    0   17 1198  151]
+ [   1    0    0   10   75 1803]]
+category CON test accuracy : 0.992537
+category M-GGO test accuracy : 0.941434
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.803636
+category NOD test accuracy : 0.858166
+category NOR test accuracy : 0.954473
+F_Value : 0.925145
+Epoch: [190], Training Accuracy: [0.997668], Validation Accuracy: [0.913667], Loss Training: [0.00694181] Loss_validation: [0.55095], Time: [Tue Nov 20 19:10:57 2018]
+Test Accuracy : 0.915754
+[[1608    0    0    0    0    0]
+ [   0 1012    0    0    2  130]
+ [   1   12 1064    0    0    0]
+ [   0    1  252  822   25    0]
+ [   0    5    0    5 1187  199]
+ [   1    0    0    9   50 1829]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.884615
+category HCM test accuracy : 0.987929
+category EMP test accuracy : 0.747273
+category NOD test accuracy : 0.850287
+category NOR test accuracy : 0.968237
+F_Value : 0.910863
+Epoch: [191], Training Accuracy: [0.997804], Validation Accuracy: [0.899201], Loss Training: [0.00645624] Loss_validation: [0.615762], Time: [Tue Nov 20 19:11:21 2018]
+Test Accuracy : 0.914536
+[[1607    0    0    0    0    1]
+ [   0 1126    0    0    0   18]
+ [   0   15 1062    0    0    0]
+ [   0    0  216  882    2    0]
+ [   0    5    0   21  971  399]
+ [   0    0    0    9   16 1864]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.984266
+category HCM test accuracy : 0.986072
+category EMP test accuracy : 0.801818
+category NOD test accuracy : 0.695559
+category NOR test accuracy : 0.986765
+F_Value : 0.911632
+Epoch: [192], Training Accuracy: [0.997906], Validation Accuracy: [0.875825], Loss Training: [0.00623933] Loss_validation: [0.867806], Time: [Tue Nov 20 19:11:46 2018]
+Test Accuracy : 0.898953
+[[1608    0    0    0    0    0]
+ [   0 1112    0    0    0   32]
+ [   0    4 1073    0    0    0]
+ [   0    0  309  790    1    0]
+ [   0   10    0   12  925  449]
+ [   0    0    0    3   10 1876]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.972028
+category HCM test accuracy : 0.996286
+category EMP test accuracy : 0.718182
+category NOD test accuracy : 0.662607
+category NOR test accuracy : 0.993118
+F_Value : 0.893135
+Epoch: [193], Training Accuracy: [0.998026], Validation Accuracy: [0.921074], Loss Training: [0.00587202] Loss_validation: [0.458071], Time: [Tue Nov 20 19:12:11 2018]
+Test Accuracy : 0.921963
+[[1604    0    1    0    0    3]
+ [   0 1089    0    0    0   55]
+ [   0    8 1061    0    6    2]
+ [   0    3  220  875    2    0]
+ [   0   13    0   17 1123  243]
+ [   0    0    0    9   59 1821]]
+category CON test accuracy : 0.997512
+category M-GGO test accuracy : 0.951923
+category HCM test accuracy : 0.985144
+category EMP test accuracy : 0.795455
+category NOD test accuracy : 0.804441
+category NOR test accuracy : 0.964002
+F_Value : 0.918987
+Epoch: [194], Training Accuracy: [0.997549], Validation Accuracy: [0.889943], Loss Training: [0.00706057] Loss_validation: [0.634728], Time: [Tue Nov 20 19:12:37 2018]
+Test Accuracy : 0.916241
+[[1603    0    5    0    0    0]
+ [   0 1119    0    0    0   25]
+ [   0    9 1068    0    0    0]
+ [   0    3  197  899    1    0]
+ [   0   18    0   20  962  396]
+ [   0    0    0    8    6 1875]]
+category CON test accuracy : 0.996891
+category M-GGO test accuracy : 0.978147
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.817273
+category NOD test accuracy : 0.689112
+category NOR test accuracy : 0.992589
+F_Value : 0.913528
+Epoch: [195], Training Accuracy: [0.997855], Validation Accuracy: [0.90302], Loss Training: [0.00629986] Loss_validation: [0.558532], Time: [Tue Nov 20 19:13:03 2018]
+Test Accuracy : 0.907232
+[[1603    0    5    0    0    0]
+ [   0 1126    0    0    0   18]
+ [   0    4 1072    0    0    1]
+ [   0    0  272  828    0    0]
+ [   0   65    0   29  961  341]
+ [   0    0    0   18    9 1862]]
+category CON test accuracy : 0.996891
+category M-GGO test accuracy : 0.984266
+category HCM test accuracy : 0.995357
+category EMP test accuracy : 0.752727
+category NOD test accuracy : 0.688395
+category NOR test accuracy : 0.985707
+F_Value : 0.900282
+Epoch: [196], Training Accuracy: [0.997923], Validation Accuracy: [0.91413], Loss Training: [0.00587623] Loss_validation: [0.418614], Time: [Tue Nov 20 19:13:29 2018]
+Test Accuracy : 0.92671
+[[1593    0   15    0    0    0]
+ [   0 1131    0    0    0   13]
+ [   0    6 1071    0    0    0]
+ [   0    3  292  796    9    0]
+ [   0   16    0    6 1181  193]
+ [   0    0    1    5   43 1840]]
+category CON test accuracy : 0.990672
+category M-GGO test accuracy : 0.988636
+category HCM test accuracy : 0.994429
+category EMP test accuracy : 0.723636
+category NOD test accuracy : 0.845989
+category NOR test accuracy : 0.97406
+F_Value : 0.9199
+Epoch: [197], Training Accuracy: [0.998026], Validation Accuracy: [0.922694], Loss Training: [0.00537344] Loss_validation: [0.401247], Time: [Tue Nov 20 19:13:55 2018]
+Test Accuracy : 0.920502
+[[1602    0    6    0    0    0]
+ [   0 1135    0    0    0    9]
+ [   1    6 1070    0    0    0]
+ [   0    1  297  802    0    0]
+ [   0   10    0   56 1108  222]
+ [   1    0    0   34   10 1844]]
+category CON test accuracy : 0.996269
+category M-GGO test accuracy : 0.992133
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.729091
+category NOD test accuracy : 0.793696
+category NOR test accuracy : 0.976178
+F_Value : 0.912785
+Epoch: [198], Training Accuracy: [0.997702], Validation Accuracy: [0.930679], Loss Training: [0.0064302] Loss_validation: [0.357299], Time: [Tue Nov 20 19:14:20 2018]
+Test Accuracy : 0.934015
+[[1597    0   11    0    0    0]
+ [   0 1134    0    0    2    8]
+ [   0   23 1050    0    2    2]
+ [   0    1  175  916    8    0]
+ [   0    8    0   16 1261  111]
+ [   1    0    0   14  160 1714]]
+category CON test accuracy : 0.993159
+category M-GGO test accuracy : 0.991259
+category HCM test accuracy : 0.97493
+category EMP test accuracy : 0.832727
+category NOD test accuracy : 0.903295
+category NOR test accuracy : 0.907358
+F_Value : 0.932232
+Epoch: [199], Training Accuracy: [0.998128], Validation Accuracy: [0.887397], Loss Training: [0.00593819] Loss_validation: [0.680663], Time: [Tue Nov 20 19:14:45 2018]
+Test Accuracy : 0.907962
+[[1598    0    8    0    0    2]
+ [   0 1030    0    0    0  114]
+ [   0    5 1071    0    0    1]
+ [   0    1  207  892    0    0]
+ [   0   18    0   31  992  355]
+ [   0    0    0    3   11 1875]]
+category CON test accuracy : 0.993781
+category M-GGO test accuracy : 0.90035
+category HCM test accuracy : 0.994429
+category EMP test accuracy : 0.810909
+category NOD test accuracy : 0.710602
+category NOR test accuracy : 0.992589
+F_Value : 0.905567
+Epoch: [200], Training Accuracy: [0.997787], Validation Accuracy: [0.87756], Loss Training: [0.00673333] Loss_validation: [0.697933], Time: [Tue Nov 20 19:15:11 2018]
+Test Accuracy : 0.920867
+[[1599    0    9    0    0    0]
+ [   0 1126    0    0    0   18]
+ [   0    9 1066    0    0    2]
+ [   0    0  184  915    1    0]
+ [   0   10    0   20  976  390]
+ [   0    0    0    3    4 1882]]
+category CON test accuracy : 0.994403
+category M-GGO test accuracy : 0.984266
+category HCM test accuracy : 0.989786
+category EMP test accuracy : 0.831818
+category NOD test accuracy : 0.69914
+category NOR test accuracy : 0.996294
+F_Value : 0.918851
+Epoch: [201], Training Accuracy: [0.998536], Validation Accuracy: [0.940748], Loss Training: [0.00481496] Loss_validation: [0.290267], Time: [Tue Nov 20 19:15:37 2018]
+Test Accuracy : 0.942902
+[[1599    0    9    0    0    0]
+ [   0 1141    0    0    2    1]
+ [   0   14 1062    0    0    1]
+ [   0    5  225  860   10    0]
+ [   0    2    0   10 1335   49]
+ [   0    2    1    7  131 1748]]
+category CON test accuracy : 0.994403
+category M-GGO test accuracy : 0.997378
+category HCM test accuracy : 0.986072
+category EMP test accuracy : 0.781818
+category NOD test accuracy : 0.956304
+category NOR test accuracy : 0.925357
+F_Value : 0.937931
+Epoch: [202], Training Accuracy: [0.998213], Validation Accuracy: [0.894225], Loss Training: [0.00536402] Loss_validation: [0.567224], Time: [Tue Nov 20 19:16:03 2018]
+Test Accuracy : 0.92671
+[[1608    0    0    0    0    0]
+ [   0 1130    0    0    0   14]
+ [   1    7 1063    0    5    1]
+ [   0    0  258  802   40    0]
+ [   0   11    0    4 1164  217]
+ [   0    0    0    1   43 1845]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.987762
+category HCM test accuracy : 0.987001
+category EMP test accuracy : 0.729091
+category NOD test accuracy : 0.833811
+category NOR test accuracy : 0.976707
+F_Value : 0.920496
+Epoch: [203], Training Accuracy: [0.997566], Validation Accuracy: [0.916445], Loss Training: [0.00739915] Loss_validation: [0.525213], Time: [Tue Nov 20 19:16:29 2018]
+Test Accuracy : 0.920258
+[[1602    0    6    0    0    0]
+ [   0 1097    0    0    2   45]
+ [   0   10 1060    0    6    1]
+ [   0    2  314  747   37    0]
+ [   0    2    0    1 1306   87]
+ [   0    0    0    1  141 1747]]
+category CON test accuracy : 0.996269
+category M-GGO test accuracy : 0.958916
+category HCM test accuracy : 0.984215
+category EMP test accuracy : 0.679091
+category NOD test accuracy : 0.93553
+category NOR test accuracy : 0.924828
+F_Value : 0.912232
+Epoch: [204], Training Accuracy: [0.99806], Validation Accuracy: [0.869922], Loss Training: [0.00592253] Loss_validation: [0.89932], Time: [Tue Nov 20 19:16:54 2018]
+Test Accuracy : 0.874848
+[[1608    0    0    0    0    0]
+ [   0 1073    0    0    0   71]
+ [   0   13 1063    0    0    1]
+ [   0    2  232  866    0    0]
+ [   0   14    0   29  697  656]
+ [   0    0    0    3    7 1879]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.937937
+category HCM test accuracy : 0.987001
+category EMP test accuracy : 0.787273
+category NOD test accuracy : 0.499284
+category NOR test accuracy : 0.994706
+F_Value : 0.869716
+Epoch: [205], Training Accuracy: [0.998315], Validation Accuracy: [0.909964], Loss Training: [0.00480091] Loss_validation: [0.533415], Time: [Tue Nov 20 19:17:20 2018]
+Test Accuracy : 0.927684
+[[1590    0   18    0    0    0]
+ [   0 1126    0    0    2   16]
+ [   0    3 1074    0    0    0]
+ [   0    1  331  750   18    0]
+ [   0    8    0    4 1247  137]
+ [   0    0    0    3   53 1833]]
+category CON test accuracy : 0.988806
+category M-GGO test accuracy : 0.984266
+category HCM test accuracy : 0.997214
+category EMP test accuracy : 0.681818
+category NOD test accuracy : 0.893266
+category NOR test accuracy : 0.970355
+F_Value : 0.918751
+Epoch: [206], Training Accuracy: [0.998111], Validation Accuracy: [0.920611], Loss Training: [0.00491594] Loss_validation: [0.489154], Time: [Tue Nov 20 19:17:45 2018]
+Test Accuracy : 0.928171
+[[1608    0    0    0    0    0]
+ [   0 1121    0    0    0   23]
+ [   0   21 1056    0    0    0]
+ [   0    1  274  821    4    0]
+ [   0    6    0   15 1225  150]
+ [   0    0    0   17   79 1793]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.979895
+category HCM test accuracy : 0.980501
+category EMP test accuracy : 0.746364
+category NOD test accuracy : 0.877507
+category NOR test accuracy : 0.949179
+F_Value : 0.92204
+Epoch: [207], Training Accuracy: [0.997992], Validation Accuracy: [0.946765], Loss Training: [0.00579632] Loss_validation: [0.206578], Time: [Tue Nov 20 19:18:11 2018]
+Test Accuracy : 0.926224
+[[1608    0    0    0    0    0]
+ [   0 1119    0    0    0   25]
+ [   0    9 1068    0    0    0]
+ [   0   11  230  817   42    0]
+ [   0   15    0    9 1339   33]
+ [   2    4    1   16  209 1657]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.978147
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.742727
+category NOD test accuracy : 0.959169
+category NOR test accuracy : 0.877184
+F_Value : 0.921392
+Epoch: [208], Training Accuracy: [0.997634], Validation Accuracy: [0.94746], Loss Training: [0.00693177] Loss_validation: [0.292998], Time: [Tue Nov 20 19:18:36 2018]
+Test Accuracy : 0.93158
+[[1608    0    0    0    0    0]
+ [   0 1132    0    0    2   10]
+ [   0    8 1069    0    0    0]
+ [   0    2  239  851    8    0]
+ [   0    6    0    7 1355   28]
+ [   4    0    2   32  214 1637]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.98951
+category HCM test accuracy : 0.992572
+category EMP test accuracy : 0.773636
+category NOD test accuracy : 0.97063
+category NOR test accuracy : 0.866596
+F_Value : 0.927843
+Epoch: [209], Training Accuracy: [0.997583], Validation Accuracy: [0.886356], Loss Training: [0.00670804] Loss_validation: [0.781028], Time: [Tue Nov 20 19:19:02 2018]
+Test Accuracy : 0.911736
+[[1600    0    8    0    0    0]
+ [   0  957    0    0    0  187]
+ [   0    7 1066    0    4    0]
+ [   0    1  226  868    5    0]
+ [   0   16    0   11 1134  235]
+ [   0    0    1    6   18 1864]]
+category CON test accuracy : 0.995025
+category M-GGO test accuracy : 0.836538
+category HCM test accuracy : 0.989786
+category EMP test accuracy : 0.789091
+category NOD test accuracy : 0.812321
+category NOR test accuracy : 0.986765
+F_Value : 0.908206
+Epoch: [210], Training Accuracy: [0.998196], Validation Accuracy: [0.896655], Loss Training: [0.00561953] Loss_validation: [0.564374], Time: [Tue Nov 20 19:19:27 2018]
+Test Accuracy : 0.900901
+[[1594    0   13    0    0    1]
+ [   0 1140    0    0    0    4]
+ [   0   21 1056    0    0    0]
+ [   0    1  241  858    0    0]
+ [   0   73    0   37  891  395]
+ [   0    0    0   10   18 1861]]
+category CON test accuracy : 0.991294
+category M-GGO test accuracy : 0.996503
+category HCM test accuracy : 0.980501
+category EMP test accuracy : 0.78
+category NOD test accuracy : 0.638252
+category NOR test accuracy : 0.985177
+F_Value : 0.894106
+Epoch: [211], Training Accuracy: [0.998128], Validation Accuracy: [0.902905], Loss Training: [0.00548755] Loss_validation: [0.586423], Time: [Tue Nov 20 19:19:52 2018]
+Test Accuracy : 0.938398
+[[1574    0   34    0    0    0]
+ [   0 1129    0    0    2   13]
+ [   0    4 1073    0    0    0]
+ [   0    3  197  896    4    0]
+ [   0   21    0   18 1200  157]
+ [   1    1    1    4   46 1836]]
+category CON test accuracy : 0.978856
+category M-GGO test accuracy : 0.986888
+category HCM test accuracy : 0.996286
+category EMP test accuracy : 0.814545
+category NOD test accuracy : 0.859599
+category NOR test accuracy : 0.971943
+F_Value : 0.934652
+Epoch: [212], Training Accuracy: [0.998162], Validation Accuracy: [0.891332], Loss Training: [0.00533392] Loss_validation: [0.754384], Time: [Tue Nov 20 19:20:18 2018]
+Test Accuracy : 0.92598
+[[1608    0    0    0    0    0]
+ [   0 1093    0    0    3   48]
+ [   0    2 1073    0    0    2]
+ [   0    0  267  824    9    0]
+ [   0    2    0    4 1144  246]
+ [   0    0    0    2   23 1864]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.95542
+category HCM test accuracy : 0.996286
+category EMP test accuracy : 0.749091
+category NOD test accuracy : 0.819484
+category NOR test accuracy : 0.986765
+F_Value : 0.921081
+Epoch: [213], Training Accuracy: [0.99823], Validation Accuracy: [0.924546], Loss Training: [0.00531945] Loss_validation: [0.382303], Time: [Tue Nov 20 19:20:43 2018]
+Test Accuracy : 0.925493
+[[1603    0    5    0    0    0]
+ [   0 1136    0    0    0    8]
+ [   0   48 1028    0    1    0]
+ [   0    2  167  931    0    0]
+ [   0   23    0  103 1097  173]
+ [   0    0    1   59   22 1807]]
+category CON test accuracy : 0.996891
+category M-GGO test accuracy : 0.993007
+category HCM test accuracy : 0.954503
+category EMP test accuracy : 0.846364
+category NOD test accuracy : 0.785817
+category NOR test accuracy : 0.956591
+F_Value : 0.919969
+Epoch: [214], Training Accuracy: [0.998094], Validation Accuracy: [0.931952], Loss Training: [0.00607859] Loss_validation: [0.284379], Time: [Tue Nov 20 19:21:08 2018]
+Test Accuracy : 0.944607
+[[1602    0    6    0    0    0]
+ [   0 1131    0    0    1   12]
+ [   0    6 1066    0    3    2]
+ [   0    1  197  891   11    0]
+ [   0   25    0    7 1242  122]
+ [   1    0    0    6   55 1827]]
+category CON test accuracy : 0.996269
+category M-GGO test accuracy : 0.988636
+category HCM test accuracy : 0.989786
+category EMP test accuracy : 0.81
+category NOD test accuracy : 0.889685
+category NOR test accuracy : 0.967178
+F_Value : 0.940366
+Epoch: [215], Training Accuracy: [0.998553], Validation Accuracy: [0.910774], Loss Training: [0.00442747] Loss_validation: [0.50657], Time: [Tue Nov 20 19:21:33 2018]
+Test Accuracy : 0.931702
+[[1595    0   12    0    0    1]
+ [   0 1128    0    1    0   15]
+ [   0   10 1067    0    0    0]
+ [   0    1  223  876    0    0]
+ [   0    5    0   22 1141  228]
+ [   0    0    1    9   33 1846]]
+category CON test accuracy : 0.991915
+category M-GGO test accuracy : 0.986014
+category HCM test accuracy : 0.990715
+category EMP test accuracy : 0.796364
+category NOD test accuracy : 0.817335
+category NOR test accuracy : 0.977237
+F_Value : 0.927819
+Epoch: [216], Training Accuracy: [0.998009], Validation Accuracy: [0.889133], Loss Training: [0.00564993] Loss_validation: [0.691595], Time: [Tue Nov 20 19:21:59 2018]
+Test Accuracy : 0.911006
+[[1605    0    3    0    0    0]
+ [   0 1127    0    0    0   17]
+ [   0   16 1060    0    0    1]
+ [   0    3  239  846   12    0]
+ [   0   40    0   20  967  369]
+ [   0    0    0    0   11 1878]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.98514
+category HCM test accuracy : 0.984215
+category EMP test accuracy : 0.769091
+category NOD test accuracy : 0.692693
+category NOR test accuracy : 0.994177
+F_Value : 0.905493
+Epoch: [217], Training Accuracy: [0.998315], Validation Accuracy: [0.912279], Loss Training: [0.00520733] Loss_validation: [0.539701], Time: [Tue Nov 20 19:22:24 2018]
+Test Accuracy : 0.895909
+[[1608    0    0    0    0    0]
+ [   0 1109    0    0    0   35]
+ [   0   24 1042    0    4    7]
+ [   0    4  296  793    7    0]
+ [   0   39    0   17  943  397]
+ [   0    0    0   13   12 1864]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.969406
+category HCM test accuracy : 0.967502
+category EMP test accuracy : 0.720909
+category NOD test accuracy : 0.675501
+category NOR test accuracy : 0.986765
+F_Value : 0.888586
+Epoch: [218], Training Accuracy: [0.997106], Validation Accuracy: [0.891911], Loss Training: [0.00757846] Loss_validation: [0.645781], Time: [Tue Nov 20 19:22:49 2018]
+Test Accuracy : 0.92525
+[[1608    0    0    0    0    0]
+ [   0 1127    0    0    2   15]
+ [   0   25 1050    0    1    1]
+ [   0    4  230  833   32    1]
+ [   0    2    0    9 1135  250]
+ [   0    0    0    0   42 1847]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.98514
+category HCM test accuracy : 0.97493
+category EMP test accuracy : 0.757273
+category NOD test accuracy : 0.813037
+category NOR test accuracy : 0.977766
+F_Value : 0.920199
+Epoch: [219], Training Accuracy: [0.998332], Validation Accuracy: [0.892489], Loss Training: [0.00493156] Loss_validation: [0.678956], Time: [Tue Nov 20 19:23:14 2018]
+Test Accuracy : 0.92111
+[[1606    0    2    0    0    0]
+ [   0 1129    0    0    0   15]
+ [   0    4 1073    0    0    0]
+ [   0    2  234  856    8    0]
+ [   0   10    0   10 1047  329]
+ [   0    0    1    1   32 1855]]
+category CON test accuracy : 0.998756
+category M-GGO test accuracy : 0.986888
+category HCM test accuracy : 0.996286
+category EMP test accuracy : 0.778182
+category NOD test accuracy : 0.75
+category NOR test accuracy : 0.982001
+F_Value : 0.917684
+Epoch: [220], Training Accuracy: [0.998536], Validation Accuracy: [0.916098], Loss Training: [0.00426002] Loss_validation: [0.553539], Time: [Tue Nov 20 19:23:40 2018]
+Test Accuracy : 0.914049
+[[1604    0    4    0    0    0]
+ [   0 1024    0    1    0  119]
+ [   0    6 1071    0    0    0]
+ [   0    0  249  848    3    0]
+ [   0    7    0   28 1113  248]
+ [   0    0    0   12   29 1848]]
+category CON test accuracy : 0.997512
+category M-GGO test accuracy : 0.895105
+category HCM test accuracy : 0.994429
+category EMP test accuracy : 0.770909
+category NOD test accuracy : 0.797278
+category NOR test accuracy : 0.978295
+F_Value : 0.909868
+Epoch: [221], Training Accuracy: [0.998094], Validation Accuracy: [0.919569], Loss Training: [0.00573256] Loss_validation: [0.407639], Time: [Tue Nov 20 19:24:06 2018]
+Test Accuracy : 0.929389
+[[1608    0    0    0    0    0]
+ [   0 1102    0    0    0   42]
+ [   0    8 1069    0    0    0]
+ [   0    0  206  877   17    0]
+ [   0    3    0    8 1193  192]
+ [   3    0    1    5   95 1785]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.963287
+category HCM test accuracy : 0.992572
+category EMP test accuracy : 0.797273
+category NOD test accuracy : 0.854585
+category NOR test accuracy : 0.944944
+F_Value : 0.927085
+Epoch: [222], Training Accuracy: [0.998502], Validation Accuracy: [0.902905], Loss Training: [0.00468075] Loss_validation: [0.585426], Time: [Tue Nov 20 19:24:31 2018]
+Test Accuracy : 0.92111
+[[1606    0    2    0    0    0]
+ [   0 1128    0    0    3   13]
+ [   0    5 1067    0    4    1]
+ [   0    0  309  763   28    0]
+ [   0    1    0    5 1162  228]
+ [   0    0    0    3   46 1840]]
+category CON test accuracy : 0.998756
+category M-GGO test accuracy : 0.986014
+category HCM test accuracy : 0.990715
+category EMP test accuracy : 0.693636
+category NOD test accuracy : 0.832378
+category NOR test accuracy : 0.97406
+F_Value : 0.913655
+Epoch: [223], Training Accuracy: [0.998247], Validation Accuracy: [0.871658], Loss Training: [0.00526828] Loss_validation: [0.832933], Time: [Tue Nov 20 19:24:56 2018]
+Test Accuracy : 0.914658
+[[1589    0   19    0    0    0]
+ [   0 1054    0    0    2   88]
+ [   0    2 1073    0    2    0]
+ [   0    3  223  860   14    0]
+ [   0    1    0    9 1081  305]
+ [   1    0    2    1   29 1856]]
+category CON test accuracy : 0.988184
+category M-GGO test accuracy : 0.921329
+category HCM test accuracy : 0.996286
+category EMP test accuracy : 0.781818
+category NOD test accuracy : 0.774355
+category NOR test accuracy : 0.98253
+F_Value : 0.91222
+Epoch: [224], Training Accuracy: [0.998196], Validation Accuracy: [0.898391], Loss Training: [0.00527475] Loss_validation: [0.626486], Time: [Tue Nov 20 19:25:22 2018]
+Test Accuracy : 0.932554
+[[1603    0    5    0    0    0]
+ [   0 1061    0    0    5   78]
+ [   0    5 1072    0    0    0]
+ [   0    0  197  901    2    0]
+ [   0    4    0   18 1159  215]
+ [   1    0    1    4   19 1864]]
+category CON test accuracy : 0.996891
+category M-GGO test accuracy : 0.927448
+category HCM test accuracy : 0.995357
+category EMP test accuracy : 0.819091
+category NOD test accuracy : 0.830229
+category NOR test accuracy : 0.986765
+F_Value : 0.929734
+Epoch: [225], Training Accuracy: [0.99794], Validation Accuracy: [0.931027], Loss Training: [0.00624244] Loss_validation: [0.403011], Time: [Tue Nov 20 19:25:47 2018]
+Test Accuracy : 0.913806
+[[1607    0    1    0    0    0]
+ [   0 1127    0    0    0   17]
+ [   0   59 1017    0    0    1]
+ [   0    6  297  770   27    0]
+ [   0   55    0    9 1237   95]
+ [   1    0    0    8  132 1748]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.98514
+category HCM test accuracy : 0.94429
+category EMP test accuracy : 0.7
+category NOD test accuracy : 0.886103
+category NOR test accuracy : 0.925357
+F_Value : 0.904482
+Epoch: [226], Training Accuracy: [0.99777], Validation Accuracy: [0.944567], Loss Training: [0.00616768] Loss_validation: [0.265238], Time: [Tue Nov 20 19:26:12 2018]
+Test Accuracy : 0.929998
+[[1602    0    6    0    0    0]
+ [   0 1141    0    0    2    1]
+ [   0    8 1067    0    1    1]
+ [   0    2  258  814   26    0]
+ [   0    5    0    9 1278  104]
+ [   1    0    1   15  135 1737]]
+category CON test accuracy : 0.996269
+category M-GGO test accuracy : 0.997378
+category HCM test accuracy : 0.990715
+category EMP test accuracy : 0.74
+category NOD test accuracy : 0.915473
+category NOR test accuracy : 0.919534
+F_Value : 0.924564
+Epoch: [227], Training Accuracy: [0.998383], Validation Accuracy: [0.936234], Loss Training: [0.00481458] Loss_validation: [0.27485], Time: [Tue Nov 20 19:26:37 2018]
+Test Accuracy : 0.936937
+[[1598    0    9    0    0    1]
+ [   0 1139    0    0    0    5]
+ [   0    2 1072    0    0    3]
+ [   0    2  210  882    6    0]
+ [   0   25    0   21 1195  155]
+ [   0    0    0   22   57 1810]]
+category CON test accuracy : 0.993781
+category M-GGO test accuracy : 0.995629
+category HCM test accuracy : 0.995357
+category EMP test accuracy : 0.801818
+category NOD test accuracy : 0.856017
+category NOR test accuracy : 0.958179
+F_Value : 0.932719
+Epoch: [228], Training Accuracy: [0.998145], Validation Accuracy: [0.928365], Loss Training: [0.00535133] Loss_validation: [0.357368], Time: [Tue Nov 20 19:27:02 2018]
+Test Accuracy : 0.932432
+[[1605    0    3    0    0    0]
+ [   0 1137    0    0    2    5]
+ [   0    9 1068    0    0    0]
+ [   0    2  269  773   56    0]
+ [   0    3    0    5 1301   87]
+ [   1    0    1    8  104 1775]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.993881
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.702727
+category NOD test accuracy : 0.931948
+category NOR test accuracy : 0.939651
+F_Value : 0.924661
+Epoch: [229], Training Accuracy: [0.998247], Validation Accuracy: [0.917718], Loss Training: [0.00526518] Loss_validation: [0.424645], Time: [Tue Nov 20 19:27:28 2018]
+Test Accuracy : 0.918188
+[[1602    0    6    0    0    0]
+ [   0 1138    0    0    0    6]
+ [   0   16 1059    0    0    2]
+ [   0    5  305  761   29    0]
+ [   0   52    0    5 1185  154]
+ [   1    9    0    5   77 1797]]
+category CON test accuracy : 0.996269
+category M-GGO test accuracy : 0.994755
+category HCM test accuracy : 0.983287
+category EMP test accuracy : 0.691818
+category NOD test accuracy : 0.848854
+category NOR test accuracy : 0.951297
+F_Value : 0.909272
+Epoch: [230], Training Accuracy: [0.997804], Validation Accuracy: [0.869344], Loss Training: [0.00571556] Loss_validation: [0.822543], Time: [Tue Nov 20 19:27:53 2018]
+Test Accuracy : 0.910153
+[[1605    0    1    0    0    2]
+ [   0 1069    0    0    0   75]
+ [   0    8 1061    0    1    7]
+ [   0    2  248  830   20    0]
+ [   0    1    0    0 1047  348]
+ [   0    0    0    0   25 1864]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.934441
+category HCM test accuracy : 0.985144
+category EMP test accuracy : 0.754545
+category NOD test accuracy : 0.75
+category NOR test accuracy : 0.986765
+F_Value : 0.906931
+Epoch: [231], Training Accuracy: [0.998689], Validation Accuracy: [0.905104], Loss Training: [0.00392045] Loss_validation: [0.54642], Time: [Tue Nov 20 19:28:19 2018]
+Test Accuracy : 0.937424
+[[1608    0    0    0    0    0]
+ [   0 1122    0    0    1   21]
+ [   0    4 1071    0    0    2]
+ [   0    0  256  811   33    0]
+ [   0    1    0    3 1240  152]
+ [   1    0    0    4   36 1848]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.980769
+category HCM test accuracy : 0.994429
+category EMP test accuracy : 0.737273
+category NOD test accuracy : 0.888252
+category NOR test accuracy : 0.978295
+F_Value : 0.930959
+Epoch: [232], Training Accuracy: [0.997855], Validation Accuracy: [0.881958], Loss Training: [0.00638354] Loss_validation: [0.70728], Time: [Tue Nov 20 19:28:44 2018]
+Test Accuracy : 0.877891
+[[1602    0    6    0    0    0]
+ [   0 1136    0    0    0    8]
+ [   0    3 1073    0    0    1]
+ [   0    1  421  676    2    0]
+ [   0   28    0   20  849  499]
+ [   0    0    0    2   12 1875]]
+category CON test accuracy : 0.996269
+category M-GGO test accuracy : 0.993007
+category HCM test accuracy : 0.996286
+category EMP test accuracy : 0.614545
+category NOD test accuracy : 0.608166
+category NOR test accuracy : 0.992589
+F_Value : 0.865833
+Epoch: [233], Training Accuracy: [0.9984], Validation Accuracy: [0.871774], Loss Training: [0.00460091] Loss_validation: [0.854538], Time: [Tue Nov 20 19:29:10 2018]
+Test Accuracy : 0.903944
+[[1597    0    9    0    0    2]
+ [   0 1099    0    0    0   45]
+ [   0    5 1072    0    0    0]
+ [   0    4  318  774    4    0]
+ [   0   34    0    0 1007  355]
+ [   0    0    1    0   12 1876]]
+category CON test accuracy : 0.993159
+category M-GGO test accuracy : 0.960664
+category HCM test accuracy : 0.995357
+category EMP test accuracy : 0.703636
+category NOD test accuracy : 0.721347
+category NOR test accuracy : 0.993118
+F_Value : 0.89711
+Epoch: [234], Training Accuracy: [0.998196], Validation Accuracy: [0.91089], Loss Training: [0.0048104] Loss_validation: [0.452972], Time: [Tue Nov 20 19:29:35 2018]
+Test Accuracy : 0.920258
+[[1591    0   13    0    0    4]
+ [   0 1136    0    0    0    8]
+ [   0    7 1069    0    0    1]
+ [   0    2  189  909    0    0]
+ [   0   49    0   22  996  329]
+ [   1    0    0    5   25 1858]]
+category CON test accuracy : 0.989428
+category M-GGO test accuracy : 0.993007
+category HCM test accuracy : 0.992572
+category EMP test accuracy : 0.826364
+category NOD test accuracy : 0.713467
+category NOR test accuracy : 0.983589
+F_Value : 0.917096
+Epoch: [235], Training Accuracy: [0.998809], Validation Accuracy: [0.87756], Loss Training: [0.00365181] Loss_validation: [0.820124], Time: [Tue Nov 20 19:30:02 2018]
+Test Accuracy : 0.917336
+[[1592    0   15    0    0    1]
+ [   0 1128    0    0    0   16]
+ [   0   76  997    0    2    2]
+ [   0    6  239  772   65   18]
+ [   0   78    0    0 1196  122]
+ [   0    0    0    0   39 1850]]
+category CON test accuracy : 0.99005
+category M-GGO test accuracy : 0.986014
+category HCM test accuracy : 0.92572
+category EMP test accuracy : 0.701818
+category NOD test accuracy : 0.856734
+category NOR test accuracy : 0.979354
+F_Value : 0.906622
+Epoch: [236], Training Accuracy: [0.998383], Validation Accuracy: [0.879412], Loss Training: [0.00489876] Loss_validation: [1.07561], Time: [Tue Nov 20 19:30:28 2018]
+Test Accuracy : 0.910153
+[[1579    0   29    0    0    0]
+ [   0 1042    0    0    5   97]
+ [   0    3 1056    0   17    1]
+ [   0    3  314  662  120    1]
+ [   0    0    0    1 1327   68]
+ [   1    0    1    0   77 1810]]
+category CON test accuracy : 0.981965
+category M-GGO test accuracy : 0.910839
+category HCM test accuracy : 0.980501
+category EMP test accuracy : 0.601818
+category NOD test accuracy : 0.950573
+category NOR test accuracy : 0.958179
+F_Value : 0.897239
+Epoch: [237], Training Accuracy: [0.997872], Validation Accuracy: [0.895267], Loss Training: [0.00602633] Loss_validation: [0.627897], Time: [Tue Nov 20 19:30:53 2018]
+Test Accuracy : 0.903823
+[[1603    0    5    0    0    0]
+ [   0 1120    0    1    0   23]
+ [   0   16 1050    0   10    1]
+ [   0    1  257  836    6    0]
+ [   0    8    0   25  947  416]
+ [   0    0    1   12    8 1868]]
+category CON test accuracy : 0.996891
+category M-GGO test accuracy : 0.979021
+category HCM test accuracy : 0.97493
+category EMP test accuracy : 0.76
+category NOD test accuracy : 0.678367
+category NOR test accuracy : 0.988883
+F_Value : 0.898839
+Epoch: [238], Training Accuracy: [0.998196], Validation Accuracy: [0.895151], Loss Training: [0.00499629] Loss_validation: [0.649034], Time: [Tue Nov 20 19:31:18 2018]
+Test Accuracy : 0.905649
+[[1593    0   15    0    0    0]
+ [   0 1065    0    1    0   78]
+ [   0    6 1071    0    0    0]
+ [   0    1  202  895    2    0]
+ [   0   17    0   20  953  406]
+ [   0    0    0   11   16 1862]]
+category CON test accuracy : 0.990672
+category M-GGO test accuracy : 0.930944
+category HCM test accuracy : 0.994429
+category EMP test accuracy : 0.813636
+category NOD test accuracy : 0.682665
+category NOR test accuracy : 0.985707
+F_Value : 0.903759
+Epoch: [239], Training Accuracy: [0.998417], Validation Accuracy: [0.897234], Loss Training: [0.00437814] Loss_validation: [0.587986], Time: [Tue Nov 20 19:31:44 2018]
+Test Accuracy : 0.932676
+[[1608    0    0    0    0    0]
+ [   0 1133    0    0    2    9]
+ [   0    1 1075    0    0    1]
+ [   0    4  242  844   10    0]
+ [   0   14    0    7 1127  248]
+ [   0    0    0    4   11 1874]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.990385
+category HCM test accuracy : 0.998143
+category EMP test accuracy : 0.767273
+category NOD test accuracy : 0.807307
+category NOR test accuracy : 0.992059
+F_Value : 0.927643
+Epoch: [240], Training Accuracy: [0.998434], Validation Accuracy: [0.911469], Loss Training: [0.00447517] Loss_validation: [0.491481], Time: [Tue Nov 20 19:32:08 2018]
+Test Accuracy : 0.92598
+[[1608    0    0    0    0    0]
+ [   0 1133    0    0    2    9]
+ [   0   11 1064    0    0    2]
+ [   0    3  300  792    5    0]
+ [   0    7    0   13 1180  196]
+ [   1    0    0    6   53 1829]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.990385
+category HCM test accuracy : 0.987929
+category EMP test accuracy : 0.72
+category NOD test accuracy : 0.845272
+category NOR test accuracy : 0.968237
+F_Value : 0.918949
+Epoch: [241], Training Accuracy: [0.998247], Validation Accuracy: [0.939243], Loss Training: [0.00527215] Loss_validation: [0.35936], Time: [Tue Nov 20 19:32:34 2018]
+Test Accuracy : 0.909301
+[[1604    0    4    0    0    0]
+ [   0 1066    0    0    0   78]
+ [   0    9 1068    0    0    0]
+ [   0    2  367  731    0    0]
+ [   0   21    0   12 1207  156]
+ [   1    0   10   22   63 1793]]
+category CON test accuracy : 0.997512
+category M-GGO test accuracy : 0.931818
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.664545
+category NOD test accuracy : 0.864613
+category NOR test accuracy : 0.949179
+F_Value : 0.900018
+Epoch: [242], Training Accuracy: [0.998536], Validation Accuracy: [0.925934], Loss Training: [0.00425476] Loss_validation: [0.437523], Time: [Tue Nov 20 19:33:00 2018]
+Test Accuracy : 0.935354
+[[1608    0    0    0    0    0]
+ [   0 1122    0    0    0   22]
+ [   0   35 1040    0    1    1]
+ [   0    2  197  897    4    0]
+ [   0   21    0   10 1170  195]
+ [   0    0    0    3   40 1846]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.980769
+category HCM test accuracy : 0.965645
+category EMP test accuracy : 0.815455
+category NOD test accuracy : 0.838109
+category NOR test accuracy : 0.977237
+F_Value : 0.931195
+Epoch: [243], Training Accuracy: [0.9984], Validation Accuracy: [0.907187], Loss Training: [0.00426824] Loss_validation: [0.504223], Time: [Tue Nov 20 19:33:24 2018]
+Test Accuracy : 0.925858
+[[1601    0    6    0    0    1]
+ [   0 1137    0    0    1    6]
+ [   0    3 1074    0    0    0]
+ [   0    2  304  789    5    0]
+ [   0    5    0   22 1147  222]
+ [   0    0    1    4   27 1857]]
+category CON test accuracy : 0.995647
+category M-GGO test accuracy : 0.993881
+category HCM test accuracy : 0.997214
+category EMP test accuracy : 0.717273
+category NOD test accuracy : 0.821633
+category NOR test accuracy : 0.98306
+F_Value : 0.918625
+Epoch: [244], Training Accuracy: [0.998502], Validation Accuracy: [0.942599], Loss Training: [0.00475364] Loss_validation: [0.334001], Time: [Tue Nov 20 19:33:49 2018]
+Test Accuracy : 0.929024
+[[1608    0    0    0    0    0]
+ [   0 1109    0    1    2   32]
+ [   0   16 1060    0    0    1]
+ [   0    8  162  926    4    0]
+ [   0    6    0   71 1268   51]
+ [   0    0    0  152   77 1660]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.969406
+category HCM test accuracy : 0.984215
+category EMP test accuracy : 0.841818
+category NOD test accuracy : 0.908309
+category NOR test accuracy : 0.878772
+F_Value : 0.925636
+Epoch: [245], Training Accuracy: [0.99823], Validation Accuracy: [0.900012], Loss Training: [0.00522968] Loss_validation: [0.48696], Time: [Tue Nov 20 19:34:15 2018]
+Test Accuracy : 0.92111
+[[1608    0    0    0    0    0]
+ [   0 1126    0    0    0   18]
+ [   0    8 1068    0    0    1]
+ [   0    2  224  874    0    0]
+ [   0  107    0   27 1024  238]
+ [   1    0    0    5   17 1866]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.984266
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.794545
+category NOD test accuracy : 0.733524
+category NOR test accuracy : 0.987824
+F_Value : 0.914459
+Epoch: [246], Training Accuracy: [0.998655], Validation Accuracy: [0.866798], Loss Training: [0.00375419] Loss_validation: [0.939616], Time: [Tue Nov 20 19:34:41 2018]
+Test Accuracy : 0.895544
+[[1606    0    2    0    0    0]
+ [   0  946    0    0    0  198]
+ [   0    1 1075    0    0    1]
+ [   0    3  264  823   10    0]
+ [   0   40    0    8 1033  315]
+ [   0    0    0    0   16 1873]]
+category CON test accuracy : 0.998756
+category M-GGO test accuracy : 0.826923
+category HCM test accuracy : 0.998143
+category EMP test accuracy : 0.748182
+category NOD test accuracy : 0.739971
+category NOR test accuracy : 0.99153
+F_Value : 0.890858
+Epoch: [247], Training Accuracy: [0.998332], Validation Accuracy: [0.930911], Loss Training: [0.00473425] Loss_validation: [0.397582], Time: [Tue Nov 20 19:35:06 2018]
+Test Accuracy : 0.948746
+[[1608    0    0    0    0    0]
+ [   0 1127    0    0    2   15]
+ [   0    6 1068    0    0    3]
+ [   0    1  164  917   18    0]
+ [   0   16    0   11 1304   65]
+ [   2    0    0   25   93 1769]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.98514
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.833636
+category NOD test accuracy : 0.934097
+category NOR test accuracy : 0.936474
+F_Value : 0.945534
+Epoch: [248], Training Accuracy: [0.998468], Validation Accuracy: [0.926166], Loss Training: [0.00452577] Loss_validation: [0.416045], Time: [Tue Nov 20 19:35:32 2018]
+Test Accuracy : 0.920502
+[[1608    0    0    0    0    0]
+ [   0 1111    0    0    0   33]
+ [   0    4 1073    0    0    0]
+ [   0    1  256  819   24    0]
+ [   0   27    0   11 1169  189]
+ [   1    0    1    2  104 1781]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.971154
+category HCM test accuracy : 0.996286
+category EMP test accuracy : 0.744545
+category NOD test accuracy : 0.837393
+category NOR test accuracy : 0.942827
+F_Value : 0.915675
+Epoch: [249], Training Accuracy: [0.998366], Validation Accuracy: [0.915519], Loss Training: [0.00507068] Loss_validation: [0.469127], Time: [Tue Nov 20 19:35:56 2018]
+Test Accuracy : 0.91198
+[[1606    0    0    0    0    2]
+ [   0 1073    0    0    0   71]
+ [   0   12 1062    1    1    1]
+ [   0    1  208  873   18    0]
+ [   0   40    0   23 1104  229]
+ [   1    0    0   10  105 1773]]
+category CON test accuracy : 0.998756
+category M-GGO test accuracy : 0.937937
+category HCM test accuracy : 0.986072
+category EMP test accuracy : 0.793636
+category NOD test accuracy : 0.790831
+category NOR test accuracy : 0.938592
+F_Value : 0.909195
+Epoch: [250], Training Accuracy: [0.998366], Validation Accuracy: [0.942946], Loss Training: [0.00499771] Loss_validation: [0.298368], Time: [Tue Nov 20 19:36:23 2018]
+Test Accuracy : 0.923302
+[[1608    0    0    0    0    0]
+ [   0 1118    0    0    0   26]
+ [   0    2 1073    0    0    2]
+ [   0    1  259  835    5    0]
+ [   0   26    0   30 1162  178]
+ [   1    0    0   23   77 1788]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.977273
+category HCM test accuracy : 0.996286
+category EMP test accuracy : 0.759091
+category NOD test accuracy : 0.832378
+category NOR test accuracy : 0.946533
+F_Value : 0.917965
+Epoch: [251], Training Accuracy: [0.998604], Validation Accuracy: [0.90302], Loss Training: [0.00417321] Loss_validation: [0.624119], Time: [Tue Nov 20 19:36:48 2018]
+Test Accuracy : 0.925858
+[[1607    0    0    0    0    1]
+ [   0 1109    0    0    2   33]
+ [   0   11 1064    0    0    2]
+ [   0    2  202  881   15    0]
+ [   0   12    0    1 1154  229]
+ [   0    0    0    1   98 1790]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.969406
+category HCM test accuracy : 0.987929
+category EMP test accuracy : 0.800909
+category NOD test accuracy : 0.826648
+category NOR test accuracy : 0.947591
+F_Value : 0.923982
+Epoch: [252], Training Accuracy: [0.998843], Validation Accuracy: [0.922347], Loss Training: [0.00367384] Loss_validation: [0.483243], Time: [Tue Nov 20 19:37:14 2018]
+Test Accuracy : 0.93085
+[[1606    0    2    0    0    0]
+ [   0 1118    0    0    1   25]
+ [   0    5 1072    0    0    0]
+ [   0    2  292  795   11    0]
+ [   0   10    0   15 1262  109]
+ [   1    0    0    8   87 1793]]
+category CON test accuracy : 0.998756
+category M-GGO test accuracy : 0.977273
+category HCM test accuracy : 0.995357
+category EMP test accuracy : 0.722727
+category NOD test accuracy : 0.904011
+category NOR test accuracy : 0.949179
+F_Value : 0.923669
+Epoch: [253], Training Accuracy: [0.998468], Validation Accuracy: [0.921653], Loss Training: [0.00473219] Loss_validation: [0.388664], Time: [Tue Nov 20 19:37:39 2018]
+Test Accuracy : 0.928171
+[[1608    0    0    0    0    0]
+ [   0 1129    0    0    0   15]
+ [   1    6 1070    0    0    0]
+ [   0    3  252  837    8    0]
+ [   0   76    0   23 1200   97]
+ [   2   11    2   20   74 1780]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.986888
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.760909
+category NOD test accuracy : 0.859599
+category NOR test accuracy : 0.942298
+F_Value : 0.921117
+Epoch: [254], Training Accuracy: [0.998792], Validation Accuracy: [0.911006], Loss Training: [0.00381561] Loss_validation: [0.565792], Time: [Tue Nov 20 19:38:05 2018]
+Test Accuracy : 0.920745
+[[1608    0    0    0    0    0]
+ [   0 1104    0    0    1   39]
+ [   1    2 1074    0    0    0]
+ [   0    0  355  731   14    0]
+ [   0    4    0    2 1241  149]
+ [   0    0    1    2   81 1805]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.965035
+category HCM test accuracy : 0.997214
+category EMP test accuracy : 0.664545
+category NOD test accuracy : 0.888968
+category NOR test accuracy : 0.955532
+F_Value : 0.911817
+Epoch: [255], Training Accuracy: [0.998366], Validation Accuracy: [0.841916], Loss Training: [0.0043929] Loss_validation: [1.16253], Time: [Tue Nov 20 19:38:30 2018]
+Test Accuracy : 0.887387
+[[1608    0    0    0    0    0]
+ [   0 1073    0    0    0   71]
+ [   0    1 1076    0    0    0]
+ [   0    0  261  839    0    0]
+ [   0   44    0   28  812  512]
+ [   0    0    1    4    3 1881]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.937937
+category HCM test accuracy : 0.999071
+category EMP test accuracy : 0.762727
+category NOD test accuracy : 0.581662
+category NOR test accuracy : 0.995765
+F_Value : 0.88165
+Epoch: [256], Training Accuracy: [0.998366], Validation Accuracy: [0.922694], Loss Training: [0.00441372] Loss_validation: [0.39557], Time: [Tue Nov 20 19:38:56 2018]
+Test Accuracy : 0.933528
+[[1608    0    0    0    0    0]
+ [   0 1133    0    0    0   11]
+ [   1    2 1074    0    0    0]
+ [   0    0  237  842   21    0]
+ [   0   16    0    9 1152  219]
+ [   0    0    1    4   25 1859]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.990385
+category HCM test accuracy : 0.997214
+category EMP test accuracy : 0.765455
+category NOD test accuracy : 0.825215
+category NOR test accuracy : 0.984119
+F_Value : 0.9284
+Epoch: [257], Training Accuracy: [0.998451], Validation Accuracy: [0.922], Loss Training: [0.00418835] Loss_validation: [0.456179], Time: [Tue Nov 20 19:39:21 2018]
+Test Accuracy : 0.912101
+[[1605    0    3    0    0    0]
+ [   0 1119    0    1    0   24]
+ [   0   21 1054    0    0    2]
+ [   0    2  236  859    3    0]
+ [   0   15    0   34 1027  320]
+ [   0    0    0   33   28 1828]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.978147
+category HCM test accuracy : 0.978644
+category EMP test accuracy : 0.780909
+category NOD test accuracy : 0.735673
+category NOR test accuracy : 0.967708
+F_Value : 0.907587
+Epoch: [258], Training Accuracy: [0.998587], Validation Accuracy: [0.938665], Loss Training: [0.00408089] Loss_validation: [0.289017], Time: [Tue Nov 20 19:39:47 2018]
+Test Accuracy : 0.924032
+[[1597    0   10    0    0    1]
+ [   0 1133    0    0    0   11]
+ [   0   29 1047    0    0    1]
+ [   0    2  284  803   11    0]
+ [   0   21    0   15 1205  155]
+ [   1    0    0   22   61 1805]]
+category CON test accuracy : 0.993159
+category M-GGO test accuracy : 0.990385
+category HCM test accuracy : 0.972145
+category EMP test accuracy : 0.73
+category NOD test accuracy : 0.863181
+category NOR test accuracy : 0.955532
+F_Value : 0.916567
+Epoch: [259], Training Accuracy: [0.998723], Validation Accuracy: [0.890985], Loss Training: [0.00401835] Loss_validation: [0.833715], Time: [Tue Nov 20 19:40:12 2018]
+Test Accuracy : 0.930972
+[[1608    0    0    0    0    0]
+ [   0 1084    0    0    0   60]
+ [   0    7 1066    1    1    2]
+ [   0    1  173  898   28    0]
+ [   0    5    0    9 1155  227]
+ [   1    0    0    2   50 1836]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.947552
+category HCM test accuracy : 0.989786
+category EMP test accuracy : 0.816364
+category NOD test accuracy : 0.827364
+category NOR test accuracy : 0.971943
+F_Value : 0.929054
+Epoch: [260], Training Accuracy: [0.997583], Validation Accuracy: [0.88543], Loss Training: [0.00699899] Loss_validation: [0.644832], Time: [Tue Nov 20 19:40:37 2018]
+Test Accuracy : 0.918919
+[[1603    0    5    0    0    0]
+ [   0 1131    0    0    0   13]
+ [   0   19 1056    0    0    2]
+ [   0    2  218  877    3    0]
+ [   0   51    0   21 1012  312]
+ [   1    0    0    7   12 1869]]
+category CON test accuracy : 0.996891
+category M-GGO test accuracy : 0.988636
+category HCM test accuracy : 0.980501
+category EMP test accuracy : 0.797273
+category NOD test accuracy : 0.724928
+category NOR test accuracy : 0.989412
+F_Value : 0.913924
+Epoch: [261], Training Accuracy: [0.998604], Validation Accuracy: [0.923388], Loss Training: [0.00418041] Loss_validation: [0.421056], Time: [Tue Nov 20 19:41:03 2018]
+Test Accuracy : 0.916362
+[[1600    0    8    0    0    0]
+ [   0 1110    0    0    0   34]
+ [   0    5 1071    0    0    1]
+ [   0    2  270  828    0    0]
+ [   0   31    0   12 1088  265]
+ [   1    0    0    9   49 1830]]
+category CON test accuracy : 0.995025
+category M-GGO test accuracy : 0.97028
+category HCM test accuracy : 0.994429
+category EMP test accuracy : 0.752727
+category NOD test accuracy : 0.77937
+category NOR test accuracy : 0.968767
+F_Value : 0.911353
+Epoch: [262], Training Accuracy: [0.998672], Validation Accuracy: [0.91575], Loss Training: [0.00369589] Loss_validation: [0.419018], Time: [Tue Nov 20 19:41:28 2018]
+Test Accuracy : 0.929511
+[[1590    0   17    0    0    1]
+ [   0 1137    0    0    1    6]
+ [   0    7 1069    0    1    0]
+ [   0    2  214  876    8    0]
+ [   0    9    0   13 1163  211]
+ [   0    0    1    9   79 1800]]
+category CON test accuracy : 0.988806
+category M-GGO test accuracy : 0.993881
+category HCM test accuracy : 0.992572
+category EMP test accuracy : 0.796364
+category NOD test accuracy : 0.833095
+category NOR test accuracy : 0.952885
+F_Value : 0.926545
+Epoch: [263], Training Accuracy: [0.998604], Validation Accuracy: [0.902558], Loss Training: [0.00432934] Loss_validation: [0.627611], Time: [Tue Nov 20 19:41:53 2018]
+Test Accuracy : 0.936085
+[[1608    0    0    0    0    0]
+ [   0 1110    0    0    1   33]
+ [   0    7 1068    0    0    2]
+ [   0    2  222  869    7    0]
+ [   0   24    0   21 1191  160]
+ [   1    0    0    3   42 1843]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.97028
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.79
+category NOD test accuracy : 0.853152
+category NOR test accuracy : 0.975648
+F_Value : 0.93113
+Epoch: [264], Training Accuracy: [0.998723], Validation Accuracy: [0.933688], Loss Training: [0.00383257] Loss_validation: [0.319997], Time: [Tue Nov 20 19:42:19 2018]
+Test Accuracy : 0.92878
+[[1591    0   17    0    0    0]
+ [   0 1119    0    0    0   25]
+ [   0    4 1072    1    0    0]
+ [   0    1  159  940    0    0]
+ [   0   54    0   21 1120  201]
+ [   1    0    1   30   70 1787]]
+category CON test accuracy : 0.989428
+category M-GGO test accuracy : 0.978147
+category HCM test accuracy : 0.995357
+category EMP test accuracy : 0.854545
+category NOD test accuracy : 0.802292
+category NOR test accuracy : 0.946003
+F_Value : 0.926793
+Epoch: [265], Training Accuracy: [0.998434], Validation Accuracy: [0.939127], Loss Training: [0.00467762] Loss_validation: [0.298692], Time: [Tue Nov 20 19:42:45 2018]
+Test Accuracy : 0.938763
+[[1608    0    0    0    0    0]
+ [   0 1122    0    0    0   22]
+ [   1    8 1064    2    0    2]
+ [   0    1  107  985    7    0]
+ [   0   32    0   17 1238  109]
+ [   3    0    0   39  153 1694]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.980769
+category HCM test accuracy : 0.987929
+category EMP test accuracy : 0.895455
+category NOD test accuracy : 0.886819
+category NOR test accuracy : 0.896771
+F_Value : 0.93921
+Epoch: [266], Training Accuracy: [0.99874], Validation Accuracy: [0.938896], Loss Training: [0.00404814] Loss_validation: [0.291954], Time: [Tue Nov 20 19:43:10 2018]
+Test Accuracy : 0.929998
+[[1593    0   14    0    0    1]
+ [   0 1138    0    0    1    5]
+ [   2   20 1055    0    0    0]
+ [   0    1  219  880    0    0]
+ [   0   16    0   29 1193  158]
+ [   2    0    2   29   76 1780]]
+category CON test accuracy : 0.990672
+category M-GGO test accuracy : 0.994755
+category HCM test accuracy : 0.979573
+category EMP test accuracy : 0.8
+category NOD test accuracy : 0.854585
+category NOR test accuracy : 0.942298
+F_Value : 0.925716
+Epoch: [267], Training Accuracy: [0.998672], Validation Accuracy: [0.868187], Loss Training: [0.0043259] Loss_validation: [1.0596], Time: [Tue Nov 20 19:43:37 2018]
+Test Accuracy : 0.904066
+[[1602    0    6    0    0    0]
+ [   0 1090    0    0    0   54]
+ [   0    2 1074    0    0    1]
+ [   0    2  259  839    0    0]
+ [   0   12    0   25  942  417]
+ [   1    0    0    6    3 1879]]
+category CON test accuracy : 0.996269
+category M-GGO test accuracy : 0.952797
+category HCM test accuracy : 0.997214
+category EMP test accuracy : 0.762727
+category NOD test accuracy : 0.674785
+category NOR test accuracy : 0.994706
+F_Value : 0.899777
+Epoch: [268], Training Accuracy: [0.998792], Validation Accuracy: [0.935424], Loss Training: [0.00341532] Loss_validation: [0.330997], Time: [Tue Nov 20 19:44:02 2018]
+Test Accuracy : 0.943268
+[[1604    0    4    0    0    0]
+ [   0 1136    0    0    0    8]
+ [   1    5 1070    1    0    0]
+ [   0    1  187  904    8    0]
+ [   0   17    0   44 1230  105]
+ [   0    0    1   41   43 1804]]
+category CON test accuracy : 0.997512
+category M-GGO test accuracy : 0.993007
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.821818
+category NOD test accuracy : 0.881089
+category NOR test accuracy : 0.955003
+F_Value : 0.938649
+Epoch: [269], Training Accuracy: [0.998213], Validation Accuracy: [0.919338], Loss Training: [0.00473748] Loss_validation: [0.478813], Time: [Tue Nov 20 19:44:28 2018]
+Test Accuracy : 0.932311
+[[1608    0    0    0    0    0]
+ [   0 1105    0    0    0   39]
+ [   0    7 1068    0    0    2]
+ [   0    1  213  884    2    0]
+ [   0   12    0   13 1151  220]
+ [   2    0    1    7   37 1842]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.965909
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.803636
+category NOD test accuracy : 0.824499
+category NOR test accuracy : 0.975119
+F_Value : 0.929017
+Epoch: [270], Training Accuracy: [0.998332], Validation Accuracy: [0.90302], Loss Training: [0.00476858] Loss_validation: [0.58368], Time: [Tue Nov 20 19:44:53 2018]
+Test Accuracy : 0.91478
+[[1593    0   15    0    0    0]
+ [   0 1108    0    0    1   35]
+ [   0    7 1070    0    0    0]
+ [   0    1  302  786   11    0]
+ [   0   25    0   21 1106  244]
+ [   1    0    2   10   25 1851]]
+category CON test accuracy : 0.990672
+category M-GGO test accuracy : 0.968531
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.714545
+category NOD test accuracy : 0.792264
+category NOR test accuracy : 0.979884
+F_Value : 0.907496
+Epoch: [271], Training Accuracy: [0.998792], Validation Accuracy: [0.903599], Loss Training: [0.00352676] Loss_validation: [0.599594], Time: [Tue Nov 20 19:45:19 2018]
+Test Accuracy : 0.926467
+[[1602    0    6    0    0    0]
+ [   0 1083    0    0    2   59]
+ [   0    5 1070    0    0    2]
+ [   0    2  244  830   24    0]
+ [   0    2    0    8 1230  156]
+ [   1    0    0    3   90 1795]]
+category CON test accuracy : 0.996269
+category M-GGO test accuracy : 0.946678
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.754545
+category NOD test accuracy : 0.881089
+category NOR test accuracy : 0.950238
+F_Value : 0.921993
+Epoch: [272], Training Accuracy: [0.998723], Validation Accuracy: [0.915982], Loss Training: [0.00379634] Loss_validation: [0.571408], Time: [Tue Nov 20 19:45:42 2018]
+Test Accuracy : 0.922693
+[[1608    0    0    0    0    0]
+ [   0 1067    0    0    3   74]
+ [   0   56 1019    0    0    2]
+ [   0    5  220  852   23    0]
+ [   0    3    0    2 1272  119]
+ [   1    0    0    4  123 1761]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.932692
+category HCM test accuracy : 0.946147
+category EMP test accuracy : 0.774545
+category NOD test accuracy : 0.911175
+category NOR test accuracy : 0.932239
+F_Value : 0.917839
+Epoch: [273], Training Accuracy: [0.998672], Validation Accuracy: [0.940632], Loss Training: [0.00432731] Loss_validation: [0.260683], Time: [Tue Nov 20 19:46:02 2018]
+Test Accuracy : 0.920136
+[[1606    0    2    0    0    0]
+ [   0 1139    0    0    0    5]
+ [   0    1 1070    0    4    2]
+ [   0    2  345  749    4    0]
+ [   0   20    0   14 1222  140]
+ [   1    1    0   23   92 1772]]
+category CON test accuracy : 0.998756
+category M-GGO test accuracy : 0.995629
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.680909
+category NOD test accuracy : 0.875358
+category NOR test accuracy : 0.938062
+F_Value : 0.911449
+Epoch: [274], Training Accuracy: [0.99903], Validation Accuracy: [0.924893], Loss Training: [0.00290101] Loss_validation: [0.410065], Time: [Tue Nov 20 19:46:22 2018]
+Test Accuracy : 0.932676
+[[1603    0    5    0    0    0]
+ [   0 1140    0    0    0    4]
+ [   0   15 1061    0    0    1]
+ [   0    1  248  848    3    0]
+ [   0   15    0   22 1186  173]
+ [   1    0    0    9   56 1823]]
+category CON test accuracy : 0.996891
+category M-GGO test accuracy : 0.996503
+category HCM test accuracy : 0.985144
+category EMP test accuracy : 0.770909
+category NOD test accuracy : 0.84957
+category NOR test accuracy : 0.965061
+F_Value : 0.927154
+Epoch: [275], Training Accuracy: [0.998706], Validation Accuracy: [0.932068], Loss Training: [0.00386542] Loss_validation: [0.336023], Time: [Tue Nov 20 19:46:42 2018]
+Test Accuracy : 0.932798
+[[1604    0    4    0    0    0]
+ [   0 1134    0    0    1    9]
+ [   1    4 1069    0    2    1]
+ [   0    2  223  873    2    0]
+ [   0   14    0    9 1210  163]
+ [   1    0    0    7  109 1772]]
+category CON test accuracy : 0.997512
+category M-GGO test accuracy : 0.991259
+category HCM test accuracy : 0.992572
+category EMP test accuracy : 0.793636
+category NOD test accuracy : 0.866762
+category NOR test accuracy : 0.938062
+F_Value : 0.929657
+Epoch: [276], Training Accuracy: [0.998332], Validation Accuracy: [0.923273], Loss Training: [0.00513544] Loss_validation: [0.38964], Time: [Tue Nov 20 19:47:02 2018]
+Test Accuracy : 0.919162
+[[1606    0    2    0    0    0]
+ [   0 1007    0    0    0  137]
+ [   0   17 1059    0    0    1]
+ [   0    2  185  911    2    0]
+ [   0   30    0   54 1170  142]
+ [   1    0    0   56   35 1797]]
+category CON test accuracy : 0.998756
+category M-GGO test accuracy : 0.880245
+category HCM test accuracy : 0.983287
+category EMP test accuracy : 0.828182
+category NOD test accuracy : 0.838109
+category NOR test accuracy : 0.951297
+F_Value : 0.915078
+Epoch: [277], Training Accuracy: [0.9984], Validation Accuracy: [0.930564], Loss Training: [0.0042117] Loss_validation: [0.414732], Time: [Tue Nov 20 19:47:22 2018]
+Test Accuracy : 0.936693
+[[1607    0    1    0    0    0]
+ [   0 1124    0    0    1   19]
+ [   0   23 1051    0    2    1]
+ [   0    1  140  942   17    0]
+ [   0    3    0    5 1248  140]
+ [   0    0    0    7  160 1722]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.982517
+category HCM test accuracy : 0.975859
+category EMP test accuracy : 0.856364
+category NOD test accuracy : 0.893983
+category NOR test accuracy : 0.911593
+F_Value : 0.936664
+Epoch: [278], Training Accuracy: [0.99857], Validation Accuracy: [0.916445], Loss Training: [0.00410825] Loss_validation: [0.549049], Time: [Tue Nov 20 19:47:42 2018]
+Test Accuracy : 0.934746
+[[1605    0    3    0    0    0]
+ [   0 1107    0    0    1   36]
+ [   0    8 1068    0    0    1]
+ [   0    4  266  806   23    1]
+ [   0   20    0    5 1294   77]
+ [   1    0    0    4   86 1798]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.967657
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.732727
+category NOD test accuracy : 0.926934
+category NOR test accuracy : 0.951826
+F_Value : 0.927542
+Epoch: [279], Training Accuracy: [0.998928], Validation Accuracy: [0.905566], Loss Training: [0.00346488] Loss_validation: [0.568239], Time: [Tue Nov 20 19:48:02 2018]
+Test Accuracy : 0.928293
+[[1608    0    0    0    0    0]
+ [   0 1135    0    0    2    7]
+ [   0    6 1071    0    0    0]
+ [   0    3  279  794   24    0]
+ [   0   18    0    4 1187  187]
+ [   1    0    1    4   53 1830]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.992133
+category HCM test accuracy : 0.994429
+category EMP test accuracy : 0.721818
+category NOD test accuracy : 0.850287
+category NOR test accuracy : 0.968767
+F_Value : 0.921392
+Epoch: [280], Training Accuracy: [0.999081], Validation Accuracy: [0.881611], Loss Training: [0.00289155] Loss_validation: [0.905351], Time: [Tue Nov 20 19:48:22 2018]
+Test Accuracy : 0.930606
+[[1595    0   13    0    0    0]
+ [   0 1076    0    0    4   64]
+ [   0    4 1073    0    0    0]
+ [   0    1  213  843   43    0]
+ [   0    3    0    1 1208  184]
+ [   0    0    1    0   39 1849]]
+category CON test accuracy : 0.991915
+category M-GGO test accuracy : 0.940559
+category HCM test accuracy : 0.996286
+category EMP test accuracy : 0.766364
+category NOD test accuracy : 0.86533
+category NOR test accuracy : 0.978825
+F_Value : 0.926304
+Epoch: [281], Training Accuracy: [0.998996], Validation Accuracy: [0.889365], Loss Training: [0.00304373] Loss_validation: [0.736917], Time: [Tue Nov 20 19:48:44 2018]
+Test Accuracy : 0.906745
+[[1608    0    0    0    0    0]
+ [   0 1127    0    0    0   17]
+ [   0   18 1057    0    0    2]
+ [   0    7  232  856    5    0]
+ [   0   22    0   30  933  411]
+ [   1    0    0    7   14 1867]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.98514
+category HCM test accuracy : 0.98143
+category EMP test accuracy : 0.778182
+category NOD test accuracy : 0.668338
+category NOR test accuracy : 0.988354
+F_Value : 0.901886
+Epoch: [282], Training Accuracy: [0.998451], Validation Accuracy: [0.889017], Loss Training: [0.00431866] Loss_validation: [0.673387], Time: [Tue Nov 20 19:49:03 2018]
+Test Accuracy : 0.930972
+[[1608    0    0    0    0    0]
+ [   0 1133    0    0    1   10]
+ [   0   15 1061    0    0    1]
+ [   0    3  216  876    5    0]
+ [   0   12    0    4 1103  277]
+ [   0    0    0    2   21 1866]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.990385
+category HCM test accuracy : 0.985144
+category EMP test accuracy : 0.796364
+category NOD test accuracy : 0.790115
+category NOR test accuracy : 0.987824
+F_Value : 0.927337
+Epoch: [283], Training Accuracy: [0.998689], Validation Accuracy: [0.936466], Loss Training: [0.00371816] Loss_validation: [0.388932], Time: [Tue Nov 20 19:49:23 2018]
+Test Accuracy : 0.910884
+[[1608    0    0    0    0    0]
+ [   0 1098    0    0    0   46]
+ [   0    1 1076    0    0    0]
+ [   0    3  323  774    0    0]
+ [   0   12    0   37 1143  204]
+ [   1    0    0   53   52 1783]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.95979
+category HCM test accuracy : 0.999071
+category EMP test accuracy : 0.703636
+category NOD test accuracy : 0.818768
+category NOR test accuracy : 0.943886
+F_Value : 0.903513
+Epoch: [284], Training Accuracy: [0.998672], Validation Accuracy: [0.949774], Loss Training: [0.00410168] Loss_validation: [0.319744], Time: [Tue Nov 20 19:49:44 2018]
+Test Accuracy : 0.91831
+[[1608    0    0    0    0    0]
+ [   0 1123    0    0    0   21]
+ [   0   17 1060    0    0    0]
+ [   0    1  328  742   29    0]
+ [   0    9    0    7 1321   59]
+ [   1    0    1   13  185 1689]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.981643
+category HCM test accuracy : 0.984215
+category EMP test accuracy : 0.674545
+category NOD test accuracy : 0.946275
+category NOR test accuracy : 0.894124
+F_Value : 0.910051
+Epoch: [285], Training Accuracy: [0.998332], Validation Accuracy: [0.900359], Loss Training: [0.00457589] Loss_validation: [0.564248], Time: [Tue Nov 20 19:50:04 2018]
+Test Accuracy : 0.940467
+[[1607    0    0    0    0    1]
+ [   0 1128    0    0    1   15]
+ [   0    9 1057    0    4    7]
+ [   0    2  186  898   14    0]
+ [   0    6    0   21 1191  178]
+ [   0    0    0   11   34 1844]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.986014
+category HCM test accuracy : 0.98143
+category EMP test accuracy : 0.816364
+category NOD test accuracy : 0.853152
+category NOR test accuracy : 0.976178
+F_Value : 0.936825
+Epoch: [286], Training Accuracy: [0.998587], Validation Accuracy: [0.941905], Loss Training: [0.0041266] Loss_validation: [0.344676], Time: [Tue Nov 20 19:50:24 2018]
+Test Accuracy : 0.930606
+[[1607    0    1    0    0    0]
+ [   0 1138    0    0    0    6]
+ [   0    3 1073    0    0    1]
+ [   0    2  285  795   18    0]
+ [   0   15    0   13 1336   32]
+ [   1    1    0   26  166 1695]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.994755
+category HCM test accuracy : 0.996286
+category EMP test accuracy : 0.722727
+category NOD test accuracy : 0.95702
+category NOR test accuracy : 0.8973
+F_Value : 0.923792
+Epoch: [287], Training Accuracy: [0.998775], Validation Accuracy: [0.87108], Loss Training: [0.00347098] Loss_validation: [0.965703], Time: [Tue Nov 20 19:50:44 2018]
+Test Accuracy : 0.898466
+[[1601    0    7    0    0    0]
+ [   0 1037    0    1    0  106]
+ [   0    2 1074    0    0    1]
+ [   0    2  181  917    0    0]
+ [   0   10    0   50  894  442]
+ [   1    0    0   25    6 1857]]
+category CON test accuracy : 0.995647
+category M-GGO test accuracy : 0.906469
+category HCM test accuracy : 0.997214
+category EMP test accuracy : 0.833636
+category NOD test accuracy : 0.640401
+category NOR test accuracy : 0.98306
+F_Value : 0.896742
+Epoch: [288], Training Accuracy: [0.998553], Validation Accuracy: [0.919454], Loss Training: [0.00419839] Loss_validation: [0.560804], Time: [Tue Nov 20 19:51:03 2018]
+Test Accuracy : 0.922206
+[[1606    0    2    0    0    0]
+ [   0 1117    0    0    0   27]
+ [   0    7 1070    0    0    0]
+ [   0   15  311  712   62    0]
+ [   0   20    0    8 1305   63]
+ [   1    1    0    2  120 1765]]
+category CON test accuracy : 0.998756
+category M-GGO test accuracy : 0.976399
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.647273
+category NOD test accuracy : 0.934814
+category NOR test accuracy : 0.934357
+F_Value : 0.911385
+Epoch: [289], Training Accuracy: [0.998996], Validation Accuracy: [0.900937], Loss Training: [0.00345119] Loss_validation: [0.57135], Time: [Tue Nov 20 19:51:23 2018]
+Test Accuracy : 0.915145
+[[1595    0   13    0    0    0]
+ [   0 1135    0    0    0    9]
+ [   0   15 1062    0    0    0]
+ [   0    2  299  785   14    0]
+ [   0   11    0   20 1109  256]
+ [   2    0    5    3   48 1831]]
+category CON test accuracy : 0.991915
+category M-GGO test accuracy : 0.992133
+category HCM test accuracy : 0.986072
+category EMP test accuracy : 0.713636
+category NOD test accuracy : 0.794413
+category NOR test accuracy : 0.969296
+F_Value : 0.908324
+Epoch: [290], Training Accuracy: [0.998485], Validation Accuracy: [0.933457], Loss Training: [0.00402143] Loss_validation: [0.406619], Time: [Tue Nov 20 19:51:43 2018]
+Test Accuracy : 0.922206
+[[1605    0    3    0    0    0]
+ [   0 1136    0    0    1    7]
+ [   0    1 1076    0    0    0]
+ [   0    1  370  695   34    0]
+ [   0   12    0    4 1300   80]
+ [   1    0    2    8  115 1763]]
+category CON test accuracy : 0.998134
+category M-GGO test accuracy : 0.993007
+category HCM test accuracy : 0.999071
+category EMP test accuracy : 0.631818
+category NOD test accuracy : 0.931232
+category NOR test accuracy : 0.933298
+F_Value : 0.911043
+Epoch: [291], Training Accuracy: [0.998962], Validation Accuracy: [0.905682], Loss Training: [0.00316184] Loss_validation: [0.614402], Time: [Tue Nov 20 19:52:03 2018]
+Test Accuracy : 0.932919
+[[1608    0    0    0    0    0]
+ [   0 1111    0    0    1   32]
+ [   0    8 1068    0    0    1]
+ [   0    2  218  876    4    0]
+ [   0   17    0   19 1150  210]
+ [   0    0    0    3   36 1850]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.971154
+category HCM test accuracy : 0.991643
+category EMP test accuracy : 0.796364
+category NOD test accuracy : 0.823782
+category NOR test accuracy : 0.979354
+F_Value : 0.928794
+Epoch: [292], Training Accuracy: [0.998502], Validation Accuracy: [0.899201], Loss Training: [0.00441352] Loss_validation: [0.718332], Time: [Tue Nov 20 19:52:23 2018]
+Test Accuracy : 0.930485
+[[1604    0    4    0    0    0]
+ [   0 1110    0    0    5   29]
+ [   0    4 1073    0    0    0]
+ [   0    0  250  849    1    0]
+ [   0   12    0   20 1163  201]
+ [   1    0    0    5   39 1844]]
+category CON test accuracy : 0.997512
+category M-GGO test accuracy : 0.97028
+category HCM test accuracy : 0.996286
+category EMP test accuracy : 0.771818
+category NOD test accuracy : 0.833095
+category NOR test accuracy : 0.976178
+F_Value : 0.925521
+Epoch: [293], Training Accuracy: [0.998638], Validation Accuracy: [0.886587], Loss Training: [0.00408287] Loss_validation: [0.68769], Time: [Tue Nov 20 19:52:43 2018]
+Test Accuracy : 0.916971
+[[1608    0    0    0    0    0]
+ [   0 1126    0    0    0   18]
+ [   1    6 1070    0    0    0]
+ [   0    3  281  809    7    0]
+ [   0   18    0   24 1053  301]
+ [   1    0    0    5   17 1866]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.984266
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.735455
+category NOD test accuracy : 0.754298
+category NOR test accuracy : 0.987824
+F_Value : 0.910617
+Epoch: [294], Training Accuracy: [0.999166], Validation Accuracy: [0.912857], Loss Training: [0.00270425] Loss_validation: [0.530181], Time: [Tue Nov 20 19:53:03 2018]
+Test Accuracy : 0.920136
+[[1607    0    0    0    0    1]
+ [   0 1131    0    0    1   12]
+ [   0   16 1060    0    1    0]
+ [   0    1  281  791   27    0]
+ [   0   13    0    7 1142  234]
+ [   1    0    0    2   59 1827]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.988636
+category HCM test accuracy : 0.984215
+category EMP test accuracy : 0.719091
+category NOD test accuracy : 0.818052
+category NOR test accuracy : 0.967178
+F_Value : 0.913651
+Epoch: [295], Training Accuracy: [0.998911], Validation Accuracy: [0.918412], Loss Training: [0.00333887] Loss_validation: [0.482116], Time: [Tue Nov 20 19:53:24 2018]
+Test Accuracy : 0.935476
+[[1608    0    0    0    0    0]
+ [   0 1139    0    0    1    4]
+ [   1    4 1072    0    0    0]
+ [   0    0  279  810   11    0]
+ [   0   10    0   24 1209  153]
+ [   1    0    0   15   27 1846]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.995629
+category HCM test accuracy : 0.995357
+category EMP test accuracy : 0.736364
+category NOD test accuracy : 0.866046
+category NOR test accuracy : 0.977237
+F_Value : 0.928078
+Epoch: [296], Training Accuracy: [0.999064], Validation Accuracy: [0.931258], Loss Training: [0.00285958] Loss_validation: [0.441852], Time: [Tue Nov 20 19:53:44 2018]
+Test Accuracy : 0.93645
+[[1607    0    1    0    0    0]
+ [   0 1124    0    0    0   20]
+ [   0    8 1069    0    0    0]
+ [   0    2  212  877    9    0]
+ [   0    7    0   28 1203  158]
+ [   1    0    1   23   52 1812]]
+category CON test accuracy : 0.999378
+category M-GGO test accuracy : 0.982517
+category HCM test accuracy : 0.992572
+category EMP test accuracy : 0.797273
+category NOD test accuracy : 0.861748
+category NOR test accuracy : 0.959238
+F_Value : 0.93213
+Epoch: [297], Training Accuracy: [0.99874], Validation Accuracy: [0.913436], Loss Training: [0.00387112] Loss_validation: [0.629775], Time: [Tue Nov 20 19:54:05 2018]
+Test Accuracy : 0.91271
+[[1606    0    1    0    0    1]
+ [   0 1062    0    0    0   82]
+ [   0   13 1063    0    0    1]
+ [   0    6  306  773   15    0]
+ [   0   31    0    5 1211  149]
+ [   0    0    0    5  102 1782]]
+category CON test accuracy : 0.998756
+category M-GGO test accuracy : 0.928322
+category HCM test accuracy : 0.987001
+category EMP test accuracy : 0.702727
+category NOD test accuracy : 0.867479
+category NOR test accuracy : 0.943356
+F_Value : 0.90546
+Epoch: [298], Training Accuracy: [0.998553], Validation Accuracy: [0.891563], Loss Training: [0.00453318] Loss_validation: [0.698434], Time: [Tue Nov 20 19:54:25 2018]
+Test Accuracy : 0.928537
+[[1595    0   13    0    0    0]
+ [   0 1125    0    0    0   19]
+ [   0   15 1062    0    0    0]
+ [   0    1  243  850    6    0]
+ [   0   16    0   42 1142  196]
+ [   0    0    0   14   22 1853]]
+category CON test accuracy : 0.991915
+category M-GGO test accuracy : 0.983392
+category HCM test accuracy : 0.986072
+category EMP test accuracy : 0.772727
+category NOD test accuracy : 0.818052
+category NOR test accuracy : 0.980942
+F_Value : 0.922459
+Epoch: [299], Training Accuracy: [0.998877], Validation Accuracy: [0.91008], Loss Training: [0.00357884] Loss_validation: [0.580419], Time: [Tue Nov 20 19:54:45 2018]
+Test Accuracy : 0.922815
+[[1608    0    0    0    0    0]
+ [   0 1110    0    0    0   34]
+ [   0    7 1070    0    0    0]
+ [   0    0  331  759   10    0]
+ [   0   11    0   12 1202  171]
+ [   0    0    1    8   49 1831]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.97028
+category HCM test accuracy : 0.9935
+category EMP test accuracy : 0.69
+category NOD test accuracy : 0.861032
+category NOR test accuracy : 0.969296
+F_Value : 0.914336
+Epoch: [300], Training Accuracy: [0.998792], Validation Accuracy: [0.913204], Loss Training: [0.00388595] Loss_validation: [0.533348], Time: [Tue Nov 20 19:55:05 2018]
+Test Accuracy : 0.933285
+[[1608    0    0    0    0    0]
+ [   0 1112    0    0    0   32]
+ [   0   13 1058    0    5    1]
+ [   0    3  240  840   17    0]
+ [   0    9    0    8 1205  174]
+ [   1    0    1    4   40 1843]]
+category CON test accuracy : 1
+category M-GGO test accuracy : 0.972028
+category HCM test accuracy : 0.982358
+category EMP test accuracy : 0.763636
+category NOD test accuracy : 0.863181
+category NOR test accuracy : 0.975648
+F_Value : 0.927782
+Highest Validation Accuracy : [0.967018], Epoch : [34]
+Lowest Validation Loss : [0.0993791], Epoch : [34]
