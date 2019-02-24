@@ -342,7 +342,7 @@ class DA_Model(object):
                 logits=self.D_tar_fea_sc3,
                 labels=tf.ones_like(self.D_tar_fea_sc3)))
 
-            self.g_target_loss = self.g2_target_gloss1 + self.g2_target_gloss2 + self.g2_target_gloss3
+            self.g_target_loss = self.g2_target_gloss1 + 0.1 * self.g2_target_gloss2 + 0.01 * self.g2_target_gloss3
 
             self.g_loss = self.supervised_loss + self.lbd * self.g_target_loss
 
@@ -561,20 +561,20 @@ class DA_Model(object):
             self.plt_validation_loss.append(source_validation_loss)
 
             da_utils.plotAccuracy(x=self.plt_epoch,
-                                    y1=self.plt_training_accuracy,
-                                    y2=self.plt_validation_accuracy,
-                                    figName=self.model,
-                                    line1Name='training',
-                                    line2Name='validation',
-                                    savePath=self.ckptDir)
+                                  y1=self.plt_training_accuracy,
+                                  y2=self.plt_validation_accuracy,
+                                  figName=self.model,
+                                  line1Name='training',
+                                  line2Name='validation',
+                                  savePath=self.ckptDir)
 
             da_utils.plotLoss(x=self.plt_epoch,
-                                y1=self.plt_training_loss,
-                                y2=self.plt_validation_loss,
-                                figName=self.model,
-                                line1Name='training',
-                                line2Name='validation',
-                                savePath=self.ckptDir)
+                              y1=self.plt_training_loss,
+                              y2=self.plt_validation_loss,
+                              figName=self.model,
+                              line1Name='training',
+                              line2Name='validation',
+                              savePath=self.ckptDir)
 
             da_utils.save2file(log1, self.ckptDir, self.model)
 

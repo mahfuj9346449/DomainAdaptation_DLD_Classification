@@ -66,7 +66,7 @@ def show_results(file_name, k, indices, val_list, tst_list, f_score_list, epoch_
 
 def main():
     top_k = 20
-    file_dir = 'D:/Workspace/Domain_Adaptation/Experiment Results/'
+    file_dir = 'D:/Workspace/Domain_Adaptation_CodeLib/Experiment Results/'
     file_name_list = os.listdir(file_dir)
     print(file_name_list)
     for file in file_name_list:

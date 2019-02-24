@@ -67,20 +67,22 @@ def random_flip(image_batch):
     return image_batch
 
 
-def next_batch(image, label, batch_size):
+def next_batch(image, label, batch_size, data_aug=True):
     index = np.random.randint(low=0, high=len(image), size=batch_size)
     img_batch = image[index]
     lab_batch = label[index]
-    img_batch = random_flip(img_batch)
-    img_batch = random_crop(img_batch)
+    if data_aug:
+        img_batch = random_flip(img_batch)
+        img_batch = random_crop(img_batch)
 
     return img_batch, lab_batch
 
 
-def next_batch_unpaired(image, batch_size):
+def next_batch_unpaired(image, batch_size, data_aug=True):
     index = np.random.randint(low=0, high=len(image), size=batch_size)
     img_batch = image[index]
-    img_batch = random_flip(img_batch)
-    img_batch = random_crop(img_batch)
+    if data_aug:
+        img_batch = random_flip(img_batch)
+        img_batch = random_crop(img_batch)
 
     return img_batch

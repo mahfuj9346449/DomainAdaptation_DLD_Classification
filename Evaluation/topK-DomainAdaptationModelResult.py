@@ -88,7 +88,7 @@ def showResults(sorted_list, count):
 
 def main():
     top_k = 20
-    file_dir = 'D:/2/experimental_logs/DA_EXP_G4/'
+    file_dir = 'D:/2/experimental_logs/DA_EXP_G5/'
     file_name_list = os.listdir(file_dir)
     print(file_name_list)
     for file in file_name_list:

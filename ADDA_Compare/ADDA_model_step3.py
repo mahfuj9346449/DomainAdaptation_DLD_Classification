@@ -5,7 +5,7 @@ import numpy as np
 import tensorflow as tf
 import tensorflow.contrib.layers as layers
 import DomainAdaptation_Initialization as DA_init
-import ADDA_utils
+import CoGAN_utils
 import time
 
 
@@ -37,14 +37,14 @@ class DA_Model_step3(object):
         self.saveConfiguration()
 
     def saveConfiguration(self):
-        ADDA_utils.save2file('epoch : %d' % self.eps, self.ckptDir, self.model)
-        ADDA_utils.save2file('restore epoch : %d' % self.res_eps, self.ckptDir, self.model)
-        ADDA_utils.save2file('model : %s' % self.model, self.ckptDir, self.model)
-        ADDA_utils.save2file('batch size : %d' % self.bs, self.ckptDir, self.model)
-        ADDA_utils.save2file('image height : %d' % self.img_h, self.ckptDir, self.model)
-        ADDA_utils.save2file('image width : %d' % self.img_w, self.ckptDir, self.model)
-        ADDA_utils.save2file('num class : %d' % self.num_class, self.ckptDir, self.model)
-        ADDA_utils.save2file('step : %d' % self.step, self.ckptDir, self.model)
+        CoGAN_utils.save2file('epoch : %d' % self.eps, self.ckptDir, self.model)
+        CoGAN_utils.save2file('restore epoch : %d' % self.res_eps, self.ckptDir, self.model)
+        CoGAN_utils.save2file('model : %s' % self.model, self.ckptDir, self.model)
+        CoGAN_utils.save2file('batch size : %d' % self.bs, self.ckptDir, self.model)
+        CoGAN_utils.save2file('image height : %d' % self.img_h, self.ckptDir, self.model)
+        CoGAN_utils.save2file('image width : %d' % self.img_w, self.ckptDir, self.model)
+        CoGAN_utils.save2file('num class : %d' % self.num_class, self.ckptDir, self.model)
+        CoGAN_utils.save2file('step : %d' % self.step, self.ckptDir, self.model)
 
     def convLayer(self, inputMap, out_channel, ksize, stride, scope_name, padding='SAME'):
         with tf.variable_scope(scope_name):
@@ -277,15 +277,15 @@ class DA_Model_step3(object):
         log2 = np.array(confusion_matrics.tolist())
         log3 = ''
         for j in range(self.num_class):
-            log3 += 'category %s test accuracy : %g\n' % (ADDA_utils.pulmonary_category[j], detail_test_accuracy[j])
+            log3 += 'category %s test accuracy : %g\n' % (CoGAN_utils.pulmonary_category[j], detail_test_accuracy[j])
         log3 = log3[:-1]
         log4 = 'F_Value : %g\n' % self.f_value(confusion_matrics)
 
-        ADDA_utils.save2file(log0, self.ckptDir, self.model)
-        ADDA_utils.save2file(log1, self.ckptDir, self.model)
-        ADDA_utils.save2file(log2, self.ckptDir, self.model)
-        ADDA_utils.save2file(log3, self.ckptDir, self.model)
-        ADDA_utils.save2file(log4, self.ckptDir, self.model)
+        CoGAN_utils.save2file(log0, self.ckptDir, self.model)
+        CoGAN_utils.save2file(log1, self.ckptDir, self.model)
+        CoGAN_utils.save2file(log2, self.ckptDir, self.model)
+        CoGAN_utils.save2file(log3, self.ckptDir, self.model)
+        CoGAN_utils.save2file(log4, self.ckptDir, self.model)
 
     def test(self):
         self.restore_src_encoder_saver = tf.train.Saver(var_list=self.src_var)

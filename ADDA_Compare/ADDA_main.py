@@ -2,13 +2,13 @@ import sys
 
 sys.path.append('../Data_Initialization/')
 import os
-from ADDA_model_step1 import DA_Model_step1
+from CoGAN_model import DA_Model_step1
 from ADDA_model_step2 import DA_Model_step2
 from ADDA_model_step3 import DA_Model_step3
 import DomainAdaptation_Initialization as DA_init
 import argparse
 import tensorflow as tf
-import ADDA_utils
+import CoGAN_utils
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-model_name', required=True, help='[the name of the model]')
@@ -39,19 +39,19 @@ else:
     src_name = ''
     tar_name = ''
 
-src_training = DA_init.loadPickle(ADDA_utils.experimentalPath, src_name + '_training.pkl')
-src_validation = DA_init.loadPickle(ADDA_utils.experimentalPath, src_name + '_validation.pkl')
-src_test = DA_init.loadPickle(ADDA_utils.experimentalPath, src_name + '_test.pkl')
+src_training = DA_init.loadPickle(CoGAN_utils.experimentalPath, src_name + '_training.pkl')
+src_validation = DA_init.loadPickle(CoGAN_utils.experimentalPath, src_name + '_validation.pkl')
+src_test = DA_init.loadPickle(CoGAN_utils.experimentalPath, src_name + '_test.pkl')
 
-tar_training = DA_init.loadPickle(ADDA_utils.experimentalPath, tar_name + '_' + src_name + '.pkl')
-tar_test = DA_init.loadPickle(ADDA_utils.experimentalPath, tar_name + '_test.pkl')
+tar_training = DA_init.loadPickle(CoGAN_utils.experimentalPath, tar_name + '_' + src_name + '.pkl')
+tar_test = DA_init.loadPickle(CoGAN_utils.experimentalPath, tar_name + '_test.pkl')
 
-src_training = ADDA_utils.normalizeInput(src_training, mode='Paired')
-src_validation = ADDA_utils.normalizeInput(src_validation, mode='Paired')
-src_test = ADDA_utils.normalizeInput(src_test, mode='Paired')
+src_training = CoGAN_utils.normalizeInput(src_training, mode='Paired')
+src_validation = CoGAN_utils.normalizeInput(src_validation, mode='Paired')
+src_test = CoGAN_utils.normalizeInput(src_test, mode='Paired')
 
-tar_training = ADDA_utils.normalizeInput(tar_training, mode='Unpaired')
-tar_test = ADDA_utils.normalizeInput(tar_test, mode='Paired')
+tar_training = CoGAN_utils.normalizeInput(tar_training, mode='Unpaired')
+tar_test = CoGAN_utils.normalizeInput(tar_test, mode='Paired')
 
 print('source training image shape', str(src_training[0].shape))
 print('source training label shape', src_training[1].shape)
